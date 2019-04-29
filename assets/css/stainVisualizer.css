@@ -1,0 +1,81 @@
+.image-container {
+    position: relative;
+    max-width:100%;
+    filter: saturate(1.25);
+}
+#display-img-top {
+    max-width: 100%;
+}
+#sv-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+#stain-title {
+    margin-bottom: 1%;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.swatches {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+    padding: 0;
+    margin:0;
+}
+.swatch-container {
+    bottom: 0;
+    left: 2%;
+    display: grid;
+    justify-items: center;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 2%;
+    border-radius: 5px;
+}
+.swatch-box img {
+    box-shadow: 0px 0px 5px #000;
+    width:50px;
+}
+.swatch-box a {
+    color:black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+.swatch-box {
+    display: flex;
+    text-align: center;
+    align-items: start;
+    margin: 0 5%;
+}
+.color-name {
+    margin-top: 25px;
+    display: none;
+}
+.sv-swatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.sv-swatch:hover {
+    opacity: 1;
+}
+/* Responsive layout - makes a two column-layout */
+@media (max-width: 900px) {
+    .swatch-box {
+        padding:5%;
+    }
+    .color-name {
+        display: block;
+    }
+    .swatch-container {
+        position: relative;
+    }
+    .swatches {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section#stain_visualizer {
+        margin: 20px;
+    }
+}

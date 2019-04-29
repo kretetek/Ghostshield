@@ -1,0 +1,215 @@
+/********
+
+	ISO-TEK
+
+*/
+
+section#isotek {
+	position:relative;
+	/*background:url("//assets.ghostshield.com/img/432parkave8.jpg") center top no-repeat;
+	background-size:cover;*/
+	height:700px;
+	overflow:hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth:always;
+	}
+
+section#isotek:before {
+	content:"";
+	position:absolute;
+	background:url("//assets.ghostshield.com/img/432parkave8.jpg") center top no-repeat;
+	background-size:cover;
+	/*height:700px;*/
+	top:0;
+	left:-1px;
+	right:-1px;
+	bottom:-1px;
+	-webkit-transition:all 500ms linear;
+	transition:all 500ms linear;
+	}
+
+section#isotek.click_link:hover:before {
+	/*top:-30px;
+	left:-60px;
+	right:-60px;
+	bottom:-60px;*/
+	transform:scale(1.15);
+	-webkit-transition:all 10000ms linear;
+	transition:all 10000ms linear;
+	}
+
+section#isotek.click_link:hover .clf_main {
+	background:rgba(255,255,255,1);
+	-webkit-transition:background 200ms linear;
+	transition:background 200ms linear;
+	}
+
+section#isotek .content img {
+	width:24px;
+	height:32px;
+	vertical-align:middle; 
+	}
+
+section#isotek p {
+	margin-bottom:10px;
+	}
+
+section#isotek em {
+	font-weight:normal;
+	font-family:"NexaLight", sans-serif;
+	font-style:normal;
+	white-space:no-wrap;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:14px;
+	}
+
+section#isotek .right .column_interior {
+	min-height:350px;
+	}
+
+section#isotek .bar_graph {
+	background:rgba(255,255,255,0.3);
+	width:60%;
+	height:250px;
+	padding:20px 20px 60px 20px;
+	color:#111;
+	}
+	
+section#isotek .bar_graph .section {
+	height:150px;
+	}
+	
+section#isotek .bar_graph .name {
+	top:160px;
+	}
+	
+section#isotek .bar_graph .bar {
+	background:#777;
+	color:#fff;
+	}
+
+
+@media (max-width:1300px) {
+
+	section#isotek em {
+		padding-top:12px;
+		display:block;
+		}
+
+	section#isotek .left {
+		background:rgba(255, 255, 255, 0.8);
+		height:700px;
+		width:46%;
+		margin-right:4%;
+		}
+	
+	section#isotek .left .h2,
+	section#isotek .left .content {
+		padding:20px 40px;
+		}
+	
+	section#isotek .left .standout {
+		display:none;
+		}
+		
+	section#isotek .left h2 {
+		margin:0;
+		padding-top:0;
+		}
+		
+	section#isotek .left .h2 {
+		margin:0;
+		padding-top:40px;
+		}
+		
+	section#isotek .left .content {
+		padding-top:10px;
+		}
+
+	section#isotek .left .content span {
+		display:block;
+		}
+
+	section#isotek .bar_graph {
+		display:none;
+		}
+
+}
+
+@media (max-width:900px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 20% top no-repeat;
+		background-size:cover;
+		}
+
+	section#isotek .left {
+		width:60%;
+		}
+
+	section#isotek .column_interior {
+		padding:0;
+		}
+
+	section#isotek .left .h2,
+	section#isotek .left .content {
+		padding:20px 20px;
+		}
+
+	section#isotek .right { display:none; }
+
+}
+
+@media (max-width:700px) {
+
+	section#isotek {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 39% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 41% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:500px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 43% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:400px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 46% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (min-width:1301px) {
+
+	section#isotek .column .column_interior h2.sub {
+		padding-top:60px;
+		}
+
+}
+
+.column.full .column_interior {
+	max-width:none;
+	}
+
+.index #contact_footer .column_interior {
+	max-width:1200px;
+	}

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteRule ^locate/?$ analytics/locate.php?%{QUERY_STRING}
+
+</IfModule>
+

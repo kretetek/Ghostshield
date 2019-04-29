@@ -1,0 +1,1989 @@
+/********
+
+	OVERRIDES
+
+*/
+
+#logo { display:none; }
+
+div#banner {
+    display: block;
+}
+
+nav.page_nav { background:#444 !important; }
+
+.page_content input[type="button"]:after,
+.page_content button[type="submit"]:after,
+.page_content .button:after,
+.page_content .control-group .controls a:after,
+.page_content .hex-button:after {
+	background:rgba(255,255,255,0.3);
+	}
+
+.page_content input[type="button"]:hover:after,
+.page_content button[type="submit"]:hover:after,
+.page_content .button:hover:after,
+.page_content .control-group .controls a:hover:after,
+.page_content .hex-button:hover:after {
+	background:rgba(255,255,255,0.3);
+	}
+
+.color_blue .page_content .hex-button.large,
+.color_blue .page_content .hex-button {
+	background:#00b3e4 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#04d6d2+0,00b3e4+45,00b3e4+100 */
+	background: -moz-linear-gradient(top, rgba(4,214,210,1) 0%, rgba(0,179,228,1) 45%, rgba(0,179,228,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(4,214,210,1) 0%,rgba(0,179,228,1) 45%,rgba(0,179,228,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(4,214,210,1) 0%,rgba(0,179,228,1) 45%,rgba(0,179,228,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04d6d2', endColorstr='#00b3e4',GradientType=0 ) !important;
+	}
+.color_blue .page_content .hex-button.large:hover,
+.color_blue .page_content .hex-button:hover {
+	background:#0dd4ec !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0ef7bd+0,0dd4ec+50,0dd4ec+100 */
+	background: rgb(14,247,189) !important;
+	background: -moz-linear-gradient(top, rgba(14,247,189,1) 0%, rgba(13,212,236,1) 50%, rgba(13,212,236,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(14,247,189,1) 0%,rgba(13,212,236,1) 50%,rgba(13,212,236,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(14,247,189,1) 0%,rgba(13,212,236,1) 50%,rgba(13,212,236,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ef7bd', endColorstr='#0dd4ec',GradientType=0 ) !important;
+	}
+.color_blue .bar_graph .section.product_e .bar,
+.color_blue #gallery_save #gallery_save_text em:before,
+.color_blue #gsdz-close:hover { background-color:#00b3e4 !important }
+.color_blue .flavor_text,
+.color_blue .page_content .contact_right h4,
+.color_blue #gallery #gsdropzone .email_input p a { color:#00b3e4 }
+.color_blue .page_content .contact_right a,
+.color_blue #gsdz-email-confirm a,
+.color_blue #gallery #gsdropzone .email_input p a:hover { color:#0dd4ec; }
+
+.color_red .page_content .hex-button.large,
+.color_red .page_content .hex-button {
+	background:#dd0330 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f00+0,dd0330+48,dd0330+100 */
+	background: -moz-linear-gradient(top, rgba(239,111,0,1) 0%, rgba(221,3,48,1) 48%, rgba(221,3,48,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(239,111,0,1) 0%,rgba(221,3,48,1) 48%,rgba(221,3,48,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(239,111,0,1) 0%,rgba(221,3,48,1) 48%,rgba(221,3,48,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef6f00', endColorstr='#dd0330',GradientType=0 ) !important;
+	}
+.color_red .page_content .hex-button.large:hover,
+.color_red .page_content .hex-button:hover {
+	background:#fe1949 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff8914+0,fe1949+48,fe1949+100 */
+	background: -moz-linear-gradient(top, rgba(255,137,20,1) 0%, rgba(254,25,73,1) 48%, rgba(254,25,73,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(255,137,20,1) 0%,rgba(254,25,73,1) 48%,rgba(254,25,73,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(255,137,20,1) 0%,rgba(254,25,73,1) 48%,rgba(254,25,73,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8914', endColorstr='#fe1949',GradientType=0 ) !important;
+	}
+.color_red .bar_graph .section.product_e .bar,
+.color_red #gallery_save #gallery_save_text em:before,
+.color_red #gsdz-close:hover { background-color:#dd0330 !important }
+.color_red .flavor_text,
+.color_red .page_content .contact_right h4,
+.color_red #gallery #gsdropzone .email_input p a { color:#dd0330 }
+.color_red .page_content .contact_right a,
+.color_red #gsdz-email-confirm a,
+.color_red #gallery #gsdropzone .email_input p a:hover { color:#fe1949; }
+
+.color_orange .page_content .hex-button.large,
+.color_orange .page_content .hex-button { background-color:#ff611d !important; }
+.color_orange .page_content .hex-button.large:hover,
+.color_orange .page_content .hex-button:hover { background-color:#fd9c34 !important; }
+.color_orange .bar_graph .section.product_e .bar,
+.color_orange #gallery_save #gallery_save_text em:before,
+.color_orange #gsdz-close:hover { background-color:#ff611d !important }
+.color_orange .flavor_text,
+.color_orange .page_content .contact_right h4,
+.color_orange #gallery #gsdropzone .email_input p a { color:#ff611d }
+.color_orange .page_content .contact_right a,
+.color_orange #gsdz-email-confirm a,
+.color_orange #gallery #gsdropzone .email_input p a:hover { color:#fd9c34; }
+
+.color_yellow .page_content .hex-button.large,
+.color_yellow .page_content .hex-button {
+	background:#f7ce3c !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb84f+0,f7ce3c+50,f7ce3c+100 */
+	background: -moz-linear-gradient(top, rgba(255,184,79,1) 0%, rgba(247,206,60,1) 50%, rgba(247,206,60,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(255,184,79,1) 0%,rgba(247,206,60,1) 50%,rgba(247,206,60,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(255,184,79,1) 0%,rgba(247,206,60,1) 50%,rgba(247,206,60,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb84f', endColorstr='#f7ce3c',GradientType=0 ) !important;
+	}
+.color_yellow .page_content .hex-button.large:hover,
+.color_yellow .page_content .hex-button:hover {
+	background:#efa63c !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffce84+0,fce941+50,f6f940+100 */
+	background: -moz-linear-gradient(top, rgba(255,206,132,1) 0%, rgba(252,233,65,1) 50%, rgba(246,249,64,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(255,206,132,1) 0%,rgba(252,233,65,1) 50%,rgba(246,249,64,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(255,206,132,1) 0%,rgba(252,233,65,1) 50%,rgba(246,249,64,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffce84', endColorstr='#f6f940',GradientType=0 ) !important;
+	}
+.color_yellow .bar_graph .section.product_e .bar,
+.color_yellow #gallery_save #gallery_save_text em:before,
+.color_yellow #gsdz-close:hover { background-color:#f7ce3c !important }
+.color_yellow .flavor_text,
+.color_yellow .page_content .contact_right h4,
+.color_yellow #gallery #gsdropzone .email_input p a { color:#f7ce3c }
+.color_yellow .page_content .contact_right a,
+.color_yellow #gsdz-email-confirm a,
+.color_yellow #gallery #gsdropzone .email_input p a:hover { color:#efa63c; }
+
+.color_green .page_content .hex-button.large,
+.color_green .page_content .hex-button {
+	background:#00ad68 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bca3+0,00ad68+48,00ad68+100 */
+	background: -moz-linear-gradient(top, rgba(0,188,163,1) 0%, rgba(0,173,104,1) 48%, rgba(0,173,104,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(0,188,163,1) 0%,rgba(0,173,104,1) 48%,rgba(0,173,104,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(0,188,163,1) 0%,rgba(0,173,104,1) 48%,rgba(0,173,104,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bca3', endColorstr='#00ad68',GradientType=0 ) !important;
+	}
+.color_green .page_content .hex-button.large:hover,
+.color_green .page_content .hex-button:hover {
+	background:#28db56 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00d8ca+0,28db56+48,28db56+100 */
+	background: -moz-linear-gradient(top, rgba(0,216,202,1) 0%, rgba(40,219,86,1) 48%, rgba(40,219,86,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(0,216,202,1) 0%,rgba(40,219,86,1) 48%,rgba(40,219,86,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(0,216,202,1) 0%,rgba(40,219,86,1) 48%,rgba(40,219,86,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d8ca', endColorstr='#28db56',GradientType=0 ) !important;
+	}
+.color_green .bar_graph .section.product_e .bar,
+.color_green #gallery_save #gallery_save_text em:before,
+.color_green #gsdz-close:hover { background-color:#00ad68 !important }
+.color_green .flavor_text,
+.color_green .page_content .contact_right h4,
+.color_green #gallery #gsdropzone .email_input p a { color:#00ad68 }
+.color_green .page_content .contact_right a,
+.color_green #gsdz-email-confirm a,
+.color_green #gallery #gsdropzone .email_input p a:hover { color:#28db56; }
+
+.color_violet .page_content .hex-button.large,
+.color_violet .page_content .hex-button {
+	background:#6c54a3 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b940e5+0,6c54a3+66,6c54a3+100 */
+	background: -moz-linear-gradient(top, rgba(185,64,229,1) 0%, rgba(108,84,163,1) 66%, rgba(108,84,163,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(185,64,229,1) 0%,rgba(108,84,163,1) 66%,rgba(108,84,163,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(185,64,229,1) 0%,rgba(108,84,163,1) 66%,rgba(108,84,163,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b940e5', endColorstr='#6c54a3',GradientType=0 ) !important;
+	}
+.color_violet .page_content .hex-button.large:hover,
+.color_violet .page_content .hex-button:hover {
+	background:#9663c6 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c576e2+0,8a50c4+56,8c54c4+100 */
+	background: -moz-linear-gradient(top, rgba(197,118,226,1) 0%, rgba(138,80,196,1) 56%, rgba(140,84,196,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(197,118,226,1) 0%,rgba(138,80,196,1) 56%,rgba(140,84,196,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(197,118,226,1) 0%,rgba(138,80,196,1) 56%,rgba(140,84,196,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c576e2', endColorstr='#8c54c4',GradientType=0 ) !important;
+	}
+.color_violet .bar_graph .section.product_e .bar,
+.color_violet #gallery_save #gallery_save_text em:before,
+.color_violet #gsdz-close:hover { background-color:#6c54a3 !important }
+.color_violet .flavor_text,
+.color_violet .page_content .contact_right h4,
+.color_violet #gallery #gsdropzone .email_input p a { color:#6c54a3 }
+.color_violet .page_content .contact_right a,
+.color_violet #gsdz-email-confirm a,
+.color_violet #gallery #gsdropzone .email_input p a:hover { color:#9663c6; }
+
+.color_white .page_content .hex-button.large,
+.color_white .page_content .hex-button {
+	color:#000 !important;
+	background:#f4f4f4 !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f2ed+0,f4f4f4+48,f4f4f4+100 */
+	background: -moz-linear-gradient(top, rgba(247,242,237,1) 0%, rgba(244,244,244,1) 48%, rgba(244,244,244,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(247,242,237,1) 0%,rgba(244,244,244,1) 48%,rgba(244,244,244,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(247,242,237,1) 0%,rgba(244,244,244,1) 48%,rgba(244,244,244,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f2ed', endColorstr='#f4f4f4',GradientType=0 ) !important;
+	}
+.color_white .page_content .hex-button.large:hover,
+.color_white .page_content .hex-button:hover {
+	background:#ddd !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eae2dc+0,e5e5e5+48,e8e8e8+100 */
+	background: -moz-linear-gradient(top, rgba(234,226,220,1) 0%, rgba(229,229,229,1) 48%, rgba(232,232,232,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(234,226,220,1) 0%,rgba(229,229,229,1) 48%,rgba(232,232,232,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(234,226,220,1) 0%,rgba(229,229,229,1) 48%,rgba(232,232,232,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eae2dc', endColorstr='#e8e8e8',GradientType=0 ) !important;
+	}
+.color_white .bar_graph .section.product_e .bar,
+.color_white #gallery_save #gallery_save_text em:before,
+.color_white #gsdz-close:hover { background-color:#aaa !important }
+.color_white .flavor_text,
+.color_white .page_content .contact_right h4,
+.color_white #gallery #gsdropzone .email_input p a { color:#aaa }
+.color_white .page_content .contact_right a,
+.color_white #gsdz-email-confirm a,
+.color_white #gallery #gsdropzone .email_input p a:hover { color:#ccc; }
+
+.color_magenta .page_content .hex-button.large,
+.color_magenta .page_content .hex-button {
+	background:#eb008b !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ef6f00+0,eb008b+48,eb008b+100 */
+	background: -moz-linear-gradient(top, rgba(239,111,0,1) 0%, rgba(235,0,139,1) 75%, rgba(235,0,139,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(239,111,0,1) 0%,rgba(235,0,139,1) 75%,rgba(235,0,139,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(239,111,0,1) 0%,rgba(235,0,139,1) 75%,rgba(235,0,139,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef6f00', endColorstr='#eb008b',GradientType=0 ) !important;
+	}
+.color_magenta .page_content .hex-button.large:hover,
+.color_magenta .page_content .hex-button:hover {
+	background:#ff4a9c !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fc772a+0,ff4a9c+48,ff4a9c+100 */
+	background: -moz-linear-gradient(top, rgba(252,119,42,1) 0%, rgba(255,74,156,1) 75%, rgba(255,74,156,1) 100%) !important;
+	background: -webkit-linear-gradient(top, rgba(252,119,42,1) 0%,rgba(255,74,156,1) 75%,rgba(255,74,156,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(252,119,42,1) 0%,rgba(255,74,156,1) 75%,rgba(255,74,156,1) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc772a', endColorstr='#ff4a9c',GradientType=0 ) !important;
+	}
+.color_magenta .bar_graph .section.product_e .bar,
+.color_magenta #gallery_save #gallery_save_text em:before,
+.color_magenta #gsdz-close:hover { background-color:#eb008b !important }
+.color_magenta .flavor_text,
+.color_magenta .page_content .contact_right h4,
+.color_magenta #gallery #gsdropzone .email_input p a { color:#eb008b }
+.color_magenta .page_content .contact_right a,
+.color_magenta #gsdz-email-confirm a,
+.color_magenta #gallery #gsdropzone .email_input p a:hover { color:#ff4a9c; }
+
+/********
+
+	PRODUCT
+
+*/
+
+@media (max-width:1630px) {
+
+	.product header h2 {
+		left:434px;
+		margin-left:0;
+		}
+
+}
+
+
+@media (min-width:1100px) {
+	
+	.product_finder div#banner,
+	.product div#banner {
+		height:360px;
+		padding-top:0;
+		max-height:360px;
+		overflow:hidden;
+		}
+
+}
+
+.product #call_to_action {
+	display:none;
+	}
+	
+#product {
+	min-height:450px;
+	background-position:top center;
+	background-repeat:no-repeat;
+	/*background-image:url("//assets.ghostshield.com/img/angles/top-video-cover-product-final.svg");
+	margin-top:-300px;
+	padding:220px 50px 0px 200px !important;*/
+	margin-top:-40px;
+	padding:0 50px 30px 200px !important;
+	background-size:1720px 580px;
+	color:#000;
+	position:relative;
+	}
+
+#product:before {
+	content:"";
+	background:url("//assets.ghostshield.com/img/angles/product-lower-left3.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:547px;
+	width:600px;
+	height:238px;
+	height:241px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	}
+
+#product:after {
+	content:"";
+	background:url("//assets.ghostshield.com/img/angles/product-lower-right.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:144px;
+	height:521px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	}
+
+@media (min-width:900px) {
+
+	#product_image {
+		padding-bottom:36px;
+		background:url("//assets.ghostshield.com/img/shadow.png") center bottom no-repeat;
+		}
+
+}
+
+#product_img img {
+	position:relative;
+	display:block;
+	background-size:80%;
+	}
+
+@media (min-width: 1100px) {
+
+	#product_img {
+		display:block;
+		z-index:12;
+		position:absolute;
+		width:483px;
+		height:473px;
+		top:-210px;
+		top:-240px;
+		left:-208px;
+		}
+	
+	#product_img img {
+		width:483px;
+		height:473px;
+		}
+	
+	#product_img .custom_image {
+		width:443px;
+		height:473px;
+		margin-left:20px;
+		background-size:contain;
+		background-repeat:no-repeat;
+		background-position:center center;
+		}
+
+}
+
+@media (max-width:1650px) {
+
+	#product:before {
+		background:url("//assets.ghostshield.com/img/angles/product-lower-left3.svg") bottom left no-repeat;
+		background-size:contain;
+		width:547px;
+		height:238px;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	#product {
+		background-position:bottom center;
+		background-repeat:no-repeat;
+		/*background-image:url("//assets.ghostshield.com/img/angles/welcome-mobile.svg");
+		background-size:cover;*/
+		margin-top:0;
+		color:#000;
+		padding:20px 20px 20px 20px !important;
+		position:relative;
+		}
+
+	#product:before {
+		background:url("//assets.ghostshield.com/img/angles/product-lower-left3.svg") bottom left no-repeat;
+		background-size:contain;
+		width:328px;
+		height:207px;
+		}
+
+	#product_img img {
+		display:block;
+		z-index:12;
+		position:absolute;
+		width:197px;
+		height:207px;
+		top:-180px;
+		left:20px;
+		padding-bottom:16px;
+		}
+
+	#product_image img {
+		width:197px;
+		height:207px;
+		}
+
+}
+
+@media (max-width:780px) {
+
+	#product:before {
+		background:none;
+		width:220px;
+		height:220px;
+		}
+
+	#product:after {
+		background:none;
+		}
+
+	#product:after {
+		width:114px;
+		height:421px;
+		}
+
+}
+
+@media (max-width:500px) {
+
+	#product_img img {
+		left:50%;
+		margin-left:-99px;
+		top:-130px;
+		}
+
+}
+
+#product .product {
+	padding:0 0 0 250px;
+	min-height:400px;
+	}
+	
+#product.black {
+	background-image:url("//assets.ghostshield.com/img/bottle-bg.jpg");
+	}
+
+#product .bottle img {
+	position:absolute;
+	left:60px;
+	top:20px;
+	max-width:23%;
+	max-height:380px;
+	}
+
+#product h2,
+#product h1 {
+	padding:20px 0 20px 0;
+	margin:20px 0 20px 0;
+	font-size:2rem;
+	max-width:890px;
+	max-height:4.6rem;
+	white-space:no-wrap;
+	}
+
+#product.black h1,
+#product.black h2 {
+	border-color:#3a2b2f;
+	}
+
+#product h1 span span,	
+#product h2 span span {
+	display:none;
+	}
+
+#product h2 small,
+#product h1 small {
+	font-size:60%;
+	letter-spacing:0;
+	}
+
+#product p {
+	font-size:1.6rem;
+	max-width:900px;
+	color:#555;
+	}
+
+ul.icons {
+	font-size:.8rem;
+	list-style-type:none;
+	padding:10px 0;
+	max-width:800px;
+	display:block;
+	}
+
+@media (max-width:1099px) {
+
+	ul.icons {
+		margin:0 auto;
+		text-align:center;
+		}
+
+}
+
+ul.icons li {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 20px 0;
+	padding:0 40px 2px 68px;
+	min-height:59px;
+	width:140px;
+	background-position:0 left;
+	background-repeat:no-repeat;
+	background-size:52px 57px;
+	text-align:left;
+	}
+
+ul.icons li.coverage		{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/coverage.svg"); }
+ul.icons li.coats			{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/coatings.svg"); }
+ul.icons li.voc				{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/voclow.svg"); }
+ul.icons li.voc0			{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/voc0.svg"); }
+ul.icons li.finish			{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/finish.svg"); }
+ul.icons li.color			{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/color.svg"); }
+ul.icons li.concentrated	{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/concentrated.svg"); }
+ul.icons li.warranty100		{ background-image:url("//assets.ghostshield.com/img/hex-icons-gray/warranty100.svg"); }
+
+ul.icons li span.title {
+	font-family:"Nexa", sans-serif;
+	letter-spacing:.4px;
+	display:block;
+	padding-top:4px;
+	text-transform:uppercase;
+	}
+
+@media (max-width: 1099px) {
+
+	#product .product {
+		padding:10px 0 0 0;
+		}
+	
+	#product h1,
+	#product h2 {
+		padding:20px 0 20px 0;
+		font-size:24pt;
+		letter-spacing:2px;
+		font-size:4rem;
+		line-height:44px;
+		}
+	
+	#product p {
+		font-size:1.3rem;
+		}
+
+	ul.icons li {
+		margin:0 0 10px 0;
+		font-size:90%;
+		line-height:16px;
+		padding:2px 20px 0px 60px;
+		background-size:50px 50px;
+		}
+	
+}
+
+@media (max-width: 900px) {
+
+	#product h1,
+	#product h2 {
+		padding:0 0 20px 0;
+		font-size:24pt;
+		letter-spacing:2px;
+		font-size:3.8rem;
+		line-height:41px;
+		/*margin-left:36%;*/
+		}
+
+	#product p {
+		font-size:1.2rem;
+		}
+
+	#product .bottle {
+		}
+
+	#product .bottle img {
+		/*position:relative;
+		left:auto;
+		top:auto;
+		float:left;
+		/*max-width:34%;
+		margin-right:11px;*/
+		left:30px;
+		}
+	
+	.product .column .column_interior h1,
+	.product .column .column_interior h2 {
+		margin:0 20px 20px 20px;
+		}
+	
+	.product .content,
+	.product .column .column_interior h3 {
+		margin:0;
+		}
+	
+	.product .column .column_interior h3.title {
+		margin:10px 0 0 0;
+		}
+	
+	.product .column_interior > p {
+		margin:0 20px;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	#product h1,
+	#product h2 {
+		padding:70px 0 20px 0;
+		font-size:24pt;
+		letter-spacing:2px;
+		font-size:2.7rem;
+		line-height:41px;
+		margin:0 0 20px 0;
+		display:block;
+		/*margin-left:36%;*/
+		}
+		
+	#product h1 > span,
+	#product h2 > span {
+		width:100%;
+		}
+
+	#product .product {
+		padding:0;
+		}
+
+	ul.icons {
+		max-width:100%;
+		}
+
+	ul.icons li {
+		display:block;
+		float:none;
+		margin:0 auto 10px auto;
+		padding:0 20px 0 60px;
+		min-height:50px;
+		width:140px;
+		background-position:top left;
+		background-repeat:no-repeat;
+		background-size:50px 50px;
+		}
+
+}
+
+.calculator {
+	position:absolute;
+	/*background:rgba(20,16,29,0.1);*/
+	left:-100px;
+	bottom:0px;
+	padding:20px;
+	width:300px;
+	font-size:80%;
+	/*text-align:right;*/
+	z-index:30;
+	}
+
+/*@media (min-width:1600px) {
+
+	.calculator {
+		left:calc(-50px - 5vw);
+		}
+
+}
+
+@media (min-width:1660px) {
+
+	.calculator {
+		left:-150px;
+		}
+
+}*/
+
+@media (min-width:1600px) {
+
+	.calculator {
+		left:-130px;
+		bottom:-16px;
+		}
+
+}
+
+@media (max-width:1660px) {
+
+	.calculator {
+		left:-126px;
+		}
+
+}
+
+.calculator h3 {
+	padding:0;
+	margin:0 0 10px 0;
+	font-weight:normal;
+	font-family:"Nexa", sans-serif;
+	color:#444;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	text-align:left;
+	}
+
+.calculator h3 span {
+	color:#777;
+	}
+
+.calculator label {
+	float:right;
+	margin-top:4px;
+	letter-spacing:2px;
+	font-family:"Nexa", sans-serif;
+	color:#333;
+	width:150px;
+	line-height:26px;
+	text-align:left;
+	}
+
+.calculator input[type="number"] {
+	height:26px;
+	width:120px;
+	line-height:18px;
+	font-size:16px;
+	padding:3px 4px 0 4px;
+	font-family:"Nexa", sans-serif;
+	letter-spacing:2px;
+	/*margin:0 6px;*/
+	text-align:right;
+	display:block;
+	}
+
+.calculator .calculation {
+	display:block;
+	height:32px;
+	margin-top:10px;
+	padding-right:5px;
+	font-family:"Nexa", sans-serif;
+	/*border-top:.7px solid #fff;
+	padding-top:10px;*/
+	letter-spacing:2px;
+	/*text-align:right;*/
+	}
+
+.calculator .calculation table {
+	border-collapse:collapse;
+	/*display:inline-block;*/
+	}
+
+.calculator .calculation table tr,
+.calculator .calculation table tr td {
+	text-align:left;
+	border:0;
+	vertical-align:top;
+	line-height:1.2em;
+	}
+
+.calculator .calculation table tr th {
+	font-family:"Nexa", sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	color:#444;
+	font-size:80%;
+	padding-top:6px;
+	}
+
+.calculator .calculation table tr td.quantity {
+	font-family:"NexaBold", sans-serif;
+	padding:2px 10px 0 6px;
+	text-align:right;
+	}
+
+.calculator .calculation table tr td.container {
+	padding:3px 0 0 0;
+	}
+
+.calculator .calculation table tr td.legal {
+	color:#555;
+	font-size:80%;
+	text-align:right;
+	padding-top:10px;
+	}
+
+.calculator .calculation table.placeholder {
+	border-collapse:collapse;
+	border:0;
+	}
+
+.calculator .calculation table.placeholder td {
+	color:#777;
+	font-size:90%;
+	padding-top:6px;
+	letter-spacing:1px;
+	}
+
+.calculator .calculation > input {
+	margin-left:20px;
+	}
+
+@media (max-width: 1099px) {
+
+	.calculator form {
+		max-width:300px;
+		margin:0 auto;
+		}
+
+	.calculator h3 {
+		margin:0 0 10px 0 !important;
+		}
+
+	.calculator {
+		position:relative;
+		left:auto;
+		top:auto;
+		padding:20px;
+		width:auto;
+		}
+
+}
+
+@media (max-width:700px) {
+
+	.calculator {
+		padding:20px 0 0 0;
+		}
+
+}
+
+.buy-now-button {
+	position:absolute;
+	top:-100px;
+	right:0;
+	}
+
+@media (max-width:500px) {
+
+	.buy-now-button {
+		position:relative;
+		top:auto;
+		right:auto;
+		margin-bottom:20px;
+		}
+	
+	.buy-now-button .hex-button.large {
+		width:calc(100% - 80px);
+		}
+
+}
+
+/********
+
+	PRODUCT - INFO
+
+*/
+
+.swatch {
+	display:inline-block;
+	margin:0 2px 2px 0;
+	width:16px;
+	height:16px;
+	border:1px solid #fff;
+	}
+
+.info {
+	max-width:1200px;
+	margin:0 auto;
+	padding-bottom:40px;
+	}
+
+.product_background {
+	width:100%;
+	height:720px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	}
+
+.product_background > img {
+	display:none;
+	}
+
+.product_description {
+	position:absolute;
+	bottom:0;
+	left:10%;
+	right:50%;
+	background:#3a3a3a;
+	padding:20px 60px 30px 60px;
+	color:#fff;
+	letter-spacing:1px;
+	}
+
+.product_description h2 {
+	border-color:#fff;
+	}
+
+.product_description ul {
+	list-style-type:none;
+	margin-left:0;
+	padding-left:0;
+	}
+
+.product_description ul li {
+	padding-left:20px;
+	background:url("//assets.ghostshield.com/img/icons/nav-arrow.svg") 0 5px no-repeat;
+	background-size:10px 10px;
+	margin-bottom:12px;
+	}
+
+.product_description ul li:last-child {
+	margin-bottom:0;
+	}
+
+.product_img_1,
+.product_img_2 {
+	position:absolute;
+	bottom:-230px;
+	width:50%;
+	height:230px;
+	bottom:-14vw;
+	height:14vw;
+	background-position:center;
+	background-size:cover;
+	}
+
+.product_img_1 { left:0; }
+.product_img_2 { right:0; }
+
+.product_applications {
+	margin-left:50%;
+	padding:20px 100px 50px 60px;
+	letter-spacing:1px;
+	max-width:560px;
+	}
+
+.product_applications b,
+.product_applications strong {
+	font-weight:normal;
+	font-family:"Nexa", sans-serif;
+	}
+
+
+@media (min-width:1680px) {
+
+	.product_img_1,
+	.product_img_2 {
+		bottom:-230px;
+		height:230px;
+		}
+
+}
+
+@media (min-width:1100px) and (max-width:1240px) {
+
+	.product_description {
+		font-size:10pt;
+		}
+
+}
+
+@media (min-width:1100px) {
+
+	.product_description h2,
+	.product_applications h2 {
+		margin-right:20%;
+		padding-top:10px;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+
+	.product_description h2,
+	.product_applications h2 {
+		margin-left:0;
+		margin-right:0;
+		padding-left:0;
+		padding-top:10px;
+		}
+
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+
+	.product_background {
+		max-height:40vw;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	.product_background {
+		max-height:500px;
+		height:auto !important;
+		background:none !important;
+		}
+
+	.product_background > img {
+		display:block;
+		width:100%;
+		}
+
+	.product_description {
+		position:relative;
+		bottom:auto;
+		left:auto;
+		right:auto;
+		padding:20px 0 0 0;
+		}
+
+	.product_description h2,
+	.product_applications h2 {
+		margin-left:0;
+		margin-right:0;
+		padding-left:0;
+		padding-top:10px;
+		margin-bottom:20px;
+		}
+		
+	.product_description h2,
+	.product_description .content > p {
+		margin-left:20px;
+		margin-right:40px;
+		}
+
+	.product_description .content > p {
+		padding-bottom:50px;
+		}
+
+	.product_img_1,
+	.product_img_2 {
+		position:relative;
+		bottom:auto;
+		left:auto;
+		right:auto;
+		float:left;
+		height:230px;
+		}
+
+	.product_applications {
+		margin-left:0;
+		padding:20px 40px 50px 20px;
+		clear:left;
+		max-width:100%;
+		}
+
+}
+
+@media (max-width:747px) {
+
+	.product_description h2,
+	.product_description .content > p {
+		margin-left:20px;
+		padding-right:0;
+		margin-right:20px;
+		}
+	
+	.product_description h2,
+	.product_applications h2 {
+		text-align:left;
+		padding:0;
+		}
+
+	.product_applications {
+		padding:20px 20px 50px 20px;
+		}
+
+}
+
+.product h1,
+.product h2 {
+	font-size:18pt;
+	}
+
+#benefits {
+	min-height:300px;
+	padding:18px 0;
+	}
+
+#benefits h2 {
+	margin-bottom:40px;
+	}
+
+#product_data {
+	background-position:top center;
+	background-repeat:no-repeat;
+	background-color:#20161e;
+	background-color:#14161f;
+	background-image:url("//assets.ghostshield.com/img/black-polygons-4.jpg");
+	background-image:url("//assets.ghostshield.com/img/bottle-background2.jpg");
+	background-image:url("//assets.ghostshield.com/img/bottle-background-7.jpg");
+	width:100%;
+	min-height:440px;
+	padding-bottom:40px;
+	background-size:cover;
+	position:relative;
+	clear:left;
+	font-family:"NexaLight", sans-serif;
+	overflow-x:hidden;
+	}
+
+#product_data h2,
+#product_data p,
+#product_data ul {
+	/*margin:0 46% 0 12%;*/
+	color:#F8FCFE;
+	}
+
+#product_data h2 {
+	/*padding:106px 0 .8em 0;*/
+	padding:0 0 .4em 0;
+	margin:0 auto;
+/*	font-size:24pt;*/
+	color:#F8FCFE;
+	text-transform:uppercase;
+	letter-spacing:10px;
+	font-weight:100;
+	border-color:#e4f5fd;
+/*	font-family:"NexaLight", sans-serif;
+	font-size: 2rem;*/
+	}
+
+#product_data p {
+	padding:20px 0 0 0;
+	margin:0;
+	font-weight:100;
+	line-height:1.7em;
+	font-family:"NexaLight", sans-serif;
+	}
+
+#product_data .right .column_interior {
+	min-height:350px;
+	}
+
+#product_data .left .column_interior {
+	padding-top:60px;
+	}
+
+#product_data .multi_column {
+	max-width:1320px;
+	margin:0 auto;
+	}
+
+@media (max-width:900px) {
+
+	#product_data {
+		padding-left:20px;
+		padding-right:20px;
+		}
+		
+	#product_data h2 {
+		padding:20px 0 .4em 0;
+		}
+	
+	#product_data h2,
+	#product_data p,
+	#product_data ul {
+		margin:0 20px;
+		}
+
+	#product_data .left .column_interior {
+		padding-top:10px;
+		}
+
+	.info {
+		padding-bottom:0px;
+		}
+
+}
+
+@media (max-width:500px) {
+
+	#product_data {
+		padding-left:0;
+		padding-right:0;
+		}
+
+}
+
+
+/********
+
+	PRODUCT - COMPARISON
+
+*/
+
+#comparison {
+	position:relative;
+	margin-bottom:30px;
+	padding-top:20px;
+	}
+
+#comparison.compacted {
+	height:400px;
+	overflow:hidden;
+	}
+
+#comparison table {
+	width:100%;
+	background:#fdfdfd;
+	height:250px;
+	/*border:1px solid #aea09e;*/
+	}
+
+#comparison table th {
+	text-align:left;
+	font-family:"Nexa", sans-serif;
+	padding:0;
+	vertical-align:bottom;
+	width:25%;
+	border-bottom:1px solid #aea09e;
+	background:#fff;
+	height:28px;
+	line-height:28px;
+	position:relative;
+	}
+
+
+.product_name {
+	background-size:contain;
+	/*max-width:790px;*/
+	background-position:left center;
+	background-repeat:no-repeat;
+	display:block;
+	}
+
+@media (max-width:1100px) {
+
+	.product_name small {
+		display:none;
+		}
+
+}
+
+.select_product {
+	font-size:8pt;
+	}
+
+.product_name.selected,
+.product_name.selected em {
+	color:transparent !important;
+	overflow:hidden !important;
+	}
+
+.pc_name_selectable.open > .product_name.selected,
+.select_product.selected {
+	color:#3a2b2f !important;
+	overflow:visible;
+	background:none;
+	}
+
+.select_product.selected,
+.select_product {
+	color:#777 !important;
+	}
+
+#comparison table th .pc_name,
+#comparison table th .pc_name_selectable {
+	vertical-align:bottom;
+	min-width:150px;
+	min-height:32px;
+/*	text-indent:-9999px;
+	overflow:hidden; */
+	padding:4px 8px;
+	border:1px solid #fff;
+	border-top:0;
+	border-bottom:0;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-family:"NexaBold", sans-serif;
+	font-size:90%;
+	font-weight:normal;
+	line-height:40px;
+	}
+	
+#comparison table th .pc_name em,
+#comparison table th .pc_name_selectable em {
+	font-style:normal;
+	color:#ff611d;
+	}
+	
+#comparison table th .pc_name.selected em,
+#comparison table th .pc_name_selectable.selected em {
+	display:none; /* ???????????????????????????????? */
+	}
+
+.pc_name_selectable.open > .product_name.selected em {
+	display:inline !important;
+	color:#ff611d !important;
+	}
+
+#comparison table th .pc_name .product_name,
+#comparison table th .pc_name_selectable .product_name {
+	background-size:auto 22px;
+	background-position:1px 6px;
+	display:none;
+	}
+
+
+@media (max-width:1099px) {
+
+	#comparison table th .pc_name .product_name,
+	#comparison table th .pc_name_selectable .product_name {
+		background-size:auto 18px;
+		}
+
+}
+
+@media (max-width:900px) {
+
+	#comparison table th .pc_name .product_name,
+	#comparison table th .pc_name_selectable .product_name {
+		background-size:auto 13px;
+		}
+
+}
+
+#comparison table th .pc_name .product_name.selected,
+#comparison table th .pc_name_selectable .product_name.selected {
+	display:block;
+	}
+
+#comparison table th .pc_name_selectable {
+	padding-right:32px;
+	background:url("//assets.ghostshield.com/img/icons/select.svg") right 6px top 14px no-repeat;
+	background-size:16px;
+	}
+
+#comparison table th .pc_name_selectable:hover {
+	background-color:#f8f8f8;
+	}
+
+#comparison table th .pc_name_selectable.open {
+	position:absolute;
+	top:0;
+	left:0;
+	padding-left:8px;
+	min-width:calc(100% - 42px);
+	background-color:#fff;
+	border:1px solid #aea09e;
+	border-top:0;
+	}
+
+#comparison table th .pc_name_selectable.open .product_name {
+	display:block;
+	}
+
+#comparison table th .pc_name_selectable.open .product_name:hover {
+	background-color:#f8f8f8;
+	}
+
+#comparison table th .pc_name span {  }
+	
+#comparison table th img.bottle {
+	width:100px;
+	margin:6px 0;
+	display:block;
+	}
+
+/*
+#comparison table td:nth-child(even),
+#comparison table th:nth-child(even) {
+	background:#fff;
+	}
+*/
+
+#comparison table tr:nth-child(even) {
+	background:#fff;
+	}
+
+#comparison table td {
+	text-align:left;
+	padding:12px 10px 8px 10px;
+	font-size:.9rem;
+	vertical-align:top;
+	}
+
+#comparison table tr td.different {
+	background:#FDFDF2;
+	}
+
+#comparison table tr:nth-child(even) td.different {
+	background:#fffff3;
+	}
+
+#comparison table td small {
+	display:block;
+	}
+
+#comparison table td .extra {
+	font-size:80%;
+	}
+
+#comparison table td.label {
+	font-family:"Nexa", sans-serif;
+	font-weight:100;
+	}
+
+@media (max-width:767px) {
+
+	#comparison table .product_3 {
+		display:none;
+		}
+
+}
+
+#show-comparison {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100 */
+	position:absolute;
+	top:100px;
+	left:0;
+	right:0;
+	bottom:0;
+	text-align:center;
+	padding-top:150px;
+	line-height:100px;
+	font-size:18pt;
+	font-family:"Nexa", sans-serif;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	cursor:pointer;
+	background: -moz-linear-gradient(top, rgba(245,245,245,0.3) 0%, rgba(245,245,245,1) 70%);
+	background: -webkit-linear-gradient(top, rgba(245,245,245,0.3) 0%,rgba(245,245,245,1) 70%);
+	background: linear-gradient(to bottom, rgba(245,245,245,0.3) 0%,rgba(245,245,245,1) 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+	-webkit-transition:all ease 250ms;
+	transition:all ease 250ms;
+	}
+
+#show-comparison:hover {
+	color:#f37121;
+	-webkit-transition:all ease 250ms;
+	transition:all ease 250ms;
+	}
+
+#hide-comparison {
+	text-align:center;
+	font-size:18pt;
+	font-family:"Nexa", sans-serif;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	cursor:pointer;
+	line-height:20pt;
+	padding-top:35px;
+	-webkit-transition:all ease 250ms;
+	transition:all ease 250ms;
+	}
+
+#hide-comparison:hover {
+	color:#f37121;
+	-webkit-transition:all ease 250ms;
+	transition:all ease 250ms;
+	}
+
+/*******
+
+	VIDEOS
+
+*/
+
+section#videos {
+	background-color:#f2f2f2;
+	}
+
+div.videos {
+	margin-bottom:30px;
+	text-align:center;
+	}
+
+div.videos iframe:nth-child(1),
+div.videos iframe:nth-child(2) {
+    border-right:transparent 6px solid;
+	}
+
+div.videos iframe {
+    border-bottom: transparent 2px solid;
+    max-width:calc(100vw - 50px);
+	}
+
+@media (min-width:700px) and (max-width:1310px) {
+
+	div.videos iframe {
+		width:calc(33% - 5px);
+		height:calc(30vw * .56);
+		}
+
+}
+
+@media (min-width:700px) and (max-width:900px) {
+
+	div.videos {
+		margin-left:20px;
+		margin-right:20px;
+		}
+
+}
+
+@media (min-width:801px) {
+
+	#benefits .tri_column {
+		max-width:30%;
+		}
+
+}
+
+@media (max-width:800px) {
+
+	.tri_column h3 {
+		letter-spacing:2px;
+		font-size:13pt;
+		line-height:15pt;
+		font-family:"Nexa", sans-serif;
+		}
+	
+	.tri_column,
+	.tri_column.no_padding {
+		width:auto;
+		position:relative;
+		margin-bottom:32px;
+		padding:0;
+		float:none;
+		}
+	
+	.tri_column {
+		padding-left:20px !important;
+		padding-right:20px !important;
+		}
+
+	.tri_column.left {
+		padding-bottom:0 !important;
+		padding-top:10px !important;
+		}
+
+	.tri_column.right {
+		padding-top:0 !important;
+		}
+
+}
+
+/********
+
+	TABS
+
+* /
+
+#more {
+	padding-bottom:30px;
+	}
+
+#more h2 {
+	padding:50px 0 .4em 0;
+	}
+
+.tab {
+	display:none;
+	position:relative;
+	padding:20px 18px;
+	z-index:2;
+	width:auto;
+	background:#FDFCFB;
+	background:#fff;
+	box-shadow:1px 0px 8px rgba(0,0,0,0.02);
+	box-shadow:2px 0px 12px rgba(0,0,0,0.05);
+	}
+
+.tab h3 {
+	display:none;
+	}
+
+.tab.initial {
+	display:block;
+	}
+
+.tab-buttons {
+	height:38px;
+	overflow:hidden;
+	position:relative;
+	z-index:3;
+	}
+
+.tab-buttons a {
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	padding:10px 16px 8px 16px;
+	font-size:14pt;
+	font-weight:normal;
+	background:#e5e0da;
+	border-right:2px solid #f2f2f2;
+	cursor:pointer;
+	position:relative;
+	color:#3a2b2f;
+	-webkit-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+	font-family:"Nexa", sans-serif;
+	vertical-align:top;
+	text-decoration:none;
+	box-shadow:1px 0px 8px rgba(0,0,0,0.02);
+	}
+
+.tab-buttons a:hover {
+	background:#aea09e;
+	color:#222;
+	}
+
+.tab-buttons a.active {
+	background:#fdfcfb;
+	background:#fff;
+	color:#222;
+	z-index:2;
+	position:relative;
+	}
+
+
+
+@media (max-width: 900px) {
+
+	.tab {
+		margin:0 10px;
+		}
+
+	.tab-buttons {
+		height:auto;
+		overflow:visible;
+		}
+
+	.tab-buttons a {
+		margin:0 8px 2px 10px;
+		display:block;
+		text-align:left;
+		padding-left:20px;
+		}
+
+}
+*/
+
+.tabs {
+	/*width:100vw;*/
+	float:none;
+	list-style:none;
+	position:relative;
+	text-align:left;
+	min-height:500px;
+	padding-top:14vw !important;
+	}
+
+.tabs li.tab {
+	display:block;
+	float:left;
+	background:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	}
+
+.tabs input[type="radio"] {
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+	}
+
+.tabs label {
+	display:block;
+	position:absolute;
+	left:0;
+	width:120px;
+	padding:11px 0 10px 0;
+	cursor:pointer;
+	color:#3A2B2F;
+	line-height:10pt;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-size:10pt;
+	letter-spacing:2px;
+	background:url("//assets.ghostshield.com/img/icons/nav-arrow.svg") -20px 11px no-repeat;
+	background-size:10px 10px;
+	-webkit-transition:transform 150ms linear;
+	transition:transform 150ms linear;
+	}
+
+.tabs label#tab_label1,
+.tabs label#tab_label2,
+.tabs label#tab_label3 {
+	top:0;
+	}
+
+.tabs label#tab_label4,
+.tabs label#tab_label5,
+.tabs label#tab_label6 {
+	top:120px;
+	}
+
+.tabs label#tab_label7,
+.tabs label#tab_label8,
+.tabs label#tab_label9 {
+	top:240px;
+	}
+
+.tabs label#tab_label1,
+.tabs label#tab_label4,
+.tabs label#tab_label7 {
+	left:0;
+	}
+
+.tabs label#tab_label2,
+.tabs label#tab_label5,
+.tabs label#tab_label8 {
+	left:16%;
+	}
+
+.tabs label#tab_label3,
+.tabs label#tab_label6,
+.tabs label#tab_label9 {
+	left:32%;
+	}
+
+.tabs label:hover,
+.tabs label:active {
+	transform:scale(1.05);
+	-webkit-transition:transform 300ms cubic-bezier(.64,1,.65,.81);
+	transition:transform 300ms cubic-bezier(.64,1,.65,.81);
+	border-top-color:rgba(255,255,255,0.2);
+	border-left-color:rgba(255,255,255,0.1);
+	}
+
+.tabs [id^="tab"]:checked + label {
+	font-family:"NexaBold", sans-serif;
+	line-height:10pt;
+	padding-top:10px;
+	padding-left:20px;
+	background-position:0 11px;
+	}
+
+.tabs .tab-content {
+	visibility:hidden;
+	overflow:hidden;
+	height:0;
+	z-index:2;
+	padding:0;
+	background:#fafafa;
+	margin-left:240px;
+	}
+
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+	display:block;
+	visibility:visible;
+	height:auto;
+	margin-top:-14vw;
+	}
+
+.tabs .tab-content h3 {
+	font-size:17pt;
+	font-family:"NexaLight", sans-serif;
+	font-weight:normal;
+	padding:0 0 1em 0;
+	margin:0 !important;
+	border:0;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	}
+
+.tabs .tab-content h2 {
+	font-size:13pt;
+	font-family:"NexaBold", sans-serif;
+	padding:0 0 1em 0;
+	margin:0;
+	border:0;
+	letter-spacing:1px;
+	}
+
+.tabs .tab-content .tab-interior {
+	padding:14px 20px;
+	min-height:400px;
+	}
+
+#more {
+	padding:20px 0;
+	-webkit-transition:height 200ms linear;
+	transition:height 200ms linear;
+	}
+
+#more ul {
+	padding-top:0;
+	}
+
+#more .tab-content ul li {
+	padding-bottom:.2em;
+	}
+
+#more .tab a {
+	color:#ff611b;
+	font-family:"Nexa", sans-serif;
+	}
+
+#more .tab a:hover {
+	color:#fd9c34;
+	}
+
+.more_footer {
+	clear:left;
+	}
+
+@media (min-width:1100px) {
+
+	#more .column_interior {
+		max-width:none;
+		padding-left:10%;
+		}
+
+	.tabs label:first-child {
+		margin-top:14vw;
+		}
+
+	.tabs .tab-content {
+		margin-left:50%;
+		}
+
+	.tabs label {
+		width:calc(14.5% - 40px);
+		height:85px;
+		display:inline-block;
+		box-shadow:2px 2px 8px rgba(0,0,0,0.15);
+		text-align:center;
+		padding:11px 19px 7px 21px;
+		border:1px solid transparent;
+		border-bottom:3px solid #ff611d;
+		border-radius:2px;
+		text-decoration:none;
+		z-index:1;
+		background:#fff;
+		color:#000;
+		cursor:pointer;
+		line-height:17px;
+		font-size:17px;
+		font-family:"Nexa", sans-serif;
+		}
+
+}
+
+@media (min-width:1670px) {
+
+	.tabs label:first-child {
+		margin-top:220px;
+		}
+
+}
+
+@media (min-width:901px) {
+
+	.label-num1		{ top:10px; }
+	.label-num2		{ top:45px; }
+	.label-num3		{ top:80px; }
+	.label-num4		{ top:115px; }
+	.label-num5		{ top:150px; }
+	.label-num6		{ top:185px; }
+	.label-num7		{ top:220px; }
+	.label-num8		{ top:255px; }
+	.label-num9		{ top:290px; }
+	.label-num10	{ top:325px; }
+	.label-num11	{ top:360px; }
+
+}
+
+@media (max-width:900px) {
+
+	.tabs label {
+		position:relative;
+		left:auto;
+		top:auto;
+		width:auto;
+		}
+
+	.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+		height:400px;
+		overflow:auto;
+		margin:4px 0 10px 0;
+		border:1px solid #ccc;
+		}
+
+	#more {
+		padding-left:20px;
+		padding-right:20px;
+		}
+
+}
+
+@media (max-width:540px) {
+
+	a.hex-button.large.big {
+		min-width:100px;
+		width:calc(100% - 80px);
+		}
+
+}
+
+
+@media (min-width:1200px) {
+
+	#video_feature {
+		height:690px;
+		}
+
+}
+
+@media (max-width:1199px) {
+
+	#video_feature {
+		height:56vw;
+		}
+
+}
+
+
+
+@media (max-width:700px) {
+
+	.column .column_interior {
+		padding-left:0;
+		padding-right:0;
+		}
+
+}
+
+#video_feature { background:#000; }
+
+#subscribe_and_like {
+	padding:10px 10px 4px 10px;
+	background:#888;
+	color:#fff;
+	text-align:center;
+	}
+
+#subscribe_button {
+	display:inline-block;
+	vertical-align:middle;
+	}
+
+#subscribe_button_container {
+	display:inline-block;
+	vertical-align:middle;
+	}
+
+
+
+
+.ok ul,
+.no ul {
+	list-style-type:none;
+	padding:.1em 0 .5em 2em;
+	}
+
+.ok ul li {
+	background:none;
+	padding:0 0 6px 0;
+	}
+
+.ok ul li:before {
+	content:"";
+	display:block;
+	float:left;
+	background:url("//assets.ghostshield.com/img/ok.svg") center center no-repeat;
+	background-size:16px 16px;
+	width:16px;
+	height:16px;
+	margin-left:-30px;
+	}
+
+.no ul li {
+	background:none;
+	padding:0 0 6px 0;
+	}
+
+.no ul li:before {
+	content:"";
+	display:block;
+	float:left;
+	background:url("//assets.ghostshield.com/img/no.svg") center center no-repeat;
+	background-size:16px 16px;
+	width:16px;
+	height:16px;
+	margin-left:-30px;
+	}

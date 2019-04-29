@@ -1,0 +1,406 @@
+/********
+
+	SQUARES
+
+*/
+
+#squares {
+	width:100%;
+	font-size:0;
+	white-space-collapse:discard;
+	min-height:0 !important;
+	background:#000;
+	/*border-top:1px solid #ddd;*/
+	/*margin-bottom:2vw;*/
+	}
+
+#squares:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	}
+
+#squares .square {
+	position:relative;
+	display:block;
+	float:left;
+	width:33.3333%;
+	box-sizing:content-box;
+	background-size:cover;
+	background-position:center center;
+	/*overflow:hidden;*/
+	}
+
+#squares .square .square-bg {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-size:cover;
+	background-position:center center;
+	overflow:hidden;
+	-webkit-transition:all 500ms;
+	transition:all 500ms;
+	-webkit-filter: sepia(10%) saturate(1.5);
+	filter: sepia(10%) saturate(1.5);
+	}
+
+#squares .square.invert .square-bg {
+	-webkit-filter: sepia(10%) contrast(70%) opacity(65%) saturate(2);
+	filter: sepia(10%) contrast(70%) opacity(65%) saturate(2);
+	}
+
+#squares .square.invert:hover .square-bg {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+	-webkit-transition:all 500ms;
+	transition:all 500ms;
+	}
+
+#squares .square:after {
+	clear:left;
+	}
+
+#squares .square .button img {
+	visibility:hidden;
+	width:100%;
+	max-width:100% !important;
+	height:auto !important;
+	}
+
+#squares .square .button {
+	position:relative;
+	outline:none;
+	border:none;
+	background-color:transparent;
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	}
+
+#squares .square .button .title {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	text-transform:uppercase;
+	font-size:13pt;
+	color:#fff;
+	background-color:rgba(0,0,0,0);
+	opacity:0;
+	letter-spacing:3px;
+	font-family:"NexaLight", sans-serif;
+	overflow:hidden;
+	/*text-shadow:1px 1px 0px #000, -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;*/
+	}
+
+#squares .square.invert .button .title {
+	/*background-color:rgba(0,0,0,0.3);*/
+	letter-spacing:4px;
+	opacity:1;
+	font-family:"NexaBold", sans-serif;
+	text-shadow:1px 1px 3px rgba(0,0,0,0.2), -1px -1px 3px rgba(0,0,0,0.2), -1px 1px 3px rgba(0,0,0,0.2), 1px -1px 3px rgba(0,0,0,0.2);
+	-webkit-transition:opacity 250ms linear, opacity 1s linear;
+	transition:opacity 250ms linear, opacity 1s linear;
+	}
+
+#squares .square.gradient .button .title {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#94000000',GradientType=0 );
+	letter-spacing:4px;
+	top:70%;
+	opacity:1;
+	font-family:"NexaLight", sans-serif;
+	text-shadow:1px 1px 3px rgba(0,0,0,0.2), -1px -1px 3px rgba(0,0,0,0.2), -1px 1px 3px rgba(0,0,0,0.2), 1px -1px 3px rgba(0,0,0,0.2);
+	}
+
+@media (max-width:1099px) {
+
+	#squares .square .button .title {
+		font-size:9pt;
+		letter-spacing:2px;
+		}
+
+}
+
+#squares .square .button .title .title_inner {
+	position:absolute;
+	top:50%;
+	left:50%;
+	min-width:90%;
+	padding:4px 6px 2px 6px;
+	padding:5px 15% 0 15%;
+	padding:5px 15px 0 15px;
+	text-align:center;
+	transform:translateX(-50%) translateY(-40%);
+	}
+
+#squares .square.gradient .button .title .title_inner {
+	top:55%;
+	-webkit-transition:top 200ms ease-in;
+	transition:top 200ms ease-in;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line1 {
+	display:block;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line2,
+#squares .square.gradient .button .title .title_inner span.line3 {
+	overflow:hidden;
+	height:0;
+	opacity:0;
+	-webkit-transition:opacity 500ms linear;
+	transition:opacity 500ms linear;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line2 {
+	display:block;
+	font-family:"NexaBold", sans-serif;
+	padding-bottom:4px;
+	padding-top:8px;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line3 {
+	font-size:80%;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line1:after {
+	content:"";
+	display:block;
+	height:1px;
+	width:30%;
+	margin:6px auto 10px auto;
+	background:rgba(255,255,255,0.5);
+	opacity:0;
+	-webkit-transition:opacity 500ms linear;
+	transition:opacity 500ms linear;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line3.out {
+	background:url("//assets.ghostshield.com/img/icons/nav-arrow-white.svg") top right no-repeat;
+	background-size:9px 10px;
+	padding-right:16px;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line3.in {
+	background:url("//assets.ghostshield.com/img/icons/plus-white.svg") top right no-repeat;
+	background-size:10px 10px;
+	padding-right:16px;
+	}
+
+#squares .square.gradient .button .title .title_inner span.line3.close {
+	background:url("//assets.ghostshield.com/img/icons/menu-x.svg") top right no-repeat;
+	background-size:10px 10px;
+	padding-right:16px;
+	}
+
+#squares .square.normal.hover .button .title,
+#squares .square.normal:hover .button .title {
+	opacity:1;
+	background-color:rgba(0,0,0,0.5);
+	transition:all 0.25s linear;
+	cursor:pointer;
+	}
+
+#squares .square.invert.hover .button .title,
+#squares .square.invert:hover .button .title {
+	opacity:.44;
+	background-color:rgba(0,0,0,0);
+	-webkit-transition:opacity 1s linear;
+	transition:opacity 1s linear;
+	cursor:pointer;
+	}
+
+#squares .square.gradient.hover .button .title,
+#squares .square.gradient:hover .button .title {
+	top:0;
+	cursor:pointer;
+	-webkit-transition:top 450ms ease-out;
+	transition:top 450ms ease-out;
+	}
+
+#squares .square.gradient.hover .button .title .title_inner,
+#squares .square.gradient:hover .button .title .title_inner {
+	top:50%;
+	-webkit-transition:top 650ms linear;
+	transition:top 650ms linear;
+	}
+
+#squares .square.gradient.hover .button .title .title_inner span.line2,
+#squares .square.gradient:hover .button .title .title_inner span.line2,
+#squares .square.gradient.hover .button .title .title_inner span.line3,
+#squares .square.gradient:hover .button .title .title_inner span.line3 {
+	height:auto;
+	opacity:1;
+	-webkit-transition:opacity 500ms linear;
+	transition:opacity 500ms linear;
+	}
+
+#squares .square.gradient:hover .button .title .title_inner span.line1:after {
+	opacity:1;
+	-webkit-transition:opacity 500ms linear;
+	transition:opacity 500ms linear;
+	}
+
+@media (max-width: 900px) {
+
+	#squares .square.gradient .button {
+		max-height:370px;
+		}
+
+	#squares .square.gradient .button .title {
+		top:70%;
+		}
+
+	#squares .square {
+		width:100%;
+		float:none;
+		}
+
+	#squares .square.gradient .button .title .title_inner {
+		top:50%;
+		}
+
+	.home #squares .square {
+		height:auto;
+		max-height:400px
+		}
+
+	#squares .square .button .title {
+		font-size:13pt;
+		}
+
+}
+
+.accordion_interior {
+	padding:0 40px;
+	max-width:1100px;
+	margin:0 auto;
+	}
+
+.accordion_content p,
+.square.hover .mobile_accordion_content p {
+	padding:0 0 1em 0;
+	}
+
+@media (min-width:901px) {
+
+	#squares .mobile_accordion_content {
+		display:none;
+		position:absolute;
+		}
+
+	.accordion_content {
+		height:0;
+		opacity:0;
+		clear:left;
+		background:#F7F7F5;
+		position:relative;
+		-webkit-transition:opacity 500ms linear, height 500ms linear;
+		transition:opacity 500ms linear, height 500ms linear;
+		}
+	
+	.accordion_content.open {
+		height:343px;
+		opacity:1;
+		font-size:12pt;
+		-webkit-transition:opacity 500ms linear, height 500ms linear;
+		transition:opacity 500ms linear, height 500ms linear;
+		}
+	
+	.accordion_content.open .scroller {
+		overflow:auto;
+		height:343px;
+		}
+
+	.accordion_content.open .close {
+		display:block;
+		width:42px;
+		height:42px;
+		overflow:hidden;
+		background:rgba(0,0,0,0.7) url("//assets.ghostshield.com/img/button-icons/x.svg") center center / 30px 30px no-repeat;
+		cursor:pointer;
+		position:absolute;
+		top:28.5px;
+		right:90px;
+		z-index:10;
+		}
+
+	.accordion_content.open .close:hover {
+		background-color:#fc6a21;
+		}
+
+	.accordion_content.open .close:active {
+		background-color:#000;
+		}
+
+	.accordion_content.open .close span {
+		display:none;
+		}
+
+}
+
+@media (max-width:900px) {
+	
+	.accordion_content {
+		display:none;
+		position:absolute;
+		}
+
+	.square .mobile_accordion_content {
+		height:0;
+		opacity:0;
+		clear:left;
+		background:#F7F7F5;
+		position:relative;
+		-webkit-transition:opacity 500ms linear, height 500ms linear;
+		transition:opacity 500ms linear, height 500ms linear;
+		}
+	
+	.square.hover .mobile_accordion_content {
+		height:343px;
+		opacity:1;
+		font-size:12pt;
+		-webkit-transition:opacity 500ms linear, height 500ms linear;
+		transition:opacity 500ms linear, height 500ms linear;
+		}
+	
+	.square.hover .mobile_accordion_content .scroller {
+		overflow:auto;
+		height:343px;
+		padding:20px 40px 0 0;
+		}
+
+	.square.hover .mobile_accordion_content .close {
+		width:42px;
+		height:42px;
+		overflow:hidden;
+		background:rgba(0,0,0,0.7) url("//assets.ghostshield.com/img/button-icons/x.svg") center center / 30px 30px no-repeat;
+		cursor:pointer;
+		position:absolute;
+		top:20px;
+		right:20px;
+		z-index:10;
+		}
+
+	.square.hover .mobile_accordion_content .close:hover {
+		background-color:#fc6a21;
+		}
+
+	.square.hover .mobile_accordion_content .close:active {
+		background-color:#000;
+		}
+
+	.square.hover .mobile_accordion_content .close span {
+		display:none;
+		}
+
+}

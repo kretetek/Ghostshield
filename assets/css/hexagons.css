@@ -1,0 +1,361 @@
+#hexagons {
+	height:880px;
+	}
+
+#hexagons #hex-blurb {
+	width:40%;
+	position:absolute;
+	top:30px;
+	left:150px;
+	text-align:right;
+	}
+
+#hexagons #hex-blurb p {
+	padding:0;
+	margin:0;
+	}
+
+#hexagons #hex-blurb h2 {
+	margin-left:0 !important;
+	}
+
+#hexagon_scaler {
+	transform:scale(0.85);
+	margin-left:-90px;
+	transition:all 150ms linear;
+	-webkit-transition:all 150ms linear;
+	}
+
+#hexagons .hexagon {
+	display:inline-block;
+	position:relative;
+	perspective:1000;
+	position:absolute;
+	transition:all 150ms linear;
+	-webkit-transition:all 150ms linear;
+	}
+
+#hexagons .hexagon.large {
+	width:400px;
+	height:400px;
+	}
+
+#hexagons .hexagon.medium {
+	width:300px;
+	height:300px;
+	}
+
+#hexagons .hexagon.small {
+	width:200px;
+	height:200px;
+	}
+
+#hexagons .hexagon .front,
+#hexagons .hexagon .back {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	transform-style:preserve-3d;
+	transition:all 300ms linear;
+	-webkit-transition:all 300ms linear;
+
+	mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+	-webkit-mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+	mask-mode:alpha;
+	-webkit-mask-mode:alpha;
+	mask-repeat:no-repeat;
+	-webkit-mask-repeat:no-repeat;
+	mask-position:center;
+	-webkit-mask-position:center;
+	clip-path:url(#hexagonClipPath);
+	}
+
+#hexagons .hexagon .front {
+	background-size:cover;
+	background-position:center center;
+	transform:rotateY(0deg);
+	-webkit-transform:rotateY(0);
+	z-index:2;
+	}
+
+#hexagons .hexagon .front.icon {
+	background-size:130px 110px;
+	background-position:50% 25%;
+	background-repeat:no-repeat;
+	text-align:center;
+	}
+
+#hexagons .hexagon .front.icon span {
+	display:block;
+	margin-top:136px;
+	text-align:center;
+	font-size:12pt;
+	font-family:"NexaBold", sans-serif;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	}
+
+#hexagons .hexagon .front.icon.dark {
+	background-color:#ff611d;
+	}
+
+#hexagons .hexagon .front.icon.light {
+	background-color:#f7b430;
+	}
+
+#hexagons .hexagon .back {
+	background:#ccc url("//assets.ghostshield.com/img/bg/concrete-drops7.jpg") center center no-repeat;
+	background-size:cover;
+	transform:translateZ(-1px) rotateY(-180deg);
+	-webkit-transform:rotateY(-180deg);
+	}
+
+#hexagons .hexagon .back a {
+	display:block;
+	position:relative;
+	padding:0 30px;
+	color:#000;
+	font-size:12pt;
+	text-align:center;
+	font-family:"NexaBold", sans-serif;
+	height:100%;
+	top:50%;
+	transform:translateY(-50%);
+	text-decoration:none;
+	z-index:2;
+	}
+
+#hexagons .hexagon .back a.textonly {
+	height:auto;
+	}
+
+#hexagons .hexagon .back a img {
+	max-width:80%;
+	height:60%;
+	margin-top:18%;
+	margin-bottom:-6px;
+	}
+
+#hexagons .hexagon .back a span {
+	display:block;
+	}
+
+#hexagons .hexagon .back a span em {
+	/*color:#ff611d;*/
+	font-style:normal;
+	}
+
+#hexagons .hexagon .back a span.line1 {
+	padding:0 20px;
+	}
+
+#hexagons .hexagon .back a span.line2 {
+	text-transform:uppercase;
+	padding:.4em 0;
+	/*color:#fff;*/
+	}
+
+#hexagons .hexagon .back a span.line3 {
+	text-decoration:underline;
+	}
+
+#hexagons .hexagon .flip {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	transform-style:preserve-3d;
+	backface-visibility:hidden;
+	transition:all 300ms linear;
+	-webkit-transition:all 300ms linear;
+	transform:rotateY(0);
+	-webkit-transform:rotateY(0);
+	}
+
+#hexagons .hexagon:hover .flip {
+	transition:all 300ms linear;
+	-webkit-transition:all 300ms linear;
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);
+	}
+
+#hexagons #hexagon1  { top:410px; left:200px;  }
+#hexagons #hexagon2  { top:170px; left:1100px; }
+#hexagons #hexagon3  { top:360px; left:480px;  }
+#hexagons #hexagon4  { top:655px; left:630px;  }
+#hexagons #hexagon5  { top:285px; left:815px;  }
+#hexagons #hexagon6  { top:555px; left:1150px; }
+#hexagons #hexagon7  { top:630px; left:60px;   }
+#hexagons #hexagon8  { top:560px; left:480px;  }
+#hexagons #hexagon9  { top:95px;  left:970px;  }
+#hexagons #hexagon10 { top:460px; left:660px;  }
+#hexagons #hexagon11 { top:480px; left:1420px; }
+#hexagons #hexagon12 { top:200px; left:1520px; }
+
+@media (max-width:1600px) {
+
+	#hexagon_scaler {
+		transform:scale(0.79) translateY(30px);
+		margin-left:calc(100vw - 1660px);
+		}
+
+}
+
+@media (max-width:1534px) {
+
+	#hexagons #hex-blurb {
+		width:36%;
+		left:130px;
+		}
+
+	#hexagon_scaler {
+		transform:scale(0.72) translateY(60px);
+		margin-left:calc(100vw - 1600px);
+		}
+
+}
+
+@media (max-width:1420px) {
+
+	#hexagon_scaler {
+		transform:scale(0.69) translateY(90px);
+		margin-left:calc(100vw - 1550px);
+		}
+
+}
+
+@media (max-width:1280px) {
+
+	#hexagon_scaler {
+		transform:scale(0.66) translateY(150px);
+		margin-left:calc(100vw - 1500px);
+		}
+
+}
+
+
+@media (max-width:1224px) {
+
+	#hexagon_scaler {
+		transform:scale(0.58) translateY(260px);
+		margin-left:calc(100vw - 1380px);
+		}
+
+}
+
+@media (max-width:1100px) and (min-width:761px) {
+
+	#hexagons {
+		height:auto;
+		padding-bottom:1370px;
+		}
+
+	#hexagons #hex-blurb {
+		text-align:left;
+		top:0;
+		}
+
+	#hexagon_scaler {
+		transform:scale(0.87) translateY(0);
+		padding-top:0;
+		margin:30px auto;
+		width:800px;
+		}
+
+	#hexagons #hexagon1  { top:720px;  left:-35px;  }
+	#hexagons #hexagon2  { top:172px;  left:372px;  }
+	#hexagons #hexagon3  { top:351px;  left:-4px;   }
+	#hexagons #hexagon4  { top:832px;  left:325px;  }
+	#hexagons #hexagon5  { top:395px;  left:156px;  }
+	#hexagons #hexagon6  { top:538px;  left:390px;  }
+	#hexagons #hexagon7  { top:1332px; left:161px;  }
+	#hexagons #hexagon8  { top:970px;  left:162px;  }
+	#hexagons #hexagon9  { top:1px;    left:567px;  }
+	#hexagons #hexagon10 { top:675px;  left:225px;  }
+	#hexagons #hexagon11 { top:792px;  left:587px;  }
+	#hexagons #hexagon12 { top:1103px; left:270px;  }
+
+}
+
+@media (max-width:760px) {
+
+	#hexagons {
+		height:auto;
+		padding-bottom:200vw;
+		}
+
+	#hexagon_scaler {
+		transform:scale(1) translateY(0);
+		padding-top:0;
+		margin-left:0;
+		}
+
+	#hexagons .hexagon.small,
+	#hexagons .hexagon.medium,
+	#hexagons .hexagon.large {
+		width:50vw;/*315px;*/
+		height:50vw;
+		}
+
+	#hexagons #hex-blurb {
+		width:auto;
+		padding:20px;
+		position:relative;
+		top:auto;
+		left:auto;
+		text-align:left;
+		}
+
+	#hexagons #hexagon1:after,
+	#hexagons #hexagon2:before,
+	#hexagons #hexagon2:after,
+	#hexagons #hexagon3:after,
+	#hexagons #hexagon4:after,
+	#hexagons #hexagon5:after,
+	#hexagons #hexagon6:after {
+		content:"";
+		display:block;
+		width:50vw;/*315px;*/
+		height:50vw;
+		background:#ccc;
+		position:absolute;
+		mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+		-webkit-mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+		mask-mode:alpha;
+		-webkit-mask-mode:alpha;
+		mask-repeat:no-repeat;
+		-webkit-mask-repeat:no-repeat;
+		mask-position:center;
+		-webkit-mask-position:center;
+		}
+
+	#hexagons #hexagon1        { top:0;     left:5vw; }
+	#hexagons #hexagon1:after  { top:24vw;  left:-40vw; }
+	#hexagons #hexagon2        { top:24vw;  left:auto; right:5vw; }
+	#hexagons #hexagon2:before { top:-24vw; right:-40vw; }
+	#hexagons #hexagon2:after  { top:24vw;  right:-40vw; }
+	#hexagons #hexagon3        { top:48vw;  left:5vw; }
+	#hexagons #hexagon3:after  { top:24vw;  left:-40vw; }
+	#hexagons #hexagon5        { top:72vw;  left:auto; right:5vw; }
+	#hexagons #hexagon5:after  { top:24vw;  right:-40vw; }
+	#hexagons #hexagon6        { top:96vw;  left:5vw; }
+	#hexagons #hexagon6:after  { top:24vw;  left:-40vw; }
+	#hexagons #hexagon4        { top:120vw; left:auto; right:5vw; }
+	#hexagons #hexagon4:after  { top:24vw;  right:-40vw; }
+	#hexagons #hexagon12       { top:144vw; left:5vw; }
+
+	#hexagons #hexagon7  { display:none; }
+	#hexagons #hexagon8  { display:none; }
+	#hexagons #hexagon9  { display:none; }
+	#hexagons #hexagon10 { display:none; }
+	#hexagons #hexagon11 { display:none; }
+
+}

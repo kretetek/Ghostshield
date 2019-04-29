@@ -1,0 +1,606 @@
+#logo {
+    background:none;
+    height:0;
+}
+
+#logo svg {
+    fill: #000;
+    position: absolute;
+    z-index:1;
+    top: 3%;
+    left: 5%;
+}
+
+.description-text p {
+    font-size: 1.2vw;
+}
+
+section h1, section h2, #overlay_document h1.title, #overlay_document h2.title {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+#micro-vid {
+    width: calc(100% - 50px);
+    margin: 10px 25px;
+}
+
+.video-container {
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+#micro-vid .text-container {
+    padding-top: 50px;
+}
+
+body > svg {
+    display:none;
+}
+
+section p {
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    font-family: bio-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+section h1, section h2, #overlay_document h1.title, #overlay_document h2.title {
+    color: #000;
+}
+
+section {
+    color: #000000;
+}
+
+.centered {
+    text-align: center;
+}
+
+section h1.always_centered:after, section h1.centered:after, section h2.always_centered:after, section h2.centered:after {
+    background: transparent;
+}
+
+video {
+    max-width: 100%;
+}
+
+.header-image {
+    position: relative;
+    overflow: hidden;
+    background-color: #d9d9d9;
+}
+
+.header-image:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -35%;
+    right: 0;
+    z-index: 1;
+    background: url(https://images.ctfassets.net/muyees5bu8n0/2wsEpXHjA7e4NRW38hwrXW/fa4781880f08fdb58aef11bb62a129ba/Molecule_Web_Copy_no_rays_Orange_Glow.jpg) 0 0 no-repeat;
+    opacity: 0.15;
+}
+
+span.micro-heading {
+    font-weight: bold;
+}
+
+.microscope-pics > div {
+    min-height: 250px;
+    max-width: 100%;
+}
+
+.micro-pic-container {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.full-height {
+    min-height: 100vh;
+    display: grid;
+}
+
+.nano-compare {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:10%;
+}
+
+.nano-item-container:nth-of-type(1n) {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.nano-item-container:nth-of-type(2n) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.nano-text {
+    display: grid;
+    margin: 10%;
+}
+
+.nano-text > p {
+    justify-self: center;
+    align-self: center;
+}
+
+.text-container {
+    justify-self: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 30vh;
+    z-index: 2;
+}
+
+.mx-10 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.nano-section {
+    background-color: #535454;
+}
+
+.text-container-centered {
+    justify-self: center;
+    align-self: center;
+}
+
+.p-10 {
+    padding:10%;
+}
+
+.px-10 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nested-text {
+    padding-left: 10%;
+    background-color: #d9d9d9;
+    position: relative;
+    overflow: hidden;
+    display:grid;
+}
+
+.nano-text-container {
+    margin-right:32%;
+    align-self: center;
+    justify-self: center;
+}
+
+.svg-ruler {
+    background: url("https://images.ctfassets.net/muyees5bu8n0/1FGzHxpu61L3F0SlTjEdvd/96d71d3020d2e0335f9ff2ec8cd97dca/ruler.svg") repeat-y;
+    background-position: top right;
+    background-size: 75px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 100%;
+}
+
+.nested-text > hr {
+    margin: 0px;
+}
+
+.site-section hr,
+#micro-vid hr {
+    width: 10%;
+    /* border-top: 1px solid #ff611d; */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    min-height: 350px;
+}
+
+.nested-grid {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.pb-5 {
+    padding-bottom: 5%;
+}
+
+.pt-5 {
+    padding-top: 5rem;
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+
+.image-responsive {
+    width: 100%;
+}
+
+#micro-1 {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/5EmmlSDzcrw3ACMSs6QCLM/38281e139bdc21d7d9602f5377942d6e/Porous_Concrete.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+    position: relative;
+}
+
+#micro-1:after, #micro-2:after, #micro-3:after {
+    content: "";
+    /* background-color: rgba(255, 97, 29, 0.1); */
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width:100%;
+    z-index: 1;
+    
+}
+
+#micro-2 {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/49SOip4MdrUtTvKwGoeaHi/5570a4332d7e34bc2a20d10fd69b7481/Micro_Crack.jpg);
+    background-position: center center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+    position: relative;
+}
+
+#micro-3 {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/7Et2ikt19Jvfw2yUgJKuIF/b9331d995d4c58953712eabf510b6cc4/Sealed_Unsealed.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: end;
+    position: relative;
+}
+
+.micro-text-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgba(255, 97, 29, 0.75);
+    margin: 50% 10% 5% 10%;
+    padding: 2%;
+}
+
+#product-section-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.description-text {
+    text-align: left;
+}
+
+.micro-text-container {
+    z-index: 2;
+}
+
+.nano-equation {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top:5%;
+}
+
+.formula-container > div > img {
+    margin-top:10%;
+    width:65%;
+}
+
+.left-equation, .right-equation {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
+}
+
+/****** NANO SECION ******/
+
+.carousel {
+    width: 80%;
+}
+
+.nano-image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: calc(15% + 10vw);
+}
+
+.nano-dna {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/fc92VIBoVUYIRi74Lf5Lc/1a7b01fda566481c181b431331785d08/nano-dna.svg) no-repeat;
+    background-position: center center;
+    display: grid;
+    width: 100%;
+    background-size: 75%;
+    height: 100%;
+    opacity: 0.20;
+}
+
+.nano-cell {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/Faq0ZyD37iJHcADp9E0y9/6c5ba3e05098a3e4381ca95504323060/nano-cell-orange2.svg) no-repeat;
+    background-position: center center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.nano-sand {
+    background: url(https://images.ctfassets.net/muyees5bu8n0/4NWn7adGHgkL7fqhST43aM/25bc44f49d4f8f5b9d2cb95b0e052e7a/nano-sand_V4.svg) no-repeat;
+    background-position: center center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.info-card {
+    display: grid;
+    margin: 10% 0;
+}
+
+.card-text {
+    margin-top:5%;
+    text-align: center;
+    padding:5%;
+}
+
+
+/****** VOC SECTION ******/
+
+.grid-half {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:5% 0;
+}
+
+.graph-half {
+    background: url("https://images.ctfassets.net/muyees5bu8n0/6DUeDSnUaDn1PiBmCImN40/44d832160e0c11610b017cbb289992f6/graph.svg");
+    background-size: calc(100px / 8);
+    display: grid;
+}
+
+.graph-half.half-2 {
+    background: url("https://images.ctfassets.net/muyees5bu8n0/4gPiNjykayEsDFCyeenASU/cf246d233bd43ecbe9e32dd783a25bd6/graph2.svg");
+    background-size: calc(100px / 8);
+    display: grid;
+}
+
+.graph-container > img, .carousel-item > img {
+    width:90%;
+    padding:5%;
+}
+
+.graph-container {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.graph-title {
+    color: white;
+    text-align: center;
+    font-size: 1.4vw;
+    padding: 5%;
+    padding-bottom:0;
+}
+
+.text-black {
+    color: black;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -10% !important;
+}
+
+.voc-text-container {
+    padding:10%;
+    color: #535454;
+}
+
+.voc-text-container.text-white {
+    padding:10%;
+    color: white;
+}
+
+.btn-dark {
+    color:white;
+    padding:2%;
+    text-decoration: none;
+    background-color: #535454;
+    border: solid 2px #535454;
+}
+
+.btn:hover {
+    color: #535454;
+    background-color: white;
+}
+
+.mb-5 {
+    margin-bottom: 5vw;
+}
+
+.graph-text {
+    font-size:1.4vw;
+    line-height: 1.6vw;
+    color: #535454;
+    padding:5%;
+}
+
+/****** END VOC SECTION ******/
+
+.bar-graph {
+    width: 60% !important;
+}
+
+
+/****** BREAKPOINTS ******/
+
+@media only screen and (max-width:992px) {
+    
+    .video-container {
+        width: 75vw;
+    }
+    
+    .bar-graph {
+        width: 80% !important;
+    }
+
+    #micro-2 {
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .grid-half {
+        grid-template-columns: 1fr;
+    }
+    .nano-text-container {
+        margin-top: 10%;
+    }
+    
+}
+
+/****** END BREAKPOINTS ******/
+
+
+/* Custom Styling for Mobile Menu */
+
+.eluid508808a6 > .gridPhotoGalleryItem--w1 > a > span > img.gridPhotoGallery__img.cover-fit-img {
+    height: 100%;
+    max-width: 100%;
+}
+
+@media (max-width:800px) {
+    #logo svg {
+        top: 15%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section h1, section h1.centered, section h2, section h2.centered {
+        border-bottom: none;
+        text-align: center;
+    }
+
+    #logo svg {
+        position: relative;
+        margin-top:25%;
+    }
+
+    .description-text p {
+        font-size: 12pt;
+    }
+
+    .nano-equation {
+        grid-template-columns: 1fr;
+        margin: 5%;
+    }
+        
+    .nano-image-container {
+        grid-template-columns: 1fr;
+    }
+
+    .image-grid {
+        grid-template-columns: minmax(100%, 1fr);
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+    .fxb-row.fxb-row-col-sm {
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 768px) {
+    .site-header.style5 {
+        height: 75px;
+    }
+}
+
+@media (max-width: 576px) {
+    .site-logo-img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .micro-sect-container {
+        padding-top:5rem;
+    }
+    
+.mx-10 {
+     margin-left: 0 !important; 
+     margin-right: 0 !important; 
+}
+    
+.formula-container {
+    margin-bottom: 10rem;
+}
+
+.info-card > div:first-of-type {
+    height: 150px;
+}
+    
+.fxb-col.fxb.fxb-end-x.fxb-center-y.fxb-basis-auto.site-header-main-right-top {
+    justify-content: flex-end !important;
+}
+    
+.separator.site-header-separator {
+    display: none;
+}
+    
+.site-header {
+    background-color: rgba(0,0,0,0.57) !important;
+}
+
+.separator.site-header-separator.visible-xs {
+    display: none !important;
+}
+
+.fxb-col.fxb.fxb-center-x.fxb-center-y.fxb-basis-auto.fxb-grow-0 {
+    justify-content: start;
+}
+
+.fxb-row.site-header-row.site-header-top {
+    display: none;
+}
+
+a.sh-component.ctabutton.cta-button-0.kl-cta-custom.btn.btn-text.btn-custom-color.zn_dummy_value.cta-icon--before.btn--rounded {
+    display: none;
+}
+
+.fxb-row.fxb-row-col-sm {
+    align-items: center;
+    flex-direction: row;
+}
+
+}

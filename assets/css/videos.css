@@ -1,0 +1,94 @@
+iframe:nth-child(odd) {
+	border-right:#fff 6px solid;
+	}
+
+iframe {
+	border-bottom:#fff 2px solid;
+	width:calc(100vw - 40px);
+	height:calc(100vw * .5625);
+	}
+
+.video { width:100%; }
+
+.videos-container {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 2%;
+    /* justify-items: center; */
+}
+
+@media (max-width: 800px) {
+	.videos-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width:1400px) {
+
+	iframe, .video {
+		width:392px;
+		/*height:228px;*/
+		}
+	iframe { height:228px; }
+
+}
+
+@media (min-width:800px) and (max-width:1399px) {
+
+	iframe, .video {
+		width:28vw;
+		/*height:15.6vw;*/
+		}
+	
+	iframe { height:15.6vw; }
+
+}
+
+iframe { width:100%; }
+
+/*.video {
+	clear:left;
+	padding-top:1.5em;
+	}
+
+.video:first-child {
+	padding-top:0;
+	}*/
+
+.video {
+	display:inline-block;
+	vertical-align:top;
+	padding:0 0 20px 0;
+	margin-bottom:1em;
+	}
+
+@media (min-width:800px) {
+
+	.video iframe {
+		/*float:left;*/
+		}
+
+	.video .description {
+		padding: 0;
+		margin: 5% 0;
+		margin-right: 10%;
+	}
+
+}
+
+.video .description h4 {
+	padding:.3em 0 .6em 0;
+	margin:0;
+	font-family:"Bio Sans", sans-serif;
+	font-weight: bold;
+}
+
+.video p {
+	font-family:"Proxima Nova", sans-serif;
+}
+
+.video .description {
+	padding: 0;
+	margin: 5% 0;
+	margin-right: 10%;
+}

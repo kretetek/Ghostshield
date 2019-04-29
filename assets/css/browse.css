@@ -1,0 +1,1259 @@
+#page_nav_container { height:0; overflow:hidden; }
+
+/********
+
+	CATEGORIES
+
+*/
+
+@media (max-width:1099px) {
+
+	.facebook,
+	.video_side {
+		display:none;
+		}
+
+}
+
+@media (min-width:601px) {
+
+	.desktop {
+		display:block;
+		}
+
+	.mobile {
+		display:none;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	/*.desktop {
+		display:none;
+		}*/
+
+	.mobile {
+		display:block;
+		}
+}
+
+/*
+@media (min-width:1100px) {
+	
+	div#banner {
+		height:460px;
+		max-height:460px;
+		}
+
+}
+*/
+
+header #logo {
+	left:560px;
+	margin-left:0;
+	}
+
+@media (max-width:1520px) {
+
+	header #logo {
+		left:530px;
+		}
+
+}
+
+@media (max-width:1380px) {
+
+	header #logo {
+		left:530px;
+		}
+
+}
+
+@media (max-width:1290px) {
+
+	header #logo {
+		left:490px;
+		}
+
+}
+
+@media (max-width:1170px) {
+
+	header #logo {
+		left:440px;
+		}
+
+}
+
+
+@media (max-width:1099px) {
+
+	header #logo {
+		height:56px;
+		width:200px;
+		left:50%;
+		margin-left:-80px;
+		/*z-index:2000;*/
+		top:0px;
+		position:fixed;
+		}
+
+	header #logo a {
+		height:56px;
+		left:0;
+		top:0;
+		background:url("//assets.ghostshield.com/img/logo/ghostshield-orange.svg") center center no-repeat;
+		background-size:auto 36px;
+		background:none;
+		}
+
+}
+
+
+.categories_page {
+	position:relative;
+	margin:0 auto;
+	}
+
+/*
+.categories_page:before {
+	content:"";
+	background:url("//assets.ghostshield.com/img/angles/product-lower-left2.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:547px;
+	width:600px;
+	height:238px;
+	height:241px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	}
+
+.categories_page:after {
+	content:"";
+	background:url("//assets.ghostshield.com/img/angles/product-lower-right.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:144px;
+	height:521px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	}
+*/
+
+.pfbutton {
+	position:absolute;
+	left:60px;
+	bottom:60px;
+	font-family:"Nexa", sans-serif;
+	letter-spacing:2px;
+	}
+
+.pfbutton a,
+.pfbutton a:hover,
+.pfbutton a:active {
+	margin-top:8px;
+	padding:12px 30px 12px 26px;
+	display:block;
+	}
+
+.pfbutton a:active {
+	margin-top:9px;
+	}
+
+.category_results {
+	margin-left:320px;
+	margin-top:30px;
+	min-height:900px;
+	}
+
+.collage {
+	padding:30px 50px 90px 50px;
+	}
+
+.link_list {
+	display:block;
+	position:absolute;
+	top:28px;
+	left:0;
+	}
+
+.link_list_interior {
+	vertical-align:top;
+	padding-left:60px;
+	}
+
+@media (min-width:1100px) and (max-width:1480px) {
+
+	.category_results {
+		margin:30px 40px 0 360px;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	.link_list {
+		position:relative;
+		text-align:center;
+		}
+
+	.link_list ul li a span:before {
+		content:"                       ";
+		}
+
+	.link_list ul {
+		margin-bottom:0 !important;
+		}
+
+	.link_list_interior {
+		vertical-align:top;
+		padding-left:5%;
+		padding-right:5%;
+		width:35%;
+		display:inline-block;
+		text-align:left;
+		font-family:"Nexa", sans-serif;
+		}
+
+	.category_results {
+		margin:30px auto 0 auto;
+		max-width:94%;
+		}
+
+	.collage {
+		padding:20px 20px 30px 20px;
+		}
+
+}
+
+
+@media (max-width:799px) {
+
+	.link_list_interior {
+		width:auto;
+		display:block;
+		}
+
+}
+
+/********
+
+	LISTINGS
+
+*/
+
+.product_listing {
+	position:relative;
+	max-width:1080px;
+	/*background:#7a7a7a;
+	background-size:contain;
+	color:#fff;*/
+	color:#454545;
+	margin:0 auto;
+	border-bottom:60px solid transparent;
+	}
+
+.product_listing:last-child {
+	margin-bottom:0;
+	/*border-bottom:200px solid transparent;*/
+	border-bottom:0;
+	}
+
+.product_listing:before {
+	/*content:"";
+	position:absolute;
+	height:145px;
+	left:-2px;
+	right:-2px;
+	bottom:0px;
+	background: url("//assets.ghostshield.com/img/angles/product_listing.svg") bottom center no-repeat;
+	background-size:1080px 145px;
+	z-index:0;*/
+	}
+
+.product_listing .images {
+	clear:left;
+	}
+
+.product_listing .images img {
+	float:left;
+	width:50%;
+	max-height:346px;
+	}
+
+.product_listing .images img:last-child {
+	margin-top:20px;
+	}
+
+	.product_listing .product_image {
+		float: left;
+		padding-top: 24px;
+		padding-right: 24px;
+	}
+
+.product_listing .product_info {
+	clear:left;
+	min-height:80px;
+	padding:2px 0 45px 0;
+	}
+
+.product_listing .product_info .product_name {
+	text-transform:uppercase;
+	font-style:normal;
+	font-size:1.6rem;
+	letter-spacing:3px;
+	font-family:"NexaBold", sans-serif;
+	text-indent:-9999px;
+	overflow:hidden;
+	}
+
+.product_listing .product_info .clear {
+	clear:left;
+	}
+
+.product_listing .product_info .blurb p {
+	float: left;
+	width: calc(100% - 475px);
+	border-right: 1px solid transparent;
+}
+
+.product_listing .product_info .blurb strong {
+	font-family:"Nexa", sans-serif;
+	font-weight:normal;
+	font-size:11pt;
+	line-height:15pt;
+	letter-spacing:1px;
+	}
+
+.product_listing .product_info .applications {
+	}
+
+.product_listing ul.actions {
+	list-style:none;
+	padding:0;
+	/*position:absolute;
+	right:20px;
+	bottom:4.5em;*/
+	float:right;
+	margin:0 0 0 10px;
+	}
+
+	.attribute_icons {
+		position: relative;
+		padding-bottom: 1em;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.attribute_icons .icon {
+		display: flex;
+		align-items: center;
+		width: calc(23% - 30px);
+		min-width: 140px;
+		padding-left: 33px;
+		height: 36px;
+		white-space: nowrap;
+		background-repeat: no-repeat;
+		background-size: 28px 28px;
+		background-position: left center;
+		font-size: 1vw;
+	}
+
+.attribute_icons .icon:last-child {
+	margin-bottom:1em;
+	}
+
+.attribute_icons .icon.repelsWater {
+	/*color:orange;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/repelsWater.svg");
+	}
+
+.attribute_icons .icon.repelsOil {
+	/*color:orange;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/repelsOil.svg");
+	}
+
+.attribute_icons .icon.repelsSalt {
+	/*color:orange;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/repelsSalt.svg");
+	}
+
+.attribute_icons .icon.repelsChems {
+	/*color:orange;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/repelsChems.svg");
+	}
+
+.attribute_icons .icon.solvent-based {
+	/*color:purple;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/solventBased.svg");
+	}
+
+.attribute_icons .icon.water-based {
+	/*color:purple;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/waterBased.svg");
+	}
+
+.attribute_icons .icon.actives {
+	/*color:purple;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/solventBased.svg");
+	}
+
+.attribute_icons .icon.concentrated {
+	/*color:red;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/concentrated.svg");
+	}
+
+.attribute_icons .icon.readyToUse {
+	/*color:red;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/readyToUse.svg");
+	}
+
+.attribute_icons .icon.twoPart {
+	/*color:red;*/
+	background-image:url("//assets.ghostshield.com/img/icons/product-icons/twoPart.svg");
+	}
+
+
+@media (max-width:1099px) {
+
+	.product_listing .product_image {
+		}
+
+	.product_listing .product_info {
+		clear:left;
+		min-height:80px;
+		padding:2px 30px 45px 0;
+		}
+
+	.product_listing .product_info .blurb {
+		margin-right:0;
+		padding-bottom:1.5em;
+		min-height:1.5em;
+		}
+
+	.product_listing ul.actions {
+		right:0;
+		bottom:0;
+		}
+
+	.product_listing ul.actions li {
+		vertical-align:top;
+		}
+
+}
+
+@media (max-width:899px) {
+	.product_listing ul.actions li a {
+		width:150px;
+	}
+	.attribute_icons .icon {
+		font-size: 2vw;
+	}
+}
+
+@media (max-width:820px) {
+
+	.product_listing .product_info .blurb p {
+		width:auto;
+		float:none;
+		}
+
+	.product_listing ul.actions {
+		float:none;
+		margin-left:0;
+		}
+
+	.product_listing ul.actions li {
+		display:inline-block;
+		}
+	
+	.product_listing .product_info {
+		padding:2px 10px 45px 0;
+		}
+
+}
+
+@media (max-width:699px) {
+
+	.product_listing ul.actions li a {
+		padding:5px 10px 4px 10px;
+		width:140px;
+		}
+
+}
+
+@media (max-width:620px) {
+
+	.product_listing .product_info .blurb {
+		margin-left:0;
+		}
+	
+	.product_listing .product_info .product_name {
+		margin-left:210px;
+		}
+
+	.attribute_icons {
+		margin-left:210px;
+		}
+
+}
+
+@media (max-width:580px) {
+
+	.product_listing .product_info {
+		padding-right:10px;
+		padding-bottom:15px;
+		}
+
+	.product_listing .product_image {
+		}
+	
+	.product_listing ul.actions {
+		text-align:center;
+		width:100%;
+		margin-bottom:-30px;
+		}
+
+	.product_listing ul.actions li a {
+		padding:5px 10px 4px 10px;
+		width:140px;
+		font-size:10pt;
+		}
+
+	.product_listing ul.actions li a:last-child {
+		margin-right:0;
+		}
+/*
+	.product_listing:last-child {
+		border-bottom:300px solid transparent;
+		}*/
+
+	.categories_page:after {
+		display:none;
+		}
+
+	.attribute_icons .icon {
+		width:calc(30% - 60px);
+		min-width:120px;
+		}
+	
+	.pfbutton {
+		left:60px;
+		right:60px;
+		text-align:center;
+		}
+
+	.pfbutton a {
+		margin-left:auto;
+		margin-right:auto;
+		}
+
+}
+
+@media (max-width:530px) {
+
+	.product_listing .product_info {
+		
+		}
+
+	.product_listing .product_image {
+		left:0px;
+		bottom:auto;
+		top:34vw;
+		}
+
+	.product_listing .product_image img {
+		width:170px;
+		height:170px;
+		}
+
+}
+
+@media (max-width:520px) {
+
+	.product_listing .product_info {
+		padding-bottom:90px;
+		}
+
+}
+
+@media (max-width:430px) {
+
+	.product_listing .product_image img {
+		width:130px;
+		height:130px;
+		}
+
+	.product_listing .product_info .product_name,
+	.attribute_icons {
+		margin-left:140px;
+		}
+	
+
+}
+
+/*******
+
+	VIDEOS
+
+*/
+
+.videos {
+	padding-bottom:20px;
+	}
+
+.videos iframe:nth-child(1),
+.videos iframe:nth-child(2) {
+    border-right:transparent 6px solid;
+	}
+
+.videos iframe {
+    border-bottom:transparent 2px solid;
+	}
+
+.video_side {
+	background:#f6f7f9;
+	border:1px solid #e9ebee;
+	padding:6px 8px;
+	width:262px;
+	margin:30px 0 0 50px;
+	color:#777;
+	}
+
+.video_side h4 {
+	letter-spacing:2px;
+	margin:14px 0 0 1px;
+	padding:4px 0 3px 22px;
+	font-size:15px;
+	height:20px;
+	font-family:"Nexa", sans-serif;
+	font-weight:normal;
+	background:url("//assets.ghostshield.com/img/logo/ghostshield-g-orange.svg") left 2px no-repeat;
+	background-size:18px 18px;
+	}
+
+.video_side h4:first-child {
+    margin-top:0;
+	}
+
+.video_size .video {
+	/*border:1px solid #e9ebee;
+	border-color: #e9ebee #dfe0e4 #d0d1d5;
+	border-radius:2px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, .12);
+	width:262px;*/
+	}
+
+.product_listing ul.actions li a.has_image {
+	padding-top:80px;
+	background-size:90px 90px;
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+
+.product_listing ul.actions li {
+	margin:0;
+	padding:0;
+	margin:0 0 4px 0;
+	}
+
+.product_listing ul.actions li a {
+	padding:10px 20px 8px 20px;
+	width:160px;
+	}
+
+.product_listing ul.actions li a.span {
+	display:block;
+	}
+
+
+
+header #logo {
+	display:none;
+	}
+
+div#banner .video_wrapper {
+	background:#000;
+	}
+
+.no-touch div#banner video,
+div#banner img {
+	opacity:.3;
+	}
+
+div#banner:after {
+	background-image: url("//assets.ghostshield.com/img/angles/new-angle.svg");
+	}
+
+div#banner {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	}
+
+#tagline {
+	/*position:absolute;
+	top:190px;
+	left:50%;
+	margin-left:-550px;*/
+	margin:0 auto;
+	position:relative;
+	display:block;
+	width:1100px;
+	font-size:2rem;
+	min-height:4em;
+	font-family:"NexaLight", sans-serif;
+	color:#fff;
+	padding:200px 0 100px 0;
+	z-index:999;
+	}
+
+#tagline h3 {
+	letter-spacing:4px;
+	text-transform:uppercase;
+	font-weight:100;
+	font-size:36px;
+	width:44%;
+	margin:0;
+	font-family:"NexaLight",sans-serif;
+	}
+
+#tagline h1 {
+	font-size:1.5rem;
+	width:44%;
+	font-family:"NexaLight",sans-serif;
+	font-weight:normal;
+	padding-right:80px;
+	}
+
+#tagline em,
+#tagline strong {
+	font-style:normal;
+	font-weight:normal;
+	font-family:"NexaLight",sans-serif;
+	letter-spacing:inherit;
+	line-height:inherit !important;
+	}
+
+#tagline > span {
+	display:block;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-size:32pt;
+	width:600px;
+	padding-bottom:30px;
+	}
+
+#tagline:after {
+	content:"";
+	display:block;
+	z-index:12;
+	position:absolute;
+	background:url("//assets.ghostshield.com/img/bottle/browse-bottles-1nw.png") top left no-repeat;
+	background-size:contain;
+	/*width:40vw;
+	height:90vh;*/
+	width:35%;
+	height:400px;
+	top:100px;
+	right:0;
+	}
+
+#tagline span.part {
+	display:block;
+	}
+
+#tagline span.reg {
+	position:relative;
+	}
+
+#tagline span.reg:after {
+	position:absolute;
+	top:3px;
+	content:"\00ae";
+	font-size:40%;
+	margin-left:-9px;
+	}
+
+#tagline .blurb {
+	width:44%;
+	font-size:1rem;
+	color:#222;
+	padding-right:100px;
+	}
+
+#calltoaction {
+	margin:1.5rem 2px 6.5rem -2px;
+	float:left;
+	width:50%;
+	}
+
+#calltoaction .hex-button.tall {
+	margin-right:80px;
+	}
+
+.hex-button.tall {
+	/*height:3rem;
+	line-height:3rem;*/
+	padding-top:16px;
+	padding-bottom:13px;
+	letter-spacing:2.5px;
+	}
+
+@media (min-width:1300px) {
+	.description {
+		margin: 0 10%;
+	}
+}
+
+@media (max-width:1299px) {
+	.description {
+		margin-top: 5%;
+	}
+}
+
+@media (max-width:1200px) {
+
+	/*#tagline:after {
+		width:55%;
+		height:600px;
+		top:240px;
+		}*/
+
+	#tagline {
+		padding-top:140px;
+		width:960px;
+		}
+
+	#tagline span.part {
+		display:inline;
+		}
+
+	#calltoaction {
+		margin-bottom:4.5rem;
+		}
+
+}
+
+@media (min-width:1200px) {
+
+	div#banner {
+		height:/*73vh*/ 700px;
+		margin-bottom:/*30vh*/ 190px;
+		height:480px;
+		}
+
+}
+
+@media (max-width:1199px) {
+
+	div#banner {
+		height:380px;
+		}
+
+	#tagline:after {
+		width:35%;
+		top:80px;
+		}
+
+	#tagline > span {
+		letter-spacing:3px;
+		font-size:24pt;
+		width:500px;
+		padding-bottom:20px;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	div#banner {
+		height:330px;
+		}
+
+	#tagline {
+		padding:140px 0 30px 0;
+		font-size:26pt;
+		padding-left:50px;
+		width:calc(100% - 50px);
+		}
+
+	#tagline:after {
+		height:300px;
+		top:90px;
+		}
+
+	#tagline h3 {
+		width:auto;
+		}
+
+	#tagline h1 {
+		padding-top:20px;
+		padding-bottom:0px;
+		}
+
+}
+
+@media (max-width:860px) {
+
+	div#banner {
+		height:280px;
+		}
+
+	#tagline h1 {
+		font-size:60%;
+		}
+
+	#tagline h3 {
+		font-size:90%;
+		}
+
+}
+
+@media (max-width:820px) {
+
+	#tagline > span {
+		width:400px;
+		font-size:20pt;
+		}
+
+	.hex-button.tall {
+		font-size:21px;
+		line-height:21px;
+		}
+
+}
+
+@media (max-width:730px) {
+
+	#tagline {
+		}
+
+	#calltoaction .hex-button.tall {
+		padding-left:22px;
+		padding-right:22px;
+		}
+
+	div#banner {
+		height:220px;
+		}
+
+}
+
+@media (max-width:699px) {
+
+	#tagline {
+		padding-top:100px;
+		}
+
+}
+
+@media (max-width:650px) {
+
+
+	div#banner {
+		height:220px;
+		}
+
+	#tagline .blurb {
+		width:auto;
+		clear:left;
+		padding-right:30px;
+		}
+
+	#tagline {
+		padding-bottom:0;
+		}
+
+	#tagline > span {
+		width:65%;
+		}
+
+	.hex-button.tall {
+		padding-left:16px;
+		padding-right:16px;
+		letter-spacing:2px;
+		font-size:18px;
+		line-height:18px;
+		}
+	
+	#tagline h1 {
+		padding-top:10px;
+		}
+
+}
+
+@media (max-width:500px) {
+
+	#tagline {
+		padding:33px 20px 0 20px;
+		text-align:center;
+		}
+
+	#tagline h3 {
+		font-size:70%;
+		}
+
+	#tagline h1 {
+		font-size:50%;
+		width:auto;
+		padding-right:0;
+		}
+
+	#tagline:after {
+		display:none;
+		top:460px;
+		width:35%;
+		left:60%;
+		}
+
+	#calltoaction {
+		width:auto;
+		padding-right:0;
+		margin:22px 0 1em 0;
+		}
+
+	.hex-button.tall {
+		width:calc(100% - 30px);
+		margin-right:0;
+		}
+
+	#tagline > span {
+		width:auto;
+		padding:14px 0 8px 0;
+		}
+
+	#tagline .blurb p {
+		float:left;
+		}
+
+	#tagline .blurb {
+		width:auto;
+		text-align:left;
+		padding:0;
+		margin:0;
+		}
+
+	#tagline .blurb p:before {
+		content:"";
+		display:inline-block;
+		float:right;
+		margin:0 0 10px 20px;
+		background:url("//assets.ghostshield.com/img/bottle/home-bottles-1.png") top right no-repeat;
+		background-size:contain;
+		width:30vw;
+		height:140px;
+		}
+
+	div#banner {
+		height:178px;
+		}
+
+	header .arrow.link {
+		clear:both;
+		}
+
+}
+
+@media (max-width:400px) {
+
+	#tagline h3 {
+		font-size:58%;
+		}
+
+	#calltoaction .hex-button.tall {
+		font-size:60%;
+		}
+
+}
+
+@media (max-width:350px) {
+
+	#tagline h3 {
+		font-size:50%;
+		}
+
+	#calltoaction .hex-button.tall {
+		font-size:45%;
+		}
+
+}
+
+.link_list .filters.hook {
+	position:absolute;
+	cursor:pointer;
+	right:-63px;
+	top:calc(50vh - 50px);
+	width:80px;
+	padding:0 10px;
+	text-align:center;
+	transform:rotate(90deg);
+	background:#fc6a21;
+	font-size:18px;
+	line-height:26px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:"NexaBold", sans-serif;
+	border-top-right-radius:3px;
+	border-top-left-radius:3px;
+	opacity:0;
+	height:0;
+	-webkit-transition:opacity 200ms linear;
+	transition:opacity 200ms linear;
+	}
+
+@media (max-width:799px) {
+
+	.link_list .filters.hook.visible {
+		opacity:1;
+		overflow:auto;
+		height:26px;
+		-webkit-transition:opacity 200ms linear;
+		transition:opacity 200ms linear;
+		}
+
+}
+
+.filters_static {
+	padding:40px 0 10px 0;
+	text-align:center;
+	}
+
+.filters.static {
+	text-align:center;
+	font-size:14pt;
+	line-height:14pt;
+	text-transform:uppercase;
+	color:#fc6a21;
+	font-family:"NexaBold", sans-serif;
+	letter-spacing:2px;
+	cursor:pointer;
+	display:inline-block;
+	border:1px solid transparent;
+	padding:2px 2px 1px 2px;
+	}
+
+.burger {
+	display:inline-block;
+	width:10px;
+	height:2px;
+	background:#fc6a21;
+	vertical-align:middle;
+	margin-top:-4px;
+	position:relative;
+	margin-right:3px;
+	margin-left:2px;
+	}
+
+.burger:before,
+.burger:after {
+	content:"";
+	display:block;
+	width:10px;
+	height:2px;
+	background:#fc6a21;
+	position:absolute;
+	}
+
+.burger:before {
+	margin-top:-4px;
+	}
+
+.burger:after {
+	margin-top:4px;
+	}
+
+.filters.static:hover {
+	color:#222;
+	border:1px solid #222;
+	}
+
+.filters.static:hover .burger,
+.filters.static:hover .burger:before,
+.filters.static:hover .burger:after {
+	background-color:#222;
+	}
+
+@media (max-width:799px) {
+
+	.link_list {
+		position:fixed;
+		left:-80vw;
+		top:56px;
+		z-index:2000;
+		width:80vw;
+		-webkit-transition:left 300ms ease-in-out;
+		transition:left 300ms ease-in-out;
+		}
+	
+	.link_list.active {
+		left:0;
+		-webkit-transition:left 300ms ease-in-out;
+		transition:left 300ms ease-in-out;
+		}
+
+	.link_list_container {
+		height:calc(100vh - 96px);
+		padding-bottom:40px;
+		overflow:auto;
+		-webkit-backdrop-filter:saturate(180%) blur(20px);
+		backdrop-filter:saturate(180%) blur(20px);
+		background-color:rgba(245,245,245,0.9);
+		overflow-x:hidden;
+		}
+
+	.accordian h3 {
+		position:relative;
+		padding-left:28px;
+		cursor:pointer;
+		}
+
+	.accordian h3:before {
+		content:"+";
+		position:absolute;
+		left:0;
+		top:2px;
+		width:16px;
+		height:16px;
+		border:1px solid #999;
+		text-align:left;
+		text-indent:3px;
+		line-height:18px;
+		font-size:21px;
+		color:#999;
+		}
+
+	.accordian.active h3:before {
+		content:"-";
+		line-height:15px;
+		}
+
+	.accordian ul {
+		height:0;
+		overflow:hidden;
+		padding-left:28px;
+		}
+
+	.accordian.active ul {
+		height:auto;
+		}
+
+	.link_list ul {
+		max-width:none !important;
+		}
+
+}
+
+#buy:before {
+	background-image:url("//assets.ghostshield.com/img/angles/invert-triangle-grey.svg") !important;
+	}
+
+#product_finder {
+	background-image:url("//assets.ghostshield.com/img/bg/product-finder-4.svg") !important;
+	}

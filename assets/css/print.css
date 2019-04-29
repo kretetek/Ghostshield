@@ -1,0 +1,1095 @@
+nav.main_nav,
+nav.page_nav { display:none; }
+
+#banner { display:none; }
+
+
+.close,
+input[type="button"],
+button[type="submit"],
+.button,
+.control-group .controls a,
+input[type="button"],
+.hex-button {
+	display:none;
+	}
+
+/***********
+
+	FONTS
+
+*/
+
+@import url("//hello.myfonts.net/count/308c1e");
+
+@font-face { font-family:'NexaLight'; src: url('//assets.ghostshield.com/fonts/308C1E_2_0.eot'); src: url('//assets.ghostshield.com/fonts/308C1E_2_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/308C1E_2_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/308C1E_2_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/308C1E_2_0.ttf') format('truetype'); }
+
+@font-face { font-family:'Nexa'; src: url('//assets.ghostshield.com/fonts/3098F4_1_0.eot'); src: url('//assets.ghostshield.com/fonts/3098F4_1_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/3098F4_1_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/3098F4_1_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/3098F4_1_0.ttf') format('truetype'); }
+
+@font-face { font-family:'NexaBold'; src: url('//assets.ghostshield.com/fonts/308C1E_0_0.eot'); src: url('//assets.ghostshield.com/fonts/308C1E_0_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/308C1E_0_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/308C1E_0_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/308C1E_0_0.ttf') format('truetype'); }
+
+/***********
+
+	FORMS
+
+*/
+
+select { display:none; }
+
+span.bold, em, strong, b { font-family:"NexaBold", sans-serif; font-weight:normal; opacity:.9; }
+span.super { /*font-size:50% !important; vertical-align:super;*/ }
+span.glossary_term {
+	border-bottom:1px dotted orange;
+	background:url("//assets.ghostshield.com/img/icons/qm.svg") right .1em  no-repeat;
+	background-size:.65em .65em;
+	padding-right:12px;
+	}
+
+.errors {
+	display:none;
+	z-index:1002;
+	background:#fff;
+	font-family:arial,sans-serif;
+	font-size:60%;
+	position:absolute;
+	}
+
+.clear { clear:left; border:.1px solid transparent; }
+
+section {
+	clear:both;
+	}
+
+body {
+	margin:0;
+	width:8in;
+	/*padding:0 2vw;*/
+	font-family:"NexaLight", sans-serif;
+	font-size:12pt;
+	margin:0.25in;
+	}
+
+.page_content {
+	position:relative;
+	overflow-x:hidden;
+	}
+
+
+/*******
+
+	HEADERS
+
+*/
+
+section h1,
+section h2,
+#overlay_document h2.title {
+	display:block;
+	padding:40px 0 .4em 0;
+	margin:0 auto .8em auto;
+	font-size:24pt;
+	text-transform:uppercase;
+	letter-spacing:10px;
+	font-weight:100;
+	border-bottom:1px solid #1d1519;
+	font-family:"NexaLight", sans-serif;
+	font-size:2rem;
+	max-width:1200px;
+	position:relative;
+	}
+
+#welcome h3 {
+	padding:0 0 1.5em 0;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-weight:100;
+	font-family:"NexaLight", sans-serif;
+	font-size:1.3rem;
+	max-width:1200px;
+	position:relative;
+	}
+
+section h1 {
+	font-size:2.8rem;
+	}
+
+
+section h2.always_centered,
+section h2.centered {
+	border-bottom:0;
+	text-align:center;
+	padding-left:30px;
+	padding-right:30px;
+	}
+
+section h2.always_centered:after,
+section h2.centered:after {
+	content:"";
+	position:absolute;
+/*	top:1.5em;*/
+	left:50%;
+	margin:10px 0 0 -100px;
+	display:block;
+	height:1px;
+	width:200px;
+	background:#1d1519;
+	}
+
+
+@media (max-width: 1300px) {
+
+	section h1,
+	section h2 {
+		letter-spacing:6px;
+		font-size:1.6rem;
+		}
+	
+}
+
+@media (max-width: 900px) {
+
+	section h2,
+	section h2.centered {
+		border-bottom:1px solid #1d1519;
+		text-align:left;
+		padding: 30px 0 .4em 0;
+		margin: 0 20px 20px 20px;
+		}
+	
+	section.black h2.centered {
+		border-bottom:1px solid #fff;
+		}
+
+	section h2.centered:after {
+		display:none;
+		}
+
+}
+
+
+@media (max-width: 767px) {
+
+	section h2.centered {
+		padding:20px 0 .4em 0;
+		}
+	
+	section h2,
+	section h2.centered {
+		border-bottom:1px solid #1d1519;
+		text-align:center;
+		}
+
+}
+
+.column .column_interior h2.sub {
+	padding-top:20px;
+	}
+
+
+/*
+
+
+*/
+
+#how h3 {
+	padding:0 0 .4em 0;
+	margin:0;
+	font-size:13pt;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-family:"NexaBold", sans-serif;
+	}
+/*
+#how .left h3,
+#how .left p {
+	padding-left:10px;
+	padding-left:50px;
+	padding-right:70px;
+	}
+
+#how .middle h3,
+#how .middle p {
+	padding-left:40px;
+	padding-left:70px;
+	padding-right:40px;
+	}
+
+#how .right h3,
+#how .right p {
+	padding-left:70px;
+	padding-left:110px;
+	padding-right:10px;
+	}
+
+#how .left p {
+	padding-right:70px;
+	}
+
+#how .middle p {
+	padding-right:40px;
+	}
+
+#how .right p {
+	padding-right:10px;
+	}
+	*/
+#how p {
+	background-size:80px 80px;
+	background-repeat:no-repeat;
+	}
+
+
+#how .illustration {
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+	max-height:400px;
+	width:auto;
+	height:1.5in;
+	margin:0 auto 18px auto;
+	background-color:#444;
+	}
+
+#how .illustration h3 {
+	font-size:14pt;
+	line-height:15pt;
+	margin:0;
+	padding:2em 0 0 0;
+	font-family:"Nexa", sans-serif;
+	}
+
+#how .illustration h3 small {
+	display:block;
+	padding:9px 0 0 0;
+	line-height:12pt;
+	font-size:11pt;
+	}
+
+#how .left .illustration {
+	background-image:url("//assets.ghostshield.com/img/cb-unsealed.png");
+	}
+
+#how .middle .illustration {
+	background-image:url("//assets.ghostshield.com/img/cb-applied2.png");
+	}
+
+#how .right .illustration {
+	background-image:url("//assets.ghostshield.com/img/cb-sealed.png");
+	}
+
+nav .product_name {
+	padding-right:20px;
+	display:inline-block;
+	height:13px;
+	}
+
+.selected {
+	background-repeat:no-repeat;
+	background-position:top left;
+	}
+
+.pc_name select {
+	width:95%;
+	cursor:pointer;
+	}
+
+.selected select {
+	opacity:0;
+	}
+
+nav .selected.countertop-sealer-770,
+nav .selected.countertop-sealer-660 { height:26px; }
+
+.selected.lithi-tek-ls-9500,
+.selected.lithi-tek-9500 { background-image:url("//assets.ghostshield.com/img/products6/lithi-tek-9500.svg"); }
+.selected.lithi-tek-4500 { background-image:url("//assets.ghostshield.com/img/products6/lithi-tek-4500.svg"); }
+.selected.siloxa-tek-8500 { background-image:url("//assets.ghostshield.com/img/products6/siloxa-tek-8500.svg"); }
+.selected.siloxa-tek-8505 { background-image:url("//assets.ghostshield.com/img/products6/siloxa-tek-8505.svg"); }
+.selected.siloxa-tek-8510 { background-image:url("//assets.ghostshield.com/img/products6/siloxa-tek-8510.svg"); }
+.selected.cryli-tek-5500 { background-image:url("//assets.ghostshield.com/img/products6/cryli-tek-5500.svg"); }
+.selected.cryli-tek-5505 { background-image:url("//assets.ghostshield.com/img/products6/cryli-tek-5505.svg"); }
+.selected.epoxy-325 { background-image:url("//assets.ghostshield.com/img/products6/epoxy-325.svg"); }
+.selected.iso-tek-8501 { background-image:url("//assets.ghostshield.com/img/products6/iso-tek-8501.svg"); }
+.selected.gem-tek-5100 { background-image:url("//assets.ghostshield.com/img/products6/gem-tek-5100.svg"); }
+.selected.gem-tek-5105 { background-image:url("//assets.ghostshield.com/img/products6/gem-tek-5105.svg"); }
+.selected.hydro-etch-1000 { background-image:url("//assets.ghostshield.com/img/products6/hydro-etch-1000.svg"); }
+.selected.polyaspartic-745 { background-image:url("//assets.ghostshield.com/img/products6/polyaspartic-745.svg"); }
+.selected.sila-tek-3500 { background-image:url("//assets.ghostshield.com/img/products6/sila-tek-3500.svg"); }
+.selected.urethane-645 { background-image:url("//assets.ghostshield.com/img/products6/urethane-645.svg"); }
+.selected.countertop-sealer-770,
+.selected.countertop-770 { background-image:url("//assets.ghostshield.com/img/products6/countertop-770.svg"); }
+.selected.countertop-sealer-660,
+.selected.countertop-660 { background-image:url("//assets.ghostshield.com/img/products6/countertop-660.svg"); }
+
+
+
+section p,
+section ul,
+section ol,
+#overlay_document p {
+	line-height:1.5em;
+	letter-spacing:1px;
+	}
+
+section ol {
+	padding-left:26px;
+	}
+
+section p {
+	margin:0;
+	padding:0 0 10px 0;
+	}
+
+
+
+header {
+	position:relative;
+	}
+
+header #logo {
+	position:absolute;
+	margin:0;
+	padding:0;
+	height:1in;
+	width:3.8in;
+	margin-left:1in;
+	}
+
+header #logo a {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	top:0;
+	left:50px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url("//assets.ghostshield.com/img/logo/ghostshield-logo-black-nt.svg") top left no-repeat;
+	background-size:contain;
+	z-index:1000;
+	}
+
+#squares span.title { display:none; }
+
+/********
+
+	SECTIONS
+
+*/
+
+section {
+	color:#3a2b2f;
+	position:relative;
+	clear:left;
+	}
+
+
+section .section_text {
+	position:relative;
+	}
+	
+
+
+.column_container {
+	position:relative;
+	clear:left;
+	}
+
+.tri_column {
+	margin:0;
+	padding:0;
+	display:block;
+	box-sizing:content-box;
+	width:30%;
+	float:left;
+	padding:0 0 0 5%;
+	}
+
+.tri_column.left {
+	padding-left:0;
+	}
+
+.tri_column.no_padding {
+	padding-left:0;
+	width:33.3333%
+	}
+
+.tri_column h3 {
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-size:13pt;
+	color:#3a3a3a;
+	font-family:"Nexa", sans-serif;
+	font-weight:100;
+	margin:0;
+	padding:0;
+	line-height:20pt;
+	}
+
+.tri_column h4 {
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-size:inherit;
+	font-family:"NexaBold", sans-serif;
+	font-weight:100;
+	margin:0;
+	padding:0 0 .3em 0;
+	line-height:20pt;
+	}
+
+.tri_column .content {
+	letter-spacing:2px;
+	line-height:1.5em;
+	}
+
+.tri_column ul,
+.column ul {
+	list-style-type:none;
+	margin:0;
+	padding:1em 0 0 0;
+	}
+
+.tri_column ul li,
+.column ul li {
+	margin:0;
+	padding:0 0 .7em 17px;
+	background:url("//assets.ghostshield.com/img/icons/tiny-hexagon-black.svg") left .33em no-repeat;
+	background-size:10px;
+	}
+
+.tri_column ol li,
+.column ol li {
+	margin:0;
+	padding:0 0 .7em 2px;
+	}
+
+
+
+.quad_column {
+	margin:0;
+	padding:0;
+	display:block;
+	box-sizing:content-box;
+	width:23%;
+	float:left;
+	padding:0 0 0 2%;
+	}
+
+.quad_column.c1 {
+	padding-left:0;
+	}
+
+.quad_column h3 {
+	text-transform:uppercase;
+	letter-spacing:3px;
+	font-size:18pt;
+	font-family:"NexaLight", sans-serif;
+	font-weight:100;
+	margin:0;
+	padding:0;
+	line-height:20pt;
+	}
+
+.quad_column ul {
+	list-style-type:none;
+	margin:0;
+	padding:1em 0 0 0;
+	}
+
+.quad_column ul li,
+.quad_column ol li {
+	margin:0;
+	padding:0 0 .7em 0;
+	}
+
+.spacer { height:40px; clear:left; }
+
+
+#responsibility .column.left { width:auto; float:none; }
+#responsibility .column.right { display:none; }
+
+
+.ok ul,
+.no ul {
+	list-style-type:none;
+	padding:.1em 0 .5em 2em;
+	}
+
+.ok ul li {
+	background:none;
+	padding:0 0 6px 0;
+	}
+
+.ok ul li:before {
+	content:"";
+	display:block;
+	float:left;
+	background:url("//assets.ghostshield.com/img/ok.svg") center center no-repeat;
+	background-size:16px 16px;
+	width:16px;
+	height:16px;
+	margin-left:-30px;
+	}
+
+.no ul li {
+	background:none;
+	padding:0 0 6px 0;
+	}
+
+.no ul li:before {
+	content:"";
+	display:block;
+	float:left;
+	background:url("//assets.ghostshield.com/img/no.svg") center center no-repeat;
+	background-size:16px 16px;
+	width:16px;
+	height:16px;
+	margin-left:-30px;
+	}
+
+.videos h4 { padding-top:1em; }
+
+/********
+
+	PRODUCT FINDER
+
+*/
+
+#product_finder {
+	text-align:center;
+	position:relative;
+	padding:20px;
+	border:1px solid transparent;
+	}
+
+#product_finder .pf_interior {
+	min-height:550px;
+	position:relative;
+	margin:0;
+	padding:1px;
+	}
+
+#product_finder.non_ajax {
+	min-height:500px;
+	color:#000;
+	padding:0 200px 75px 200px !important;
+	}
+
+#product_finder h3 {
+	font-family:'Nexa', sans-serif;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+	text-align:center;
+	}
+
+#product_finder h3.product_name {
+	text-indent:-9999px;
+	overflow:hidden;
+	}
+
+#product_finder h3.project_name {
+	margin-bottom:20px;
+	text-transform:none;
+	}
+
+#product_finder p {
+	text-align:center;
+	padding:12px 26px 1em 0;
+	}
+#product_finder p.prelude {
+	padding-bottom:0;
+	}
+
+#product_finder ul.answers {
+	padding:0;
+	list-style:none;
+	max-width:840px;
+	margin:0 auto;
+	display:inline-block;
+	}
+
+#product_finder ul.answers li {
+	margin:0 0 4px 0;
+	padding:0;
+	display:inline-block;
+	vertical-align:top;
+	}
+
+#product_finder ul.answers li a,
+#product_finder .pf_product ul.actions li a,
+.product_listing ul.actions li a {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:17px;
+	font-size:17px;
+	font-family:"Nexa", sans-serif;
+	width:160px;
+	min-height:36px;
+	padding:11px 19px 7px 21px;
+	position:relative;
+	border:1px solid transparent;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	border-right:1px solid rgba(0,0,0,0.1);
+	border-radius:2px;
+	text-shadow:-1px -1px 0 rgba(0,0,0,0.1);
+	text-decoration:none;
+	z-index:1;
+	background:#ff611d;
+	color:#fff;
+	cursor:pointer;
+	letter-spacing:1px;
+	margin-top:0px;
+	}
+
+#product_finder ul.answers li a:hover,
+#product_finder .pf_product ul.actions li a:hover,
+.product_listing ul.actions li a:hover {
+	margin-top:0px;
+	background:#F7B430;
+	border-top-color:rgba(255,255,255,0.2);
+	border-left-color:rgba(255,255,255,0.1);
+	}
+
+#product_finder ul.answers li a:active,
+#product_finder .pf_product ul.actions li a:active,
+.product_listing ul.actions li a:active {
+	background:#ff611d;
+	border-bottom:0;
+	margin-top:1px;
+	}
+
+#product_finder ul.answers li a.has_image,
+#product_finder .pf_product ul.actions li a.has_image,
+.product_listing ul.actions li a.has_image {
+	padding-top:80px;
+	background-size:90px 90px;
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+
+#product_finder .pf_product {
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:20px;
+	max-width:800px;
+	min-height:150px;
+	margin:0 auto 20px auto;
+	position:relative;
+	}
+
+#product_finder .pf_primer {
+	border-bottom:0;
+	margin-bottom:0;
+	}
+
+#product_finder .pf_product img {
+	float:left;
+	height:150px;
+	}
+
+#product_finder .pf_product h3,
+#product_finder .pf_product p {
+	text-align:left;
+	margin:0 180px;
+	}
+
+#product_finder .pf_product ul.actions {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:10px;
+	top:24px;
+	}
+
+#product_finder .pf_product ul.actions li,
+.product_listing ul.actions li {
+	margin:0;
+	padding:0;
+	margin:0 0 4px 0;
+	}
+
+#product_finder .pf_product ul.actions li a,
+.product_listing ul.actions li a {
+	padding:10px 20px 8px 20px;
+	width:160px;
+	}
+
+/*#product_finder .status-loading {
+	min-width:
+	}*/
+
+#product_finder ul.pf_navigation {
+	clear:left;
+	list-style:none;
+	margin:0 auto 20px auto;
+	padding:20px 0 0 0;
+	width:300px;
+	}
+
+#product_finder ul.pf_navigation li {
+	display:block;
+	}
+
+#product_finder ul.pf_navigation li a {
+	text-decoration:none;
+	color:#333;
+	background-size:16px 12px;
+	background-position:left top;
+	background-repeat:no-repeat;
+	padding-left:21px;
+	text-align:center;
+	margin-bottom:8px;
+	}
+
+#product_finder ul.pf_navigation li a:hover {
+	color:#ff611d;
+	}
+
+#product_finder ul.pf_navigation li a.back {
+	background-image:url("//assets.ghostshield.com/img/icons/nav-arrow-back.svg");
+	}
+#product_finder ul.pf_navigation li a.restart {
+	background-image:url("//assets.ghostshield.com/img/icons/nav-arrow-restart.svg");
+	}
+
+#product_finder ul.answers li a span,
+#product_finder .pf_product ul.actions li a span,
+.product_listing ul.actions li a.span {
+	display:block;
+	}
+
+#product_finder p a {
+	color:#ff611d;
+	}
+
+#product_finder p a:hover {
+	color:#f7b430;
+	}
+
+@media (max-width:1099px) {
+
+	#product_finder.non_ajax {
+		padding:0 20px 75px 20px !important;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	#product_finder .pf_product ul.actions {
+		position:relative;
+		right:auto;
+		top:auto;
+		margin:0 auto;
+		clear:left;
+		padding:10px 0;
+		}
+	
+	#product_finder .pf_product ul.actions li a {
+		width:calc(100% - 40px);
+		}
+
+	#product_finder .pf_product h3,
+	#product_finder .pf_product p {
+		margin:0 0 0 140px;
+		}
+
+}
+
+
+.socket {
+	display:none;
+	}
+
+
+
+/********
+
+	PRODUCT - BUY
+
+*/
+
+#buy {
+	padding:0;
+	position:relative;
+	background:#777;
+	overflow:hidden;
+	}
+
+#buy h2 {
+	padding-top:20px;
+	}
+
+#buy ul {
+	display:block;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+	}
+
+#buy ul li {
+	display:inline-block;
+	margin:0;
+	padding:0;
+	min-width:140px;
+	width:30%;
+	position:relative;
+	min-height:100px;
+	background:none;
+	}
+
+#buy ul li a {
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-85px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	height:70px;
+	width:140px;
+	outline:5px solid transparent;
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	/*background-color:#f6f6f6;
+	border:10px solid #f6f6f6;*/
+	border:10px solid transparent;
+	cursor:pointer;
+	-webkit-transition:all 500ms;
+	transition:all 500ms;
+	}
+
+#buy ul li a.concretesealersolutions {
+	background-image:url("//assets.ghostshield.com/img/logo/concretesealersolutions.svg");
+	}
+
+#buy ul li a.thehomedepot,
+#buy ul li a.homedepot {
+	background-image:url("//assets.ghostshield.com/img/logo/thehomedepot.svg");
+	}
+
+#buy ul li a.lowes {
+	background-image:url("//assets.ghostshield.com/img/logo/lowes.svg");
+	}
+
+#buy ul li a.grainger {
+	background-image:url("//assets.ghostshield.com/img/logo/grainger.svg");
+	}
+
+
+
+/********
+
+	COLUMNS
+
+*/
+
+
+.column {
+	margin:0;
+	padding:0;
+	position:relative;
+	display:block;
+	float:left;
+	box-sizing:content-box;
+	width:50%;
+	}
+
+.column.full {
+	width:100%;
+	float:none;
+	clear:left;
+	}
+
+.column .column_interior {
+	position:relative;
+	padding:10px 60px 10px 60px;
+	font-family:"NexaLight", sans-serif;
+	}
+
+.column.full .column_interior {
+	max-width:1200px;
+	}
+
+.column.full .column_interior_full {
+	max-width:1600px;
+	}
+
+.index .column.full .column_interior {
+	max-width:none;
+	}
+
+
+.column .video_large,
+.column .image_large {
+	display:none;
+	}
+
+
+/********
+
+	CONTACT
+
+*/
+
+.contact_left {
+	display:none;
+	}
+
+#contact_footer p.centered {
+	text-align:center;
+	padding-bottom:1em;
+	}
+
+
+.contact_right h4 {
+	font-family:'NexaBold',sans-serif;
+	letter-spacing:4px;
+	color:#ff611d;
+	padding-top:8px;
+	margin-top:0;
+	}
+
+.contact_right address {
+	font-style:normal;
+	padding:0 0 8px 0;
+	}
+
+.contact_right .phone {
+	padding-bottom:8px;
+	}
+	
+.contact_right a {
+	color:#f7b433;
+	text-decoration:none;
+	}
+
+
+/********
+
+	FOOTER
+
+*/
+
+footer {
+	color:#666;
+	padding:0 0 70px 0;
+	min-height:110px;
+	font-size:11px;
+	/*margin-bottom:2vw;*/
+	}
+
+
+footer ul {
+	display:none;
+	}
+
+footer p {
+	text-transform:uppercase;
+	padding:10px 0 0 0;
+	margin:0;
+	border-top:1px solid #999;
+	}
+
+
+/********
+
+	TABS
+
+*/
+
+
+.tab-buttons a {
+	display:inline-block;
+	width:auto;
+	text-align:center;
+	padding:10px 16px 8px 16px;
+	font-size:14pt;
+	font-weight:normal;
+	cursor:pointer;
+	position:relative;
+	color:#3a2b2f;
+	-webkit-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+	font-family:"Nexa", sans-serif;
+	vertical-align:top;
+	text-decoration:none;
+	}
+	
+/**
+
+*/
+
+ul.column_list {
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	}
+
+
+ul.commas {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+ul.commas li {
+	background:none;
+	padding:0;
+	margin:0;
+	display:inline;
+	}
+
+ul.commas li:after {
+	content:", ";
+	}
+
+ul.commas li:last-child:after {
+	content:"";
+	}
+
+ul.product_list,
+ul.file_list {
+	padding-bottom:40px;
+	vertical-align:top;
+	}
+
+ul.product_list li {
+    vertical-align:top;
+    display:inline-block;
+    margin:0 20px 10px 0;
+    width:calc(30% - 20px);
+    }
+
+ul.product_list a,
+ul.file_list a {
+	color:#ff611d;
+	text-decoration:none;
+	font-family:"Nexa", sans-serif;
+	}
+
+ul.product_list a:hover,
+ul.file_list a:hover {
+	color:#f7b430;
+	}
+
+h4 {
+	text-transform:uppercase;
+	font-weight:normal;
+	}
+
+.product2:after {
+	clear:left;
+	margin:0 40px 40px 40px;
+	border-bottom:1px solid #AEA09E;
+	content:"";
+	background:#FDFCFB;
+	height:40px;
+	display:block;
+	}

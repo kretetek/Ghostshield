@@ -1,0 +1,13 @@
+.video .description {
+    padding: 0 20px;
+    overflow: overlay;
+}
+
+.video {
+    flex: auto;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}

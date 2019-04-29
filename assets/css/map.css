@@ -1,0 +1,64 @@
+
+/********
+
+	MAP
+
+*
+
+#map {
+	clear:left;
+	position:relative;
+	margin:0 0;
+	width:100%;
+	height:500px;
+	}
+
+.mapboxgl-popup {
+	max-width:400px;
+	font:12px/20px 'NexaLight', sans-serif;
+	}
+
+.mapboxgl-popup a {
+	color:#333;
+	}
+
+.mapboxgl-popup a:hover {
+	color:#227;
+	}
+
+.mapboxgl-popup .contact {
+	padding-bottom:1em;
+	}
+
+.mapboxgl-popup .contact address {
+	line-height:14pt;
+	font-size:10pt;
+	}
+
+.mapboxgl-popup .contact img {
+	max-width:150px;
+	max-height:100px;
+	margin:0 14px 14px 0;
+	float:left;
+	}
+
+.mapboxgl-popup h3 {
+	margin:0;
+	padding:0 0 .5em 0;
+	text-transform:uppercase;
+	font-size:12pt;
+	letter-spacing:2px;
+	font-weight:normal;
+	}
+
+.mapboxgl-popup p {
+	clear:left;
+	padding:0;
+	margin:0;
+	font-weight:200;
+	font-family:sans-serif;
+	}
+
+.marker-title {
+	font-weight:700;
+	}*/

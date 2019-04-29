@@ -1,0 +1,7 @@
+@media (max-height:800px) {
+
+	nav.main_nav > ul li .submenu {
+		width:478px;
+		}
+
+}

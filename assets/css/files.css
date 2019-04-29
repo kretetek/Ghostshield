@@ -1,0 +1,86 @@
+/********
+
+	PRODUCT - TECHNICAL DOCUMENTS
+
+*/
+
+#tech_docs {
+	min-height:140px;
+	padding:16px 0 44px 0;
+	}
+
+ul.files {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	}
+
+ul.files li {
+	/*float:left;*/
+	display:inline-block;
+	vertical-align:top;
+	width:274px;
+	min-height:60px;
+	background:none;
+	padding:0;
+	}
+
+a.pdf	{ background-image:url("//assets.ghostshield.com/img/icons/document-pdf.svg"); }
+a.doc, a.microsoft.word	{ background-image:url("//assets.ghostshield.com/img/icons/document-doc.svg"); }
+/*a.xls, a.microsoft.excel	{ background-image:url("//assets.ghostshield.com/img/icons/document-xls.svg"); }*/
+
+a.file {
+	display:block;
+	vertical-align:top;
+	position:relative;
+	background-size:3vw 3vw;
+	background-position:top left;
+	background-repeat:no-repeat;
+	padding:0 0 0 3.3vw;
+	min-height:60px;
+	text-decoration:none;
+	color:#3a2b2f;
+	font-size:80%;
+	line-height:110%;
+	max-width:27vw;
+	}
+
+a.file span.name {
+	display:block;
+	}
+
+a.file:hover span.name {
+	text-decoration:underline
+	}
+
+a.file span.details {
+	display:block;
+	color:#888;
+	font-size:70%;
+	padding-left:1px;
+	}
+
+a.file span.parenthesis {
+	display:none;
+	}
+
+@media (max-width:1100px) {
+
+	ul.files li {
+		margin:0 20px 10px 20px;
+		}
+
+	#tech_docs {
+		padding-bottom:20px;
+		}
+	
+	a.file {
+		background-size:8vw 8vw;
+		padding:0 0 0 8.8vw;
+		font-size:100%;
+		line-height:120%;
+		max-width:40vw;
+		min-height:8vw;
+		}
+
+}

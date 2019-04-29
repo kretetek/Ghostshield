@@ -1,0 +1,697 @@
+/********
+
+	PRODUCT FINDER
+
+*/
+
+#product_finder {
+	text-align:center;
+	position:relative;
+	padding:20px;
+	/*border:1px solid transparent;*/
+	background:url("//assets.ghostshield.com/img/bg/product-finder-4.svg") center center no-repeat;
+	background-size:cover;
+	}
+
+#product_finder .pf_interior {
+	min-height:550px;
+	position:relative;
+	margin:0;
+	padding:1px;
+	}
+
+#product_finder a.splash {
+	background:#fff url("//assets.ghostshield.com/img/icons/mag-glass-2.svg") bottom -1px left 110px no-repeat;
+	background-size:19%;
+	padding:2rem 140px 1.6rem 220px;
+	max-width:180px;
+	margin:1em auto;
+	display:block;
+	font-size:21pt;
+	line-height:24pt;
+	border-bottom:3px solid #ff611d;
+	box-shadow:2px 2px 8px rgba(0,0,0,0.15);
+	color:#444;
+	line-height:auto !important;
+	text-align:left;
+	transition:transform 150ms linear;
+	}
+
+#product_finder a.splash .status {
+	width:200px;
+	}
+
+#product_finder a.splash svg {
+	display:none;
+	}
+
+#product_finder a.splash:hover {
+	transform:scale(1.01);
+	transition:transform 300ms cubic-bezier(.64,1,.65,.81);
+	}
+
+#product_finder a.splash:active {
+	transform:scale(1);
+	transition:transform 50ms linear;
+	box-shadow:none;
+	}
+
+#product_finder h2.always_centered {
+	margin-bottom:0;
+	padding-bottom:0;
+	padding-top:40px;
+	}
+
+#product_finder h2.always_centered:after {
+	display:none;
+	}
+
+#product_finder a.splash h2 {
+	border:0;
+	text-align:left;
+	margin:0 0 16px 0;
+	padding:0;
+	line-height:1.2em !important;
+	}
+
+#product_finder .splash-subtext {
+	font-size:.8em;
+	}
+
+#product_finder.non_ajax {
+	min-height:500px;
+	color:#000;
+	padding:0 200px 75px 200px !important;
+	}
+
+#product_finder h3 {
+	font-family:'bio-sans', sans-serif;
+	font-weight:700;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin:0;
+	font-size:2.2vw;
+	padding:3px 0 0 0;
+	letter-spacing:-1px;
+	text-align:center;
+	}
+
+#product_finder h3 a {
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#3a2b2f;
+	padding:2px 3px 0 3px;
+	}
+
+#product_finder h3 a:hover {
+	color:#ff611b;
+	}
+
+#product_finder h3.project_name {
+	padding:3vw 0 0 0;
+	}
+
+#product_finder h3 span {
+	letter-spacing:-3px;
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	color:#999;
+	margin:0 2px 0 -2px;
+	font-size:2vw;
+	line-height:2vw;
+	}
+
+#product_finder h3.product_name {
+	text-indent:-9999px;
+	overflow:hidden;
+	}
+
+#product_finder h3.project_name {
+	margin-bottom:20px;
+	text-transform:none;
+	}
+
+#product_finder .pf_description {
+	text-align:left;
+	padding:12px 26px 0 0;
+	margin:0 20vw 0 15vw;
+	/*font-size: 90%;*/
+	}
+
+@media (min-width:600px) {
+
+	p.splash-subtext span {
+		display:block;
+		text-align:center;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	#product_finder a.splash {
+		background-position:bottom -1px left 20px;
+		background-size:28%;
+		line-height:24pt;
+		padding:1.3em 20px 1.1em 150px;
+		max-width:600px;
+		}
+
+	#product_finder a.arrow.link {
+		font-size:20pt;
+		line-height:24pt;
+		}
+
+}
+
+@media (max-width:450px) {
+
+	#product_finder .pf_description {
+		margin:0;
+		}
+
+}
+
+#product_finder .pf_description p {
+	line-height:1.3em;
+	}
+
+#product_finder .pf_description table {
+	}
+
+#product_finder .pf_description table {
+	border-collapse:collapse;
+	/*display:inline-block;*/
+	}
+
+#product_finder .pf_description table tr,
+#product_finder .pf_description table tr td {
+	text-align:left;
+	border:0;
+	vertical-align:top;
+	line-height:1.2em;
+	}
+
+#product_finder .pf_description table tr th {
+	/*font-family:"Nexa", sans-serif;
+	text-transform:uppercase;
+	font-size:80%;
+	letter-spacing:3px;*/
+	font-weight:normal;
+	color:#444;
+	padding-top:6px;
+	}
+
+#product_finder .pf_description table tr td.quantity {
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	padding:1px 10px 0 6px;
+	text-align:right;
+	}
+
+#product_finder .pf_description table tr td.container {
+	padding:3px 0 0 0;
+	font-family:"proxima-nova-condensed", sans-serif;
+	}
+
+#product_finder .legal {
+	color:#555;
+	font-size:80%;
+	padding-top:20px;
+	max-width:720px;
+	margin:0 auto;
+	}
+
+#product_finder .pf_interior p {
+	padding:20px 0 3vw 0;
+	margin:0;
+	margin:0 auto;
+	}
+
+#product_finder .legal a {
+	white-space:nowrap;
+	}
+
+#product_finder .pf_description table.placeholder {
+	border-collapse:collapse;
+	border:0;
+	}
+
+#product_finder .pf_description table.placeholder td {
+	color:#777;
+	font-size:90%;
+	padding-top:6px;
+	letter-spacing:1px;
+	}
+
+#product_finder p.prelude {
+	padding-bottom:0;
+	}
+
+@media (max-width:740px) {
+
+	#product_finder .pf_interior {
+		min-height:100px;
+		padding-bottom:20px;
+		}
+
+	#product_finder p {
+		padding-right:0;
+		}
+	#product_finder p.prelude {
+		}
+
+	#product_finder .hex-button {
+		margin:0;
+		width:calc(100vw - 130px);
+		}
+
+}
+
+@media (max-width:420px) {
+
+	#product_finder .hex-button {
+		margin:10px 0 0 0;
+		width:calc(50vw - 40px) !important;
+		padding:10px 10px 8px 10px;
+		}
+
+	#product_finder .hex-button:first-child {
+		margin-right:10px;
+		}
+}
+
+#product_finder ul.answers {
+	padding:0;
+	list-style:none;
+	max-width:84vw;
+	margin:0 auto;
+	display:inline-block;
+	}
+
+#product_finder ul.answers li {
+	margin:.25vw .5vw 1vw .5vw;
+	padding:0;
+	display:inline-block;
+	vertical-align:top;
+	}
+
+#product_finder ul.answers li a,
+#product_finder .pf_product ul.actions li a,
+#product_finder .product_listing ul.actions li a {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:1.6vw;
+	font-size:1.6vw;
+	font-family:"proxima-nova-condensed", sans-serif;
+	padding:1vw 3vw 0.7vw 3vw;
+	width:10vw;
+	min-height:5vw;
+	position:relative;
+	border:1px solid transparent;
+	border-bottom:.2vw solid #ff611d;
+	/*border-right:1px solid rgba(0,0,0,0.1);*/
+	box-shadow:2px 2px 8px rgba(0,0,0,0.15);
+	border-radius:.2vw;
+	/*text-shadow:1px 1px 0 rgba(0,0,0,0.05);*/
+	text-decoration:none;
+	z-index:1;
+	background:#fff;
+	color:#000;
+	cursor:pointer;
+	letter-spacing:.1vw;
+	margin-top:0px;
+	transition:transform 150ms linear;
+	}
+
+#product_finder ul.answers li a:hover,
+#product_finder .pf_product ul.actions li a:hover,
+#product_finder .product_listing ul.actions li a:hover {
+	/*margin-top:0px;
+	background:#F7B430;*/
+	transform:scale(1.05);
+	transition:transform 300ms cubic-bezier(.64,1,.65,.81);
+	border-top-color:rgba(255,255,255,0.2);
+	border-left-color:rgba(255,255,255,0.1);
+	}
+
+#product_finder ul.answers li a:active,
+#product_finder .pf_product ul.actions li a:active,
+#product_finder .product_listing ul.actions li a:active {
+	/*background:#ff611d;
+	border-bottom:0;
+	margin-top:1px;*/
+	transform:scale(1);
+	transition:transform 50ms linear;
+	box-shadow:none;
+	}
+
+#product_finder ul.answers li a.has_image,
+#product_finder .pf_product ul.actions li a.has_image,
+#product_finder .product_listing ul.actions li a.has_image {
+	padding-top:8vw;
+	background-size:10vw;
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+
+@media (max-width:700px) {
+
+	#product_finder ul.answers li a.has_image,
+	#product_finder .pf_product ul.actions li a.has_image,
+	#product_finder .product_listing ul.actions li a.has_image {
+		padding:1.5vw 1.5vw 1.5vw 16vw;
+		font-size:12pt;
+		background-size:9vw;
+		background-repeat:no-repeat;
+		background-position:6% center;
+		text-align:left;
+		width:calc(76vw - 80px);
+		}
+
+}
+
+#product_finder .pf_product {
+	padding:4vw;
+	max-width:76vw;
+	min-height:150px;
+	margin:0 auto;
+	position:relative;
+	border-radius:4px;
+	background:#fbfbfb;
+	box-shadow:1px 1px 12px rgba(0,0,0,0.05);
+	}
+
+#product_finder .pf_primer {
+	border-bottom:0;
+	margin-bottom:1em;
+	}
+
+#product_finder .pf_product img {
+	float:left;
+	height:12vw;
+	}
+
+#product_finder .pf_product h3 {
+	text-align:left;
+	margin:0 15vw;
+	}
+
+#product_finder .pf_product ul.actions {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position:absolute;
+	right:4vw;
+	top:24px;
+	}
+
+#product_finder .pf_product ul.actions li,
+#product_finder .product_listing ul.actions li {
+	padding:0;
+	border-bottom:4px solid transparent;
+	margin:0 0 6px 0;
+	}
+
+#product_finder .pf_product ul.actions li a,
+#product_finder .product_listing ul.actions li a {
+	padding:1vw 2vw 0.7vw 2vw;
+	width:12vw;
+	}
+
+/*#product_finder .status-loading {
+	min-width:
+	}*/
+
+#product_finder ul.pf_navigation {
+	clear:left;
+	list-style:none;
+	margin:0 auto 20px auto;
+	padding:20px 0 0 0;
+	width:300px;
+	}
+
+#product_finder ul.pf_navigation li {
+	display:block;
+	}
+
+#product_finder ul.pf_navigation li a {
+	text-decoration:none;
+	color:#333;
+	background-size:1.7vw 1.3vw;
+	background-position:left .2vw;
+	background-repeat:no-repeat;
+	padding-left:2vw;
+	text-align:center;
+	margin-bottom:.4vw;
+	}
+
+#product_finder ul.pf_navigation li a:hover {
+	color:#ff611d;
+	}
+
+#product_finder ul.pf_navigation li a.back {
+	background-image:url("//assets.ghostshield.com/img/icons/nav-arrow-back.svg");
+	}
+#product_finder ul.pf_navigation li a.restart {
+	background-image:url("//assets.ghostshield.com/img/icons/nav-arrow-restart.svg");
+	}
+
+#product_finder ul.answers li a span,
+#product_finder .pf_product ul.actions li a span,
+#product_finder .product_listing ul.actions li a.span {
+	display:block;
+	}
+
+#product_finder p a {
+	color:#ff611d;
+	}
+
+#product_finder p a:hover {
+	color:#f7b430;
+	}
+
+#product_finder .pf_info {
+	background:#fff;
+	margin:12px auto 0 auto;
+	box-shadow:2px 2px 9px rgba(0,0,0,0.1);
+	border-radius:3px;
+	padding:0 20px 15px 20px;
+	}
+
+@media (max-width:1099px) {
+
+	#product_finder.non_ajax {
+		padding:0 20px 75px 20px !important;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	#product_finder .pf_product ul.actions {
+		position:relative;
+		right:auto;
+		top:auto;
+		margin:0 auto;
+		clear:left;
+		padding:10px 0;
+		}
+	
+	#product_finder .pf_product ul.actions li a {
+		width:calc(100% - 40px);
+		}
+
+	#product_finder .pf_product h3,
+	#product_finder .pf_product p {
+		margin:0 0 0 15vw;
+		}
+
+}
+
+@media (max-width:450px) {
+
+	#product_finder .pf_product p {
+		margin:0;
+		}
+
+}
+
+input#product_finder_sqft {
+	display:block;
+	margin:10px 0;
+	font-size:24pt;
+	font-family:"bio-sans",sans-serif;
+	font-weight:700;
+	padding:8px 8px 4px 8px;
+	text-align:center;
+	width:380px;
+	margin-left:calc(50% - 210px);
+	}
+
+@media (max-width:420px) {
+	
+	input#product_finder_sqft {
+		width:80vw;
+		margin:0 auto;
+		}
+	
+}
+
+dfn {
+	z-index:20;
+	}
+
+#page_footer_before:before {
+	background-image:url("//assets.ghostshield.com/img/angles/invert-triangle-grey.svg") !important;
+	}
+
+
+/**********
+
+	LOADING ANIMATION
+
+*/
+
+.socket {
+	width:200px;
+	height:200px;
+	position:absolute;
+	left:50%;
+	margin-left:-100px;
+	top:70%;
+	margin-top:-100px;
+	-webkit-transform:scale(.5);
+	transform:scale(.5);
+	}
+
+.socket .hex-brick {
+	background:rgba(77,77,77,.4);
+	width:30px;
+	height:17px;
+	position:absolute;
+	top:5px;
+	animation-name:load-fade;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	-webkit-animation-name:load-fade;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	}
+
+.socket .h2 {
+	transform:rotate(60deg);
+	-webkit-transform:rotate(60deg);
+	}
+
+.socket .h3 {
+	transform:rotate(-60deg);
+	-webkit-transform:rotate(-60deg);
+	}
+
+.socket .gel {
+	height:30px;
+	width:30px;	
+	transition:all .3s;
+	-webkit-transition:all .3s;
+	position:absolute;
+	top:50%;
+	left:50%;
+	}
+
+.socket .center-gel {
+	margin-left:-15px;
+	margin-top:-15px;
+	animation-name:load-pulse;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	-webkit-animation-name:load-pulse;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	}
+
+.socket .c1 {
+	margin-left:-47px;
+	margin-top:-15px;
+	}
+
+.socket .c2 {
+	margin-left:-31px;
+	margin-top:-43px;
+	}
+
+.socket .c3 {
+	margin-left:1px;
+	margin-top:-43px;
+	}
+
+.socket .c4 {
+	margin-left:17px;
+	margin-top:-15px;
+	}
+
+.socket .c5 {
+	margin-left:-31px;
+	margin-top:13px;
+	}
+
+.socket .c6 {
+	margin-left:1px;
+	margin-top:13px;
+	}
+
+.socket .r1 {
+	animation-name:load-pulse;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-delay:.2s;
+	-webkit-animation-name:load-pulse;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-delay:.2s;
+	}
+
+.socket .r1 > .hex-brick {
+	animation-name:load-fade;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-delay:.2s;
+	-webkit-animation-name:load-fade;
+	-webkit-animation-duration:2s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-delay:.2s;
+	}
+
+
+@keyframes load-pulse{
+
+	0% { -webkit-transform:scale(1); transform:scale(1); }
+	50% { -webkit-transform:scale(0.01); transform:scale(0.01); }
+	100% { -webkit-transform:scale(1); transform:scale(1); }
+
+}
+
+@keyframes load-fade {
+
+	0% { background:#777; }
+	50% { background:#333; }
+	100% { background:#777; }
+
+}
+
+@-webkit-keyframes load-pulse {
+
+	0% { -webkit-transform:scale(1); transform:scale(1); }
+	50% { -webkit-transform:scale(0.01); transform:scale(0.01); }
+	100% { -webkit-transform:scale(1); transform:scale(1); }
+
+}
+
+@-webkit-keyframes load-fade {
+
+	0% { background: #777; }
+	50% { background: #333; }
+	100% { background: #777; }
+
+}

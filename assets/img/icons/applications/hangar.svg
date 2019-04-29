@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.7875;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.7741;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="hangar_copy">
+	<path class="st0" d="M5.8,34.2c0-11.8,8.7-21.4,19.5-21.4s19.4,9.6,19.4,21.4"/>
+	<g>
+		<polyline class="st1" points="26.1,30.4 27.5,31.6 27.9,31.6 		"/>
+		<line class="st1" x1="27.9" y1="30.7" x2="27.9" y2="32.5"/>
+		<polyline class="st1" points="24.4,30.4 23.1,31.6 22.6,31.6 		"/>
+		<line class="st1" x1="22.6" y1="30.7" x2="22.6" y2="32.5"/>
+	</g>
+	<polygon class="st1" points="27.5,25.8 23,25.8 23.5,30.3 27,30.3 	"/>
+	<line class="st1" x1="22.8" y1="29.8" x2="27.7" y2="27"/>
+	<line class="st1" x1="25.3" y1="25.6" x2="25.3" y2="23.2"/>
+	<g>
+		<line class="st1" x1="18" y1="27.3" x2="23.1" y2="27.3"/>
+		<line class="st1" x1="27.3" y1="27.3" x2="32.6" y2="27.3"/>
+	</g>
+	<circle class="st1" cx="25.3" cy="28.4" r="0.9"/>
+	<line class="st1" x1="11.8" y1="25.8" x2="38.7" y2="25.8"/>
+</g>
+</svg>

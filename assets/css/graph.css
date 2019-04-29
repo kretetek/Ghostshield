@@ -1,0 +1,101 @@
+.bar_graph {
+	position:relative;
+	width:100%;
+	height:100%;
+	min-height:30vh;
+	color:#F8FCFE;
+	transform:translateX(5%);
+	}
+
+.bar_graph .x_axis_label {
+	position:absolute;
+	border-top:1px solid rgba(255,255,255,0.1);
+	text-align:center;
+	bottom:0;
+	left:0;
+	right:0;
+	height:1%;
+	font-size:8pt;
+	text-transform:uppercase;
+	letter-spacing:0.1vw;
+	padding-top:3vw;
+	padding-top:7%;
+	color:rgba(255,255,255,0.2);
+	}
+
+.bar_graph .y_axis_label {
+	position:absolute;
+	transform:rotate(90deg);
+	border-top:1px solid rgba(255,255,255,0.1);
+	text-align:center;
+	top:calc(16vw + 1px);
+	top:52%;
+	left:-11vw;
+	left:-30%;
+	width:20vw;
+	width:55%;
+	font-size:8pt;
+	letter-spacing:0.1vw;
+	text-transform:uppercase;
+	padding-top:1vw;
+	padding-top:3%;
+	color:rgba(255,255,255,0.2);
+	}
+
+.bar_graph h3 {
+	margin:0;
+	padding:.5vw 0 0 0;
+	text-transform:uppercase;
+	font-family:"proxima-nova-condensed", sans-serif;
+	font-weight:700;
+	}
+
+.bar_graph h3 small {
+	text-transform:none;
+	display:block;
+	letter-spacing:1px;
+	font-size:80%;
+	}
+
+.bar_graph .section {
+	width:20%;
+	bottom:calc(4vw + 1px);
+	bottom:calc(10% + 1px);
+	height:20vw;
+	height:65%;
+	position:absolute;
+	}
+
+.bar_graph .product_a { left:0; }
+.bar_graph .product_b { left:20%; }
+.bar_graph .product_c { left:40%; }
+.bar_graph .product_d { left:60%; }
+.bar_graph .product_e { left:80%; }
+
+.bar_graph .name {
+	position:absolute;
+	top:21vw;
+	top:105%;
+	text-align:center;
+	left:0;
+	width:100%;
+	font-size:60%;
+	}
+
+.bar_graph .bar {
+	width:44%;
+	background:#fff;
+	color:#888;
+	position:absolute;
+	bottom:0;
+	left:28%;
+	text-align:center;
+	line-height:40px;
+	font-size:80%;
+	font-family:"proxima-nova-condensed", sans-serif;
+	}
+
+.bar_graph .section.product_e .bar {
+	background:#fc6a21 !important;
+	color:#fff !important;
+	}

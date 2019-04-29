@@ -1,0 +1,12 @@
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+
+	RewriteRule ^([A-z]+)([0-9]+)/?$ index.php?model=$2&%{QUERY_STRING}
+
+</IfModule>

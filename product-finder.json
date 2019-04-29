@@ -1,0 +1,1265 @@
+{
+	"answers": {
+		"Roof": {
+			"answers": {
+				"Flat Concrete": {
+					"primer": 4500,
+					"product": 8510,
+					"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+					"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+				},
+				"Concrete Tiles": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				}
+			},
+			"question": "What type of roof do you have?"
+		},
+		"Wall": {
+			"answers": {
+				"Brick": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Stone": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Stucco": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Concrete": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				}
+			},
+			"question": "What type of substrate is the wall comprised of?"
+		},
+		"Patio": {
+			"answers": {
+				"Brick": {
+					"answers": {
+						"No": {
+							"product": 8500,
+							"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+						},
+						"Yes": {
+							"noun": "Stain Protection",
+							"answers": {
+								"Water-Based": {
+									"product": 8505,
+									"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								},
+								"Solvent-Based": {
+									"product": 8510,
+									"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+						}
+					},
+					"question": "Are you looking for oil or stain protection?"
+				},
+				"Paver": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Slate": {
+					"answers": {
+						"Low Sheen": {
+							"answers": {
+								"No": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5100,
+									"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"High Gloss": {
+							"answers": {
+								"No": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5105,
+									"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Stone": {
+					"answers": {
+						"Low Sheen": {
+							"answers": {
+								"No": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5100,
+									"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"High Gloss": {
+							"answers": {
+								"No": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5105,
+									"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Concrete": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Satillo Tile": {
+					"answers": {
+						"Low Sheen": {
+							"answers": {
+								"No": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5100,
+									"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"High Gloss": {
+							"answers": {
+								"No": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Yes": {
+									"noun": "Color Enhancement",
+									"product": 5105,
+									"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+								}
+							},
+							"question": "Are you looking for color enhancement?"
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Stamped Concrete": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Exposed Aggregate": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				}
+			},
+			"question": "What substrate is your patio comprised of?"
+		},
+		"Bridge": {
+			"question": "Is this a vertical or horizontal application?",
+			"answers": {
+				"Vertical": {
+					"product": 8501,
+					"product_note": "Iso-Tek 8501: A revolutionary, thixotropic, solvent-less, silane-based water repellent used to prevent water, chlorides, sulfates and acid gases from penetrating concrete while resisting oxidation and inhibiting rust."
+				},
+				"Horizontal": {
+					"answers": {
+						"Water-Based": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"product": 8505,
+									"product_note": "A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						},
+						"Solvent-Based": {
+							"product": 8510,
+							"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						},
+						"100% Actives": {
+							"product": 8100,
+							"product_note": "A clear, 100% actives, natural finish, deep penetrating waterproofing sealer providing protection from freeze-thaw damage, deicing salt degradation, cracking and spalling."
+						}
+					},
+					"question": "Are you looking for a <dfn>water-based</dfn>, <dfn>solvent-based</dfn>, or 100% actives product?"
+				}
+			}
+		},
+		"Garage": {
+			"answers": {
+				"Gloss Coating": {
+					"answers": {
+						"No": {
+							"primer": 325,
+							"product": 645,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Urethane 745 top coat.",
+							"product_note": "Used as a top coat, Urethane 645 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Urethane 645 leaves a semi gloss finish. Apply in a single coat and will fully cure within 3-5 days."
+						},
+						"Yes": {
+							"noun": "Fast-Curing",
+							"primer": 325,
+							"product": 745,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Polyaspartic 745 top coat.",
+							"product_note": "Used as a top coat or stand-alone product, Polyaspartic 745 is a clear, high gloss, durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Apply in a single coat and will fully cure within 1-3 days."
+						}
+					},
+					"question": "Are you willing to spend more for a quicker cure time?"
+				},
+				"Penetrating Sealer": {
+					"answers": {
+						"No": {
+							"answers": {
+								"No": {
+									"product": 9500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Salt Protection",
+									"primer": 4500,
+									"product": 8500,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier that strengthens and hardens while increasing the performance of a top coat sealer. Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Do you live in an area that uses deicing salts on roadways?"
+						},
+						"Yes": {
+							"noun": "Stain Protection",
+							"answers": {
+								"Water-Based": {
+									"primer": 4500,
+									"product": 8505,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier that strengthens and hardens while increasing the performance of a top coat sealer. Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								},
+								"Solvent-Based": {
+									"product": 8510,
+									"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart. Use with the Lithi-Tek 4500 for increased performance."
+								}
+							},
+							"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+						}
+					},
+					"question": "Are you looking for oil or stain protection?"
+				}
+			},
+			"question": "Are you looking for a clear penetrating sealer or an industrial grade gloss coating?"
+		},
+		"Hangar": {
+			"answers": {
+				"Gloss Coating": {
+					"primer": 325,
+					"product": 645,
+					"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Urethane 645 top coat.",
+					"product_note": "Used as a top coat, Urethane 645 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Urethane 645 leaves a semi gloss finish. Apply in a single coat and will fully cure within 3-5 days."
+				},
+				"Penetrating Sealer": {
+					"product": 8510,
+					"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+				}
+			},
+			"question": "Are you looking for a clear penetrating sealer or an industrial grade gloss coating?"
+		},
+		"Kennel": {
+			"answers": {
+				"Gloss": {
+					"primer": 325,
+					"product": 645,
+					"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Urethane 645 top coat.",
+					"product_note": "Used as a top coat, Urethane 645 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Urethane 645 leaves a semi gloss finish. Apply in a single coat and will fully cure within 3-5 days."
+				},
+				"Clear (Natural)": {
+					"answers": {
+						"Water-Based": {
+							"primer": 4500,
+							"product": 8505,
+							"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+							"product_note": "A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						},
+						"Solvent-Based": {
+							"product": 8510,
+							"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						}
+					},
+					"question": "Are you looking for a <dfn>water-based</dfn> or a <dfn>solvent-based</dfn> product?"
+				}
+			},
+			"question": "What type of finish are you looking for?"
+		},
+		"zOther": [],
+		"Chimney": {
+			"answers": {
+				"Brick": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Other": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Stone": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Stucco": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				},
+				"Concrete Block": {
+					"product": 8500,
+					"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+				}
+			},
+			"question": "What substrate is your chimney comprised of?"
+		},
+		"Basement": {
+			"answers": {
+				"Wall": {
+					"answers": {
+						"Cinderblock": {
+							"product": 8500,
+							"product_note": "A clear, natural finish, deep penetrating, waterproofing cinderblock sealer that locks out moisture, prevents efflorescence and resists mold and mildew. Siloxa-Tek 8500 is applied in two coats roughly 10 minutes apart."
+						},
+						"Poured Concrete": {
+							"answers": {
+								"Preventative": {
+									"answers": {
+										"Cost Efficient": {
+											"product": 9500,
+											"product_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and waterproofer that reduces concrete’s porosity, prevents efflorescence, and resists mold, mildew and moisture intrusion. Lithi-Tek 9500 is a proprietary hybrid concentrate that is applied in two coats roughly 10 minutes apart."
+										},
+										"Best Protection": {
+											"primer": 4500,
+											"product": 8500,
+											"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+											"product_note": "Aiding the primer with clear, natural finish this deep penetrating, waterproofing sealer locks out moisture, prevents efflorescence and resists mold and mildew. Siloxa-Tek 8500 is applied in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a cost-efficient solution or the best protection?"
+								},
+								"Existing Moisture": {
+									"primer": 4500,
+									"product": 8500,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": "Aiding the primer with clear, natural finish this deep penetrating, waterproofing sealer locks out moisture, prevents efflorescence and resists mold and mildew. Siloxa-Tek 8500 is applied in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you preventatively sealing your floor or do you have an existing moisture or water intrusion issue?"
+						}
+					},
+					"question": "Which substrate is your wall comprised of?"
+				},
+				"Floor": {
+					"answers": {
+						"Preventative": {
+							"answers": {
+								"Cost Efficient": {
+									"product": 9500,
+									"product_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and waterproofer that reduces concrete’s porosity, prevents efflorescence, and resists mold, mildew and moisture intrusion. Lithi-Tek 9500 is a proprietary hybrid concentrate that is applied in two coats roughly 10 minutes apart."
+								},
+								"Best Protection": {
+									"primer": 4500,
+									"product": 8500,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": "Aiding the primer with clear, natural finish this deep penetrating, waterproofing sealer locks out moisture, prevents efflorescence and resists mold and mildew. Siloxa-Tek 8500 is applied in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you looking for a cost-efficient solution or the best protection?"
+						},
+						"Existing Moisture": {
+							"primer": 4500,
+							"product": 8500,
+							"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that reduces concrete’s porosity, Lithi-Tek 4500 is applied in a single-coat as a primer.",
+							"product_note": "Aiding the primer with clear, natural finish this deep penetrating, waterproofing sealer locks out moisture, prevents efflorescence and resists mold and mildew. Siloxa-Tek 8500 is applied in two coats roughly 10 minutes apart."
+						}
+					},
+					"question": "Are you preventatively sealing your floor or do you have an existing moisture or water intrusion issue?"
+				}
+			},
+			"question": "Would you like to seal a wall or a floor?"
+		},
+		"Fountain": {
+			"product": 8510,
+			"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+		},
+		"Pool Deck": {
+			"answers": {
+				"Salt Water": {
+					"answers": {
+						"No": {
+							"product": 8500,
+							"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+						},
+						"Yes": {
+							"noun": "Stain Protection",
+							"answers": {
+								"Water-Based": {
+									"product": 8505,
+									"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								},
+								"Solvent-Based": {
+									"product": 8510,
+									"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+						}
+					},
+					"question": "Are you looking for oil or stain protection?"
+				},
+				"Chlorinated": {
+					"answers": {
+						"Brick": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						},
+						"Paver": {
+							"answers": {
+								"Low Sheen": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"High Gloss": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Slate": {
+							"answers": {
+								"Low Sheen": {
+									"answers": {
+										"No": {
+											"product": 5500,
+											"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5100,
+											"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"High Gloss": {
+									"answers": {
+										"No": {
+											"product": 5505,
+											"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5105,
+											"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Stone": {
+							"answers": {
+								"Low Sheen": {
+									"answers": {
+										"No": {
+											"product": 5500,
+											"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5100,
+											"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"High Gloss": {
+									"answers": {
+										"No": {
+											"product": 5505,
+											"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5105,
+											"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Concrete": {
+							"answers": {
+								"Low Sheen": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"High Gloss": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Satillo Tile": {
+							"answers": {
+								"Low Sheen": {
+									"answers": {
+										"No": {
+											"product": 5500,
+											"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5100,
+											"product_note": "A clear, water-based sealer, Gem-Tek 5100 provides a decorative low sheen finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"High Gloss": {
+									"answers": {
+										"No": {
+											"product": 5505,
+											"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+										},
+										"Yes": {
+											"noun": "Color Enhancement",
+											"product": 5105,
+											"product_note": "A clear sealer, Gem-Tek 5105 provides a decorative gloss finish that enhances natural colors within a substrate. Apply one thin, uniform application."
+										}
+									},
+									"question": "Are you looking for color enhancement?"
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Stamped Concrete": {
+							"answers": {
+								"Low Sheen": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"High Gloss": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						},
+						"Exposed Aggregate": {
+							"answers": {
+								"Low Sheen": {
+									"product": 5500,
+									"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+								},
+								"High Gloss": {
+									"product": 5505,
+									"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+								},
+								"Clear (Natural)": {
+									"answers": {
+										"No": {
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										},
+										"Yes": {
+											"noun": "Stain Protection",
+											"answers": {
+												"Water-Based": {
+													"product": 8505,
+													"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												},
+												"Solvent-Based": {
+													"product": 8510,
+													"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+												}
+											},
+											"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+										}
+									},
+									"question": "Are you looking for oil or stain protection?"
+								}
+							},
+							"question": "What type of finish are you looking for?"
+						}
+					},
+					"question": "What substrate is your pool deck comprised of?"
+				}
+			},
+			"question": "What type of pool do you have?"
+		},
+		"Warehouse": {
+			"answers": {
+				"Gloss": {
+					"answers": {
+						"No": {
+							"primer": 325,
+							"product": 645,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Urethane 645 top coat.",
+							"product_note": "Used as a top coat, Urethane 645 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Urethane 645 leaves a semi gloss finish. Apply in a single coat and will fully cure within 3-5 days."
+						},
+						"Yes": {
+							"noun": "Fast-Curing",
+							"primer": 325,
+							"product": 745,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Polyaspartic 745 top coat.",
+							"product_note": "Used as a top coat or stand-alone product, Polyaspartic 745 is a clear, high gloss, durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Apply in a single coat and will fully cure within 1-3 days."
+						}
+					},
+					"question": "Are you willing to spend more for a quicker cure time?"
+				},
+				"Polished": {
+					"product": 4500,
+					"product_note": "A clear, natural finish, deep penetrating, chemically reactive densifier and hardener that is applied prior to polishing concrete."
+				},
+				"Clear (Natural)": {
+					"answers": {
+						"Water-Based": {
+							"product": 8505,
+							"product_note": "A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						},
+						"Solvent-Based": {
+							"product": 8510,
+							"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						}
+					},
+					"question": "Are you looking for a <dfn>water-based</dfn> or a <dfn>solvent-based</dfn> product?"
+				}
+			},
+			"question": "What type of finish are you looking for?"
+		},
+		"Countertop": {
+			"answers": {
+				"Clear": {
+					"answers": {
+						"Water-Based": {
+							"product": 770,
+							"product_note": "A clear, natural finish, deep-penetrating sealer that repels water and resists staining to protect countertops without changing the appearance. Apply in two coats roughly 10 minutes apart. Not for use with feather finished concrete or factory sealed concrete tables."
+						},
+						"Solvent-Based": {
+							"product": 880,
+							"product_note": "A clear, natural finish, deep-penetrating sealer that repels water and resists staining to protect countertops without changing the appearance. Apply in two coats roughly 10 minutes apart. Not for use with feather finished concrete or factory sealed concrete tables."
+						}
+					},
+					"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+				},
+				"Low Sheen": {
+					"product": 660,
+					"product_note": "A clear, satin finish sealer that repels water and resists staining to protect countertops with a low sheen finish. Apply in at least three coats 5 minutes apart. Not for use with feather finished concrete or factory sealed concrete tables."
+				},
+				"High Gloss": {
+					"product": 745,
+					"product_note": "A clear, two-component, high gloss, highly-durable and chemically resistant coating that resists acids, oils and the penetration of liquids. Apply in a single coat for a two-hour tack-free cure time. Can be used with feather finished concrete."
+				}
+			},
+			"question": "What type of Finish are you looking for?"
+		},
+		"Shop Floor": {
+			"answers": {
+				"Gloss": {
+					"answers": {
+						"No": {
+							"primer": 325,
+							"product": 645,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Urethane 645 top coat.",
+							"product_note": "Used as a top coat, Urethane 645 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Urethane 645 leaves a semi gloss finish. Apply in a single coat and will fully cure within 3-5 days."
+						},
+						"Yes": {
+							"noun": "Fast-Curing",
+							"primer": 325,
+							"product": 745,
+							"primer_note": "Used as a primer or stand-alone product, Epoxy 325 is a durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Available in a variety of colors or clear, Epoxy 325 leaves a semi gloss finish. Apply in a single coat and allow 10 hours before applying the Polyaspartic 745 top coat.",
+							"product_note": "Used as a top coat or stand-alone product, Polyaspartic 745 is a clear, high gloss, durable coating that will stop dusting and resist chemical spills and heavy equipment traffic. Apply in a single coat and will fully cure within 1-3 days."
+						}
+					},
+					"question": "Are you willing to spend more for a quicker cure time?"
+				},
+				"Clear (Natural)": {
+					"answers": {
+						"Water-Based": {
+							"primer": 4500,
+							"product": 8505,
+							"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier that strengthens and hardens while increasing the performance of a top coat sealer. Lithi-Tek 4500 is applied in a single-coat as a primer.",
+							"product_note": "A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						},
+						"Solvent-Based": {
+							"product": 8510,
+							"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+						}
+					},
+					"question": "Are you looking for a <dfn>water-based</dfn> or a <dfn>solvent-based</dfn> product?"
+				}
+			},
+			"question": "What type of finish are you looking for?"
+		},
+		"Driveway Sidewalk": {
+			"answers": {
+				"Brick": {
+					"answers": {
+						"No": {
+							"product": 8500,
+							"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+						},
+						"Yes": {
+							"noun": "Stain Protection",
+							"answers": {
+								"Water-Based": {
+									"product": 8505,
+									"product_note": "A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								},
+								"Solvent-Based": {
+									"product": 8510,
+									"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+						}
+					},
+					"question": "Are you looking for oil or stain protection?"
+				},
+				"Paver": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Concrete": {
+					"answers": {
+						"No": {
+							"answers": {
+								"No": {
+									"product": 9500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Salt Protection",
+									"primer": 4500,
+									"product": 8500,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier that strengthens and hardens while increasing the performance of a top coat sealer. Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								}
+							},
+							"question": "Do you live in an area that uses deicing salts on roadways?"
+						},
+						"Yes": {
+							"noun": "Stain Protection",
+							"answers": {
+								"Water-Based": {
+									"primer": 4500,
+									"product": 8505,
+									"primer_note": "A clear, natural finish, deep penetrating, chemically reactive densifier that strengthens and hardens while increasing the performance of a top coat sealer. Lithi-Tek 4500 is applied in a single-coat as a primer.",
+									"product_note": " A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+								},
+								"Solvent-Based": {
+									"product": 8510,
+									"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart. Use with the Lithi-Tek 4500 for increased performance."
+								}
+							},
+							"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+						}
+					},
+					"question": "Are you looking for oil or stain protection?"
+				},
+				"Stamped Concrete": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"product": 8500,
+									"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+								},
+								"Yes": {
+									"noun": "Stain Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				},
+				"Exposed Aggregate": {
+					"answers": {
+						"Low Sheen": {
+							"product": 5500,
+							"product_note": "A clear, easy to use water-based, decorative sealer providing a long-lasting low sheen, satin finish. Applies in a single coat and dries in 3-5 hours."
+						},
+						"High Gloss": {
+							"product": 5505,
+							"product_note": "A clear, easy to use solvent based, decorative sealer providing a long-lasting wet look, high gloss finish. Applies in a single coat and dries in 1-3 hours."
+						},
+						"Clear (Natural)": {
+							"answers": {
+								"No": {
+									"answers": {
+										"Yes": {
+											"noun": "Salt Protection",
+											"product": 8500,
+											"product_note": "A clear, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Do you live in an area that uses deicing salts on roadways?"
+								},
+								"Yes": {
+									"noun": "Salt Protection",
+									"answers": {
+										"Water-Based": {
+											"product": 8505,
+											"product_note": " A clear, water-based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8505 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										},
+										"Solvent-Based": {
+											"product": 8510,
+											"product_note": "A clear, solvent based, natural finish, deep penetrating, waterproofing sealer providing protection from freeze thaw damage, deicing salt degradation, cracking, spalling, mold and mildew. Siloxa-Tek 8510 also resists staining and makes the concrete easier to clean when exposed to oils, grease and leaves. Apply in two coats roughly 10 minutes apart."
+										}
+									},
+									"question": "Are you looking for a <dfn>water-based</dfn> product or a <dfn>solvent-based</dfn> product?"
+								}
+							},
+							"question": "Are you looking for oil or stain protection?"
+						}
+					},
+					"question": "What type of finish are you looking for?"
+				}
+			},
+			"question": "What type of substrate is your driveway/sidewalk?"
+		}
+	},
+	"question": "What would you like to seal?"
+}

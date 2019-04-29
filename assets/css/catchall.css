@@ -1,0 +1,19 @@
+.article a {
+	color:#ff611d;
+	font-family:"Nexa", sans-serif;
+	text-decoration:none;
+	}
+
+.article a:hover {
+	color:#f7b433;
+	text-decoration:underline;
+	}
+
+.article a:visited,
+.article a:active {
+	color:#ff945b;
+	}
+
+.article ul {
+	margin:0 0 1em 30px;
+	}

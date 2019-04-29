@@ -1,0 +1,75 @@
+section.click_link { cursor:pointer !important; transform:translate3d(0,0,0); }
+section.click_link .clf_move { display:none; visibility:invisible; }
+section.click_link:hover .clf_move { display:block; visibility:visible; }
+
+.click_link_fallback {
+	display:inline-block;
+	padding:6px 18px;
+	font-family:"NexaBold", sans-serif;
+	font-size:14pt;
+	color:#333;
+	text-decoration:none;
+	border-radius:2px;
+	background:rgba(255,255,255,0.5);
+	-webkit-transition:opacity 200ms linear;
+	transition:opacity 200ms linear;
+	}
+
+@media (max-width:699px) {
+
+	.click_link_fallback {
+		display:none;
+		}
+
+}
+
+.click_link_fallback:after {
+	background:url("//assets.ghostshield.com/img/icons/nav-arrow-black.svg") right center no-repeat;
+	background-size:12px 12px;
+	content:"";
+	display:inline-block;
+	width:19px;
+	height:12px;
+	}
+
+.clf_abs {
+	position:absolute;
+	right:40px;
+	bottom:26px;
+	}
+
+.clf_move {
+	opacity:0;
+	position:absolute;
+	margin-left:17px;
+	margin-top:-6px;
+	border-radius:0;
+	font-size:12px;
+	padding:3px 8px 1px 8px;
+	color:#333;
+	background:rgba(240,240,240,0.6);
+	z-index:30;
+	}
+
+.clf_move:after {
+	width:11px;
+	background-size:7px 7px;
+	display:none;
+	}
+
+.clf_move:before {
+	content:"";
+	position:absolute;
+	top:3px;
+	left:-14px;
+	opacity:1;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:0 14px 10px 0;
+	border-color:transparent rgba(240,240,240,0.6) transparent transparent;
+	}
+
+.clf_main {
+	margin-top:14px;
+	}

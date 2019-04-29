@@ -1,0 +1,937 @@
+@import url("linklist.css");
+
+/********
+
+	CATEGORIES
+
+*/
+
+@media (max-width:1099px) {
+
+	.facebook,
+	.video_side {
+		display:none;
+		}
+
+}
+
+@media (min-width:601px) {
+
+	.desktop {
+		display:block;
+		}
+
+	.mobile {
+		display:none;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	/*.desktop {
+		display:none;
+		}*/
+
+	.mobile {
+		display:block;
+		}
+}
+
+/*
+div#banner:after {
+	background-image:url("../img/angles/top-white-soft-small.svg");
+	}
+
+*/
+@media (min-width:1100px) {
+	
+	div#banner {
+		height:460px;
+		max-height:460px;
+		}
+
+}
+
+header #logo {
+	left:560px;
+	margin-left:0;
+	}
+
+@media (max-width:1520px) {
+
+	header #logo {
+		left:530px;
+		}
+
+}
+
+@media (max-width:1380px) {
+
+	header #logo {
+		left:530px;
+		}
+
+}
+
+@media (max-width:1290px) {
+
+	header #logo {
+		left:490px;
+		}
+
+}
+
+@media (max-width:1170px) {
+
+	header #logo {
+		left:440px;
+		}
+
+}
+
+
+@media (max-width:1099px) {
+
+	header #logo {
+		height:56px;
+		width:200px;
+		left:50%;
+		margin-left:-80px;
+		/*z-index:2000;*/
+		top:0px;
+		position:fixed;
+		}
+
+	header #logo a {
+		height:56px;
+		left:0;
+		top:0;
+		background:url("../img/logo/ghostshield-orange.svg") center center no-repeat;
+		background-size:auto 36px;
+		background:none;
+		}
+
+}
+
+
+#tagline {
+	position:absolute;
+	display:block;
+	font-size:40pt;
+	max-width:1300px;
+	height:4em;
+	font-family:"NexaLight", sans-serif;
+	letter-spacing:2px;
+	letter-spacing:4px;
+	color:#fff;
+	top:281px;
+	left:640px;
+	z-index:999;
+	}
+
+#tagline:after {
+	content:"";
+	display:block;
+	z-index:12;
+	position:absolute;
+	background:url("../img/bottle/angled.png") top left no-repeat;
+	background-size:contain;
+	width:423px;
+	height:423px;
+	top:-180px;
+	left:-450px;
+	}
+
+#tagline span.part {
+	display:block;
+	}
+
+#tagline span.reg {
+	position:relative;
+	}
+
+#tagline span.reg:after {
+	position:absolute;
+	top:3px;
+	content:"\00ae";
+	font-size:40%;
+	margin-left:-9px;
+	}
+
+@media (max-width:1520px) {
+
+	#tagline:after {
+		width:413px;
+		height:413px;
+		top:-190px;
+		left:-440px;
+		}
+
+	#tagline {
+		font-size:33pt;
+		left:600px;
+		top:309px;
+		}
+
+}
+
+@media (max-width:1380px) {
+
+	#tagline {
+		font-size:28pt;
+		top:299px;
+		}
+
+	#tagline:after {
+		width:413px;
+		height:413px;
+		top:-180px;
+		left:-440px;
+		}
+
+}
+
+@media (max-width:1290px) {
+
+	#tagline {
+		font-size:28pt;
+		left:565px;
+		}
+
+	#tagline:after {
+		width:413px;
+		height:413px;
+		top:-180px;
+		left:-455px;
+		}
+
+}
+
+@media (max-width:1170px) {
+
+	#tagline h1:after {
+		left:-440px;
+		}
+
+	#tagline {
+		left:520px;
+		}
+
+}
+
+
+@media (max-width:1099px) {
+
+	#tagline:after {
+		width:323px;
+		height:323px;
+		top:-80px;
+		left:-370px;
+		}
+
+	#tagline {
+		top:180px;
+		left:40vw;
+		max-width:50vw;
+		}
+
+	#tagline span.part {
+		display:inline;
+		}
+
+}
+
+@media (max-width:1000px) {
+
+	#tagline {
+		font-size:26pt;
+		}
+
+	#tagline:after {
+		width:273px;
+		height:273px;
+		top:-80px;
+		left:-310px;
+		}
+
+}
+
+@media (max-width:880px) {
+
+	#tagline {
+		font-size:22pt;
+		left:36vw;
+		max-width:58vw;
+		}
+
+	#tagline:after {
+		width:243px;
+		height:243px;
+		top:-80px;
+		left:-270px;
+		}
+
+}
+
+@media (max-width:760px) {
+
+	#tagline {
+		font-size:17pt;
+		left:34vw;
+		max-width:60vw;
+		top:120px;
+		}
+
+	#tagline:after {
+		width:173px;
+		height:173px;
+		top:-40px;
+		left:-190px;
+		}
+
+	#tagline span.part {
+		display:block;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	#banner {
+		display:none;
+		/* ben doesn't want this on mobile... ? */
+		}
+
+	#tagline {
+		font-size:13pt;
+		top:22px;
+		display:none;
+		}
+
+	#tagline span.part {
+		display:inline;
+		top:20px;
+		}
+
+}
+
+@media (min-width:1100px) {
+
+	div#banner {
+		height:460px;
+		}
+
+}
+
+@media (min-width:761px) and (max-width:1099px) {
+
+	div#banner {
+		height:30vw;
+		}
+
+}
+
+
+div#banner #float {
+	background:#f16a26;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+	width:170px;
+	height:320px;
+	position:absolute;
+	left:150px;
+	top:-2px;
+	z-index:2;
+	}
+
+div#banner #float > img {
+	width:160px;
+	min-width:160px;
+	height:160px;
+	min-height:160px;
+	}
+
+div#banner #float figcaption {
+	text-align:center;
+	text-transform:uppercase;
+	font-family:"Nexa", sans-serif;
+	color:#fff;
+	letter-spacing:2px;
+	margin:240px 20px 20px 20px;
+	padding-top:20px;
+	border-top:1px solid #fff;
+	}
+
+div#banner #float figcaption span {
+	display:block;
+	}
+
+div#banner #float figcaption span small {
+	font-size:80%;
+	}
+
+/*@media (min-width:1100px) {
+	
+	.categories div#banner {
+		height:330px;
+		padding-top:0;
+		max-height:330px;
+		overflow:hidden;
+		}
+
+}*/
+/*
+header #logo {
+	left:510px;
+	top:108px;
+	}
+
+header #logo a {
+	left:0;
+	}
+*/
+.categories_page {
+	position:relative;
+	margin:0 auto;
+	}
+
+.categories_page:before {
+	content:"";
+	background:url("../img/angles/product-lower-left2.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:547px;
+	width:600px;
+	height:238px;
+	height:241px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	}
+
+.categories_page:after {
+	content:"";
+	background:url("../img/angles/product-lower-right.svg") bottom left no-repeat;
+	background-size:contain;
+	display:block;
+	width:144px;
+	height:521px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	}
+
+
+.pfbutton {
+	position:absolute;
+	left:60px;
+	bottom:60px;
+	font-family:"Nexa", sans-serif;
+	letter-spacing:2px;
+	}
+
+.pfbutton a,
+.pfbutton a:hover,
+.pfbutton a:active {
+	margin-top:8px;
+	padding:12px 30px 12px 26px;
+	display:block;
+	}
+
+.pfbutton a:active {
+	margin-top:9px;
+	}
+
+.category_results {
+	margin-left:320px;
+	margin-top:30px;
+	min-height:900px;
+	}
+
+.collage {
+	padding:30px 50px 90px 50px;
+	}
+
+.link_list {
+	display:block;
+	position:absolute;
+	top:28px;
+	left:0;
+	}
+
+.link_list_interior {
+	vertical-align:top;
+	padding-left:60px;
+	}
+
+@media (min-width:1100px) and (max-width:1480px) {
+
+	.category_results {
+		margin:30px 40px 0 360px;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	.link_list {
+		position:relative;
+		text-align:center;
+		}
+
+	.link_list ul li a span:before {
+		content:"                       ";
+		}
+
+	.link_list ul {
+		}
+
+	.link_list_interior {
+		vertical-align:top;
+		padding-left:5%;
+		padding-right:5%;
+		width:35%;
+		display:inline-block;
+		text-align:left;
+		font-family:"Nexa", sans-serif;
+		}
+
+	.category_results {
+		margin:0 auto;
+		max-width:94%;
+		}
+
+	.collage {
+		padding:20px 20px 30px 20px;
+		}
+
+}
+
+/********
+
+	LISTINGS
+
+*/
+
+.product_listing {
+	position:relative;
+	max-width:1080px;
+	/*background:#7a7a7a;
+	background-size:contain;
+	color:#fff;*/
+	color:#454545;
+	margin:0 auto;
+	border-top:1px solid #ccc;
+	padding-top:30px;
+	border-bottom:30px solid transparent;
+	}
+
+.product_listing.num0 {
+	border-top:0;
+	}
+
+.product_listing:last-child {
+	margin-bottom:0;
+	border-bottom:200px solid transparent;
+	}
+
+.product_listing:before {
+	/*content:"";
+	position:absolute;
+	height:145px;
+	left:-2px;
+	right:-2px;
+	bottom:0px;
+	background: url("../img/angles/product_listing.svg") bottom center no-repeat;
+	background-size:1080px 145px;
+	z-index:0;*/
+	}
+
+.product_listing .images {
+	}
+
+.product_listing .product_photo {
+	width:240px;
+	position:absolute;
+	top:50px;
+	left:0;
+	}
+
+.product_listing .images img {
+	float:left;
+	width:50%;
+	max-height:346px;
+	}
+
+.product_listing .product_image {
+	position:relative;
+	float:left;
+	margin-top:0;
+	background-size:cover;
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	width:230px;
+	height:220px;
+	/*bottom:2em;
+	left:-0px;*/
+	}
+
+.product_listing .product_image img {
+	width:160px;
+	height:160px;
+	position:absolute;
+	bottom:-18px;
+	right:-35px;
+	}
+
+.product_listing .product_info {
+	min-height:80px;
+	margin:2px 0 10px 260px;
+	}
+
+.product_listing .product_info .product_name {
+	text-transform:uppercase;
+	font-style:normal;
+	margin-top:0;
+	letter-spacing:3px;
+	font-family:"NexaBold", sans-serif;
+	text-indent:-9999px;
+	overflow:hidden;
+	}
+
+.product_listing .product_info .blurb {
+	/*margin-right:240px;*/
+	min-height:5em;
+	font-size:11pt;
+	line-height:15pt;
+	letter-spacing:1px;
+	position:relative;
+	}
+
+.product_listing .product_info .blurb ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position:relative;
+	}
+
+.product_listing .product_info .blurb ul li {
+	padding-bottom:.5em;
+	margin:0;
+	position:relative;
+	}
+
+.product_listing .product_info .blurb * {
+	font-size:11pt;
+	line-height:15pt;
+	letter-spacing:1px;
+	}
+
+.product_listing .product_info .blurb strong {
+	font-family:"Nexa", sans-serif;
+	font-weight:normal;
+	font-size:11pt;
+	line-height:15pt;
+	letter-spacing:1px;
+	}
+
+.product_listing .product_info .applications {
+	}
+
+.product_listing ul.actions {
+	list-style:none;
+	margin:0 0 0 260px;
+	padding:0;
+	}
+
+
+.attribute_icons {
+	/*padding-right:120px;*/
+	position:relative;
+	}
+
+.attribute_icons .icon {
+	display:inline-block;
+	width:calc(30% - 30px);
+	min-width:140px;
+	padding-left:33px;
+	height:36px;
+	line-height:40px;
+	background-repeat:no-repeat;
+	background-size:28px 28px;
+	background-position:left center;
+	}
+.attribute_icons .icon:last-child {
+	margin-bottom:1em;
+	}
+
+.attribute_icons .icon.repelsWater {
+	/*color:orange;*/
+	background-image:url("../img/icons/product-icons/repelsWater.svg");
+	}
+
+.attribute_icons .icon.repelsOil {
+	/*color:orange;*/
+	background-image:url("../img/icons/product-icons/repelsOil.svg");
+	}
+
+.attribute_icons .icon.repelsSalt {
+	/*color:orange;*/
+	background-image:url("../img/icons/product-icons/repelsSalt.svg");
+	}
+
+.attribute_icons .icon.repelsChems {
+	/*color:orange;*/
+	background-image:url("../img/icons/product-icons/repelsChems.svg");
+	}
+
+.attribute_icons .icon.solvent-based {
+	/*color:purple;*/
+	background-image:url("../img/icons/product-icons/solventBased.svg");
+	}
+
+.attribute_icons .icon.water-based {
+	/*color:purple;*/
+	background-image:url("../img/icons/product-icons/waterBased.svg");
+	}
+
+.attribute_icons .icon.actives {
+	/*color:purple;*/
+	background-image:url("../img/icons/product-icons/solventBased.svg");
+	}
+
+.attribute_icons .icon.concentrated {
+	/*color:red;*/
+	background-image:url("../img/icons/product-icons/concentrated.svg");
+	}
+
+.attribute_icons .icon.readyToUse {
+	/*color:red;*/
+	background-image:url("../img/icons/product-icons/readyToUse.svg");
+	}
+
+.attribute_icons .icon.twoPart {
+	/*color:red;*/
+	background-image:url("../img/icons/product-icons/twoPart.svg");
+	}
+
+@media (max-width:1099px) {
+
+	.product_listing .product_image {
+		/*position:absolute;
+		bottom:-12px;
+		left:-9px;*/
+		}
+
+	.product_listing .product_info {
+		min-height:80px;
+		}
+
+	.product_listing .product_info .blurb {
+		margin-right:0;
+		padding-bottom:1.5em;
+		min-height:1.5em;
+		}
+
+	.product_listing ul.actions {
+		}
+
+	.product_listing ul.actions li {
+		vertical-align:top;
+		display:inline-block;
+		}
+
+}
+
+@media (max-width:720px) {
+
+	.product_listing ul.actions {
+		margin:0;
+		text-align:center;
+		}
+
+	.product_listing ul.actions li a {
+		padding:5px 10px 4px 10px;
+		width:140px;
+		}
+
+}
+
+@media (max-width:580px) {
+
+	.product_listing .product_info {
+		padding-right:10px;
+		/*background:#eaeaea;
+		padding-bottom:15px;*/
+		margin-left:0;
+		}
+
+	.product_listing .product_image {
+		width:calc(100% - 80px);
+		display:block;
+		float:none;
+		margin-bottom:20px;
+		}
+
+	.product_listing .product_image img {
+		right:-105px;
+		}
+
+	.product_listing .product_info .blurb {
+		padding-bottom:0;
+		}
+
+	.product_listing ul.actions {
+		text-align:center;
+		width:100%;
+		}
+
+	.product_listing ul.actions li a {
+		padding:5px 10px 4px 10px;
+		width:140px;
+		font-size:10pt;
+		}
+	
+	.product_listing:last-child {
+		border-bottom:300px solid transparent;
+		}
+
+	.attribute_icons .icon {
+		width:calc(30% - 60px);
+		min-width:120px;
+		}
+
+	.categories_page:after {
+		display:none;
+		}
+	
+	.pfbutton {
+		left:60px;
+		right:60px;
+		text-align:center;
+		}
+
+	.pfbutton a {
+		margin-left:auto;
+		margin-right:auto;
+		}
+
+}
+
+
+/*******
+
+	VIDEOS
+
+*/
+
+.videos {
+	padding-bottom:20px;
+	}
+
+.videos iframe:nth-child(1),
+.videos iframe:nth-child(2) {
+    border-right:transparent 6px solid;
+	}
+
+.videos iframe {
+    border-bottom:transparent 2px solid;
+	}
+
+.video_side {
+	background:#f6f7f9;
+	border:1px solid #e9ebee;
+	padding:6px 8px;
+	width:262px;
+	margin:30px 0 0 50px;
+	color:#777;
+	}
+
+.video_side h4 {
+	letter-spacing:2px;
+	margin:14px 0 0 1px;
+	padding:4px 0 3px 22px;
+	font-size:15px;
+	height:20px;
+	font-family:"Nexa", sans-serif;
+	font-weight:normal;
+	background:url("../img/logo/ghostshield-g-orange.svg") left 2px no-repeat;
+	background-size:18px 18px;
+	}
+
+.video_side h4:first-child {
+    margin-top:0;
+	}
+
+.video_size .video {
+	/*border:1px solid #e9ebee;
+	border-color: #e9ebee #dfe0e4 #d0d1d5;
+	border-radius:2px;
+	box-shadow:0 1px 2px rgba(0, 0, 0, .12);
+	width:262px;*/
+	}
+
+.product_listing ul.actions li a {
+	display:block;
+	text-align:center;
+	text-transform:uppercase;
+	line-height:17px;
+	font-size:17px;
+	font-family:"Nexa", sans-serif;
+	width:160px;
+	min-height:36px;
+	padding:11px 19px 7px 21px;
+	position:relative;
+	border:1px solid transparent;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	border-right:1px solid rgba(0,0,0,0.1);
+	border-radius:2px;
+	text-shadow:-1px -1px 0 rgba(0,0,0,0.1);
+	text-decoration:none;
+	z-index:1;
+	background:#ff611d;
+	color:#fff;
+	cursor:pointer;
+	letter-spacing:1px;
+	margin-top:0px;
+	}
+
+.product_listing ul.actions li a:hover {
+	margin-top:0px;
+	background:#F7B430;
+	border-top-color:rgba(255,255,255,0.2);
+	border-left-color:rgba(255,255,255,0.1);
+	}
+
+.product_listing ul.actions li a:active {
+	background:#ff611d;
+	border-bottom:0;
+	margin-top:1px;
+	}
+
+.product_listing ul.actions li a.has_image {
+	padding-top:80px;
+	background-size:90px 90px;
+	background-repeat:no-repeat;
+	background-position:top center;
+	}
+
+.product_listing ul.actions li {
+	margin:0;
+	padding:0;
+	margin:0 0 4px 0;
+	display:inline-block;
+	}
+
+.product_listing ul.actions li a {
+	padding:10px 20px 8px 20px;
+	width:160px;
+	}
+
+.product_listing ul.actions li a.span {
+	display:block;
+	}
+
+

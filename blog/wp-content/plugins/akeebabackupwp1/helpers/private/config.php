@@ -1,0 +1,2 @@
+<?php die; ?>
+{"cms_url":"http:\/\/danconia1.com\/ghostshield","timezone":"UTC","user_table":"#__ak_users","options":{"siteurl":"http:\/\/danconia1.com\/ghostshield\/wp-content\/plugins\/akeebabackupwp1\/app\/"}}

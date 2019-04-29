@@ -1,0 +1,125 @@
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/jpg "access plus 6 hours"
+	ExpiresByType image/jpeg "access plus 6 hours"
+	ExpiresByType image/gif "access plus 6 hours"
+	ExpiresByType image/png "access plus 6 hours"
+	ExpiresByType text/css "access plus 6 hours"
+	ExpiresByType application/pdf "access plus 1 week"
+	ExpiresByType text/javascript "access plus 6 hours"
+	ExpiresByType text/html "access plus 10 minutes"
+	ExpiresByType image/x-icon "access plus 1 month"
+	ExpiresDefault "access plus 3 hours"
+</IfModule>
+
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
+
+<filesMatch ".(css|jpg|jpeg|png|svg|gif|js|ico)$">
+	Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+
+	RewriteCond %{HTTPS} off
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+	RewriteRule ^sitemap\.?([xml\/]+)?$ sitemap.php?type=$1&%{QUERY_STRING}
+
+	RewriteRule ^analytics/?$ analytics.php?%{QUERY_STRING}
+
+	RewriteRule ^concrete-sealers/?$ ?%{QUERY_STRING} [R,L]
+	RewriteRule ^concrete-sealer-reviews/?$ ?%{QUERY_STRING} [R,L]
+	RewriteRule ^company/?$ about/?%{QUERY_STRING} [R,L]
+	RewriteRule ^shop/iso-tek-8550/?$ product/8501/?%{QUERY_STRING} [R,L]
+	RewriteRule ^acid-etching/?$ acid-etch-concrete/?%{QUERY_STRING} [R,L]
+
+	RewriteRule ^concrete-sealer-products/?$ browse/?%{QUERY_STRING} [R,L]
+	RewriteRule ^basement-sealers/?$ browse/applications/basement-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^concrete-countertop-sealers/?$ browse/applications/concrete+countertop-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^concrete-driveway-sealers/?$ browse/applications/driveway-sidewalk-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^garage-floor-sealers/?$ browse/applications/garage-shop+floor-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^patio-sealers/?$ browse/applications/patio-pool+deck-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^pool-deck-sealers/?$ browse/applications/patio-pool+deck-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^sidewalk-sealers/?$ browse/applications/driveway-sidewalk-sealers/?%{QUERY_STRING} [R,L]
+
+	RewriteRule ^brick-sealers/?$ browse/substrates/brick-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^paver-sealers/?$ browse/substrates/paver-sealers/?%{QUERY_STRING} [R,L]
+	RewriteRule ^stamped-concrete-sealers/?$ browse/substrates/stamped+concrete-sealers/?%{QUERY_STRING} [R,L]
+
+	RewriteRule ^product_finder/?$ product_finder.php?%{QUERY_STRING}
+	RewriteRule ^product-finder/?$ product_finder.php?%{QUERY_STRING}
+
+	RewriteRule ^browse/?$ categories.php?%{QUERY_STRING}
+	RewriteRule ^browse/([A-z\+]+)/([A-z0-9\-\+\%]+)-?s?e?a?l?e?r?s?/?$ categories.php?parent=$1&category=$2&%{QUERY_STRING}
+	
+	RewriteRule ^shop/lithi-tek-ls-9500/?$ product/lithi-tek-9500/?%{QUERY_STRING} [R,L]
+	RewriteRule ^shop/([A-z\-]+?[0-9]+)/?$ product/$1?%{QUERY_STRING} [R,L]
+	RewriteRule ^shop/?$ browse/?%{QUERY_STRING} [R,L]
+
+	RewriteRule ^product/iso-tek-8550/?$ product/iso-tek-8501/?%{QUERY_STRING} [R,L]
+	RewriteRule ^product/8550/?$ product/8501/?%{QUERY_STRING} [R,L]
+	RewriteRule ^product/[A-z\-]+?([0-9]+)/?$ product.php?model=$1&%{QUERY_STRING}
+	RewriteRule ^product/([0-9]+)/?$ product.php?model=$1&%{QUERY_STRING}
+	RewriteRule ^product/?$ browse/?%{QUERY_STRING} [R,L]
+
+	RewriteRule ^gallery/?$ gallery.php?%{QUERY_STRING}
+	RewriteRule ^gallery/edit/?$ gallery_edit.php?%{QUERY_STRING}
+	RewriteRule ^gallery/admin/?$ gallery_admin.php?%{QUERY_STRING}
+	RewriteRule ^gallery/admin/([a-z\-\_\/]+)/?$ gallery_admin.php?action=$1&%{QUERY_STRING}
+	RewriteRule ^gallery/([a-z]+)/?$ gallery.php?sort=$1&%{QUERY_STRING}
+
+	RewriteRule ^glossary/?$ glossary.php?%{QUERY_STRING}
+	RewriteRule ^glossary/([A-z0-9\-\+]+)/?$ glossary.php?word=$1&%{QUERY_STRING}
+
+	RewriteRule ^about/?$ about.php?%{QUERY_STRING}
+	RewriteRule ^downloads/?$ downloads.php?%{QUERY_STRING}
+	RewriteRule ^nano-?technology/?$ nanotechnology.php?%{QUERY_STRING}
+	RewriteRule ^distributors/?$ distributors.php?%{QUERY_STRING}
+	RewriteRule ^commercial-applicators/?$ applicators.php?%{QUERY_STRING}
+	RewriteRule ^applicators/?$ applicators.php?%{QUERY_STRING}
+
+	RewriteRule ^images/([0-9]+)x([0-9]+)-([a-z]+)-([a-z]+)/([A-z0-9\.\-\_\/\:]+)$ image-modify.php?width=$1&height=$2&mode=$3&effect=$4&image=$5&cache=true&%{QUERY_STRING}
+	RewriteRule ^images/([0-9]+)x([0-9]+)-?([a-z]+)?/([A-z0-9\.\-\_\/\:]+)$ image-modify.php?width=$1&height=$2&mode=$3&image=$4&cache=true&%{QUERY_STRING}
+
+	RewriteRule ^articles/?$ blog.php?%{QUERY_STRING}
+	RewriteRule ^articles/([A-z0-9\_\-\%]+)/?$ blog.php?article=$1&%{QUERY_STRING}
+	#RewriteRule ^articles/tag/([A-z0-9\_\-\+\%]+)/?$ blog.php?tag=$1&%{QUERY_STRING}
+	RewriteRule ^articles/tag/([A-z0-9\_\-\+\%]+)/?$ /articles/search/$1? [R=301,L]
+	#RewriteRule ^articles/topic/([A-z0-9\_\-\+\%]+)/?$ blog.php?topic=$1&%{QUERY_STRING}
+	RewriteRule ^articles/topic/([A-z0-9\_\-\+\%]+)/?$ /articles/search/$1? [R=301,L]
+	RewriteRule ^articles/search/([A-z0-9\_\-\+\%]+)/?$ blog.php?search=$1&%{QUERY_STRING}
+
+	RewriteRule ^videos/?$ video.php?%{QUERY_STRING}
+	
+	RewriteRule ^update/?$ update.php?%{QUERY_STRING}
+	RewriteRule ^publish/?$ update.php?publish=true&%{QUERY_STRING}
+
+	RewriteRule ^search/forced/(.*)?$ search_site.php?force&search=$1&%{QUERY_STRING}
+	RewriteRule ^search/(.*)?$ search_site.php?search=$1&%{QUERY_STRING}
+
+	#RewriteRule ^catchall\.php$ - [L]
+	#RewriteCond %{REQUEST_FILENAME} !-f
+	#RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteRule . /catchall.php [L]
+
+	ErrorDocument 404 /catchall.php
+
+#	RewriteRule ^blog/index\.php$ - [L]
+#	RewriteCond %{REQUEST_FILENAME} !-f
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteRule . /blog/index.php [L]
+
+</IfModule>
+
+RewriteCond %{HTTP_HOST} ^mail.isotek\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^isotek\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.isotek\.com$
+RewriteRule ^.*?$ "http\:\/\/ghostshield\.com\/commercial" [R=301,L]
+
+
+Redirect 301 /product_finder /product-finder

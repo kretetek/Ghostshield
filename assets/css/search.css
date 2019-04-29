@@ -1,0 +1,203 @@
+/*********
+
+	ARTICLE
+
+*/
+
+section h1 {
+	padding-top:10px;
+	}
+
+#site-search {
+	height:30vh;
+	height:230px;
+	min-height:200px;
+	overflow:hidden;
+	background-size:cover;
+	text-align:center;
+	margin-bottom:2em;
+	background-image: none !important;
+	}
+
+#site-search form {
+	width:300px;
+	margin:9vh auto 0 auto;
+	margin:100px auto 0 auto;
+	color:#222;
+	font-size:0;
+	}
+
+@media (max-width:1099px) {
+
+	#site-search form {
+		margin-top:80px;
+		}
+
+}
+
+#site-search h3 {
+	font-size:1rem;
+	text-transform:uppercase;
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	letter-spacing:1px;
+	}
+
+#site-search input[type="text"] {
+	display:inline-block;
+	vertical-align:top;
+	height:35px;
+	width:240px;
+	margin:0;
+	padding:0 6px;
+	line-height:28px;
+	font-size:17px;
+	color:#555;
+	box-sizing:border-box;
+	text-transform:uppercase;
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	border-radius:4px 0 0 4px;
+	-webkit-appearance: none;
+	border-width:1px;
+	}
+
+#site-search input[type="submit"] {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 -1px;
+	height: 35px;
+	outline: 0;
+	padding: 2px 8px 0 11px;
+	color: #fff;
+	border: 1px solid #c55328;
+	border-left: 0;
+	border-top: 0;
+	border-radius: 0px 4px 4px 0;
+	cursor: pointer;
+	-webkit-appearance: none;
+	}
+
+/*#site-search .search_small {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 0 -1px;
+	height:35px;
+	outline:0;
+	padding:2px 8px 0 11px;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	font-family:"NexaBold", sans-serif;
+	font-size:19px;
+	background:#ff611d;
+	border:1px solid #c55328;
+	border-left:0;
+	border-top:0;
+	border-radius:0px 4px 4px 0;
+	-webkit-transform:150ms linear;
+	transform:150ms linear;
+	cursor:pointer;
+	-webkit-appearance:none;
+	}*/
+
+
+
+#full_page_content ul.search_results {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	}
+
+#full_page_content ul.search_results li {
+	padding-bottom:1em;
+	}
+
+
+#full_page_content ul.search_results li h4 {
+	padding:0;
+	margin:0;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family:"proxima-nova-condensed", sans-serif;
+	font-size:1.7vw;
+	letter-spacing:1px;
+	}
+
+#full_page_content a {
+	color: #fc6a21;
+	}
+
+#full_page_content a:visited {
+	color: #ffc32a;
+	}
+
+.search_result_string {
+	/*font-size:1.2rem;*/
+	padding-bottom:1.5rem;
+	}
+
+.search_result_string em {
+	font-family:"bio-sans",sans-serif;
+	}
+
+.search_result_string span {
+	font-size:1rem;
+	}
+
+ul.search_results li span.link {
+	color:#777;
+	font-size:1vw;
+	}
+
+ul.search_results li div.description {
+	/*line-height:15pt;*/
+	}
+
+
+.pagination {
+	margin:5px 0 20px 0;
+	border-radius:2px;
+	display:inline-block;
+	overflow:hidden;
+	}
+
+.pagination .pagination_page {
+	display:inline-block;
+	padding:8px 11px 3px 11px;
+	border:1px solid #ccc;
+	line-height:20px;
+	}
+
+.pagination a.pagination_page {
+	background:#fff;
+	}
+
+.pagination a.pagination_page:hover {
+	text-decoration:none;
+	background:#ff611d;
+	border-color:#ff611d;
+	color:#fff;
+	}
+
+.pagination .pagination_delimiter {
+	/*display:none;*/
+	width:2px;
+	display:inline-block;
+	overflow:hidden;
+	}
+
+.pagination .pagination_disabled {
+	color:#ccc;
+	}
+
+
+
+#buy:before {
+	background-image:url("//assets.ghostshield.com/img/angles/invert-triangle-grey.svg") !important;
+	}
+
+strong {
+    font-family:"proxima-nova-condensed",sans-serif;
+    font-weight:700;
+	}

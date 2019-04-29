@@ -1,0 +1,127 @@
+/********
+
+	HEADER
+
+*/
+
+ul.applicators {
+    list-style-type: none;
+    list-style-image: none !important;
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-column-gap: 5px;
+}
+
+ul.applicators li {
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 5px;
+	background: #fff;
+	width: 100%;
+}
+
+ul.applicators li .applicator {
+    display: block;
+    width: 374px;
+    height: 226px;
+    padding: 15px 10px 5% 10px;
+    border: 1px solid #ddd;
+}
+
+ul.applicators li .applicator:hover {
+	background:#fafafa;
+	border:1px solid #f00;
+	}
+
+ul.applicators li a {
+	color:#ff611d;
+	text-decoration:none;
+	}
+
+ul.applicators li div.blurb {
+	text-align:left;
+	}
+
+ul.applicators li h3 {
+	margin-bottom:6px;
+	font-size:12pt;
+	text-transform:uppercase;
+	font-family:"NexaBold", sans-serif;
+	font-weight:normal;
+	color:#ff611d;
+	}
+
+ul.applicators .applicator_logo {
+	display:table;
+	width:100%;
+	min-height:100px;
+	}
+
+ul.applicators .applicator_logo span {
+	display:inline-block;
+	height:100px;
+	position:relative;
+	display:table-cell;
+	width:100%;
+	vertical-align:middle;
+	}
+
+ul.applicators li img {
+	max-width:300px;
+	max-height:100px;
+	vertical-align:middle;
+	display:inline-block;
+	margin:auto;
+	}
+
+ul.applicators li .blurb {
+	display:none;
+	}
+
+ul.applicators li .address {
+	font-size: 1.2vw;
+	font-family: "Nexa", sans-serif;
+	color: #888;
+}
+
+
+form {
+	margin:0 auto;
+	}
+
+form.contact input.inverse::-webkit-input-placeholder { color:#AEA09E; }
+form.contact input.inverse::-moz-placeholder { color:#AEA09E; }
+form.contact input.inverse:-ms-input-placeholder { color:#AEA09E; }
+form.contact input.inverse:-moz-placeholder { color:#AEA09E; }
+form.contact textarea.inverse::-webkit-input-placeholder { color:#AEA09E; }
+form.contact textarea.inverse::-moz-placeholder { color:#AEA09E; }
+form.contact textarea.inverse:-ms-input-placeholder { color:#AEA09E; }
+form.contact textarea.inverse:-moz-placeholder { color:#AEA09E; }
+
+
+@media (max-width:1380px) {
+	ul.applicators {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	ul.applicators li .applicator {
+		width: auto;
+	}
+}
+
+@media (max-width:780px) {
+
+	ul.applicators {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	ul.applicators li .address {
+		font-size: 2.4vw;
+	}
+
+}

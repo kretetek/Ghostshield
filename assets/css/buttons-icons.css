@@ -1,0 +1,142 @@
+.hex-button {
+	display:inline-block;
+	background-color:transparent;
+	text-align:left;
+	line-height:36px;
+	min-width:100px;
+	height:35px;
+	margin:1px 20px;
+	margin:4px 20px 0 0;
+	position:relative;
+	text-decoration:none;
+	z-index:1;
+	border:1px solid #E5E0DA;
+	color:#E5E0DA;
+	cursor:pointer;
+	}
+.hex-button.small {
+	line-height:28px;
+	height:29px;
+	}
+.hex-button:hover { border-color:#F26B26; }
+.hex-button:active { border-color:#fff; }
+.hex-button.inverse {
+	border-color:#3A2B2F;
+	color:#3A2B2F;
+	}
+.hex-button.inverse:hover { border-color:#F26B26; }
+.hex-button.inverse:active { border-color:#000; }
+.commercial .hex-button.inverse:hover { border-color:#7a7a7a; }
+
+.hex-button .hex1 {
+	display:block;
+	background-color:#E5E0DA;
+	text-align:left;
+	color:#fff;
+	width:39px;
+	height:37px;
+	margin:-1px 0 0 -1px;
+	position:relative;
+	z-index:1;
+	background-repeat:no-repeat;
+	background-size:24px 24px;
+	background-position:left 6px;
+	background-position:center center;
+	}
+.hex-button.small .hex1 {
+	background-size:20px 20px;
+	background-position:left 4px;
+	background-position:center center;
+	width:20px;
+	width:31px;
+	height:31px;
+	}
+.hex-button:hover .hex1 { background-color:#F26B26; }
+.hex-button:active .hex1 { background-color:#fff; }
+.hex-button.inverse .hex1 { background-color:#3A2B2F; }
+.hex-button.inverse:hover .hex1 { background-color:#F26B26; }
+.hex-button.inverse:active .hex1 { background-color:#000; }
+.commercial .hex-button.inverse:hover .hex1 { background-color:#7a7a7a; }
+
+.hex-button span.button-text {
+	display:block;
+	position:relative;
+	z-index:1;
+	font-size:17px;
+	text-transform:uppercase;
+	letter-spacing:6px;
+	font-family:"NexaBold", sans-serif;
+	text-align:right;
+	padding:0 10px 0 50px;
+	margin-top:-37px;
+	line-height:37px;
+	}
+.hex-button.small span.button-text {
+	font-size:15px;
+	letter-spacing:5px;
+	padding:0 8px 0 42px;
+	margin-top:-29px;
+	line-height:29px;
+	}
+
+.hex-button span.button-text:after {
+	content:"";
+	background:#fff;
+	opacity:0;
+	display:block;
+	transform:skewX(-20deg);
+	-webkit-transform:skewX(-20deg);
+	height:36px;
+	width:34px;
+	position:absolute;
+	top:0px;
+	left:0%;
+	z-index:2;
+	}
+.hex-button.small span.button-text:after {
+	height:30px;
+	width:29px;
+	}
+
+.hex-button span.button-text:before {
+	content:"";
+	background:rgba(255,255,255,0.5);
+	opacity:0;
+	display:block;
+	transform:skewX(-20deg);
+	-webkit-transform:skewX(-20deg);
+	height:36px;
+	width:18px;
+	position:absolute;
+	top:0px;
+	left:0%;
+	margin-left:40px;
+	z-index:2;
+	}
+
+.hex-button.small span.button-text:before {
+	height:30px;
+	width:15px;
+	margin-left:36px;
+	}
+
+.hex-button .hex1.button-svg svg {
+	width:19px;
+	margin:4px 0 0 5px;
+	vertical-align:middle;
+	}
+	
+.hex-button .hex1.button-svg svg .st0 { fill:#3A2B2F; }
+.hex-button.inverse .hex1.button-svg svg .st0 { fill:#FDFCFB; }
+.hex-button:hover .hex1.button-svg svg .st0 { fill:#3A2B2F; }
+.hex-button.inverse:hover .hex1.button-svg svg .st0 { fill:#FDFCFB; }
+
+.hex-button .hex1.button-buynow { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/buynow.svg"); }
+.hex-button .hex1.button-product { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/product.svg"); }
+.hex-button .hex1.button-send { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/send.svg"); }
+.hex-button .hex1.button-help { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/help.svg"); }
+
+.hex-button.inverse .hex1.button-buynow { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/buynow-inverse.svg"); }
+.hex-button.inverse .hex1.button-product { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/product-inverse.svg"); }
+.hex-button.inverse .hex1.button-send { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/send-inverse.svg"); }
+.hex-button.inverse .hex1.button-help { background-image:url("http://ghostshield.concretesealersolutions.com/assets/img/button-icons/help-inverse.svg"); }

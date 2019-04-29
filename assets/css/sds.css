@@ -1,0 +1,101 @@
+ul.product_list li {
+	background:none;
+	padding-left:0;
+}
+
+
+ul.product_list.confined {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+/*a.product_name {
+	display:inline-block;
+	font-size:26px;
+	min-width:220px;
+	min-height:24px;
+	background-size:auto 24px;
+	background-position:60px 20px;
+	margin:-7px 0 10px 0;
+	padding:20px 0 0 63px;
+	background-color:#fff;
+	}
+
+a.not_product_name {
+	display:inline-block;
+	}
+
+a.product_name span {
+	opacity:0;
+	height:0;
+	overflow:hidden;
+	}
+
+a.lithi-tek-ls-9500:before,
+a.lithi-tek-9500:before { background-image:url("//assets.ghostshield.com/img/bottle/9500.png"); }
+a.lithi-tek-4500:before { background-image:url("//assets.ghostshield.com/img/bottle/4500.png"); }
+a.siloxa-tek-8500:before { background-image:url("//assets.ghostshield.com/img/bottle/8500.png"); }
+a.siloxa-tek-8505:before { background-image:url("//assets.ghostshield.com/img/bottle/8505.png"); }
+a.siloxa-tek-8510:before { background-image:url("//assets.ghostshield.com/img/bottle/8510.png"); }
+a.cryli-tek-5500:before { background-image:url("//assets.ghostshield.com/img/bottle/5500.png"); }
+a.cryli-tek-5505:before { background-image:url("//assets.ghostshield.com/img/bottle/5505.png"); }
+a.epoxy-325:before { background-image:url("//assets.ghostshield.com/img/bottle/325.png"); }
+a.iso-tek-8501:before { background-image:url("//assets.ghostshield.com/img/bottle/8501.png"); }
+a.gem-tek-5100:before { background-image:url("//assets.ghostshield.com/img/bottle/5100.png"); }
+a.gem-tek-5105:before { background-image:url("//assets.ghostshield.com/img/bottle/5105.png"); }
+a.vapor-tek-440:before { background-image:url("//assets.ghostshield.com/img/bottle/440.png"); }
+a.hydro-etch-1000:before { background-image:url("//assets.ghostshield.com/img/bottle/1000.png"); }
+a.polyaspartic-745:before { background-image:url("//assets.ghostshield.com/img/bottle/745.png"); }
+a.sila-tek-3500:before { background-image:url("//assets.ghostshield.com/img/bottle/3500.png"); }
+a.urethane-645:before { background-image:url("//assets.ghostshield.com/img/bottle/645.png"); }
+a.countertop-sealer-770:before,
+a.countertop-770:before { background-image:url("//assets.ghostshield.com/img/bottle/770.png"); }
+a.countertop-sealer-660:before,
+a.countertop-660:before { background-image:url("//assets.ghostshield.com/img/bottle/660.png"); }
+
+.not_product_name:before,
+.selected:before {
+	content:"";
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background-size:50px 50px;
+	background-repeat:no-repeat;
+	background-position:center center;
+	/*margin:-11px 0 0 -60px;* /
+	margin-left:-60px;
+}*/
+
+
+
+@media (max-width:800px) {
+	ul.product_list.confined {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width:576px) {
+	ul.product_list.confined {
+		grid-template-columns: 1fr;
+	}
+}
+
+.link_list.products a {
+	padding-left:20px;
+	letter-spacing:3px;
+	background-position:-20px 16px;
+}
+
+.link_list ul li a:hover {
+	padding-left:40px;
+	background-position:20px 16px;
+}
+
+.link_list.products a small {
+	opacity:.6;
+	display:block;
+	text-transform:none;
+	letter-spacing:2px;
+	-webkit-transition:padding .2s;
+	transition:padding .2s
+}

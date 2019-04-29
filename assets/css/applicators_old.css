@@ -1,0 +1,121 @@
+/********
+
+	HEADER
+
+*/
+
+ul.applicators {
+	list-style-type:none;
+	list-style-image:none !important;
+	}
+
+ul.applicators li {
+	width:396px;
+	height:248px;
+	padding:0;
+	display:inline-block;
+	vertical-align:top;
+	background:none;
+	text-align:center;
+	overflow:auto;
+	margin-bottom:5px;
+	background:#fff;
+	}
+
+ul.applicators li .applicator {
+	display:block;
+	width:374px;
+	height:226px;
+	padding:15px 10px 5px 10px;
+	border:1px solid #ddd;
+	}
+
+ul.applicators li .applicator:hover {
+	background:#fafafa;
+	border:1px solid #f00;
+	}
+
+@media (max-width:1380px) {
+
+	ul.applicators li {
+		width:45%;
+		}
+
+}
+
+@media (max-width:780px) {
+
+	ul.applicators li {
+		width:95%;
+		}
+
+}
+
+ul.applicators li a {
+	color:#ff611d;
+	text-decoration:none;
+	}
+
+ul.applicators li div.blurb {
+	text-align:left;
+	}
+
+ul.applicators li h3 {
+	margin-bottom:6px;
+	font-size:12pt;
+	text-transform:uppercase;
+	font-family:"NexaBold", sans-serif;
+	font-weight:normal;
+	color:#ff611d;
+	}
+
+ul.applicators li h3 a {
+	}
+
+ul.applicators .applicator_logo {
+	display:table;
+	width:100%;
+	min-height:100px;
+	}
+
+ul.applicators .applicator_logo span {
+	display:inline-block;
+	height:100px;
+	position:relative;
+	display:table-cell;
+	width:100%;
+	vertical-align:middle;
+	}
+
+ul.applicators li img {
+	max-width:300px;
+	max-height:100px;
+	vertical-align:middle;
+	display:inline-block;
+	margin:auto;
+	}
+
+ul.applicators li .blurb {
+	font-size:9pt;
+	display:none;
+	}
+
+ul.applicators li .address {
+	font-size:9pt;
+	font-family:"Nexa", sans-serif;
+	color:#888;
+	}
+
+
+form {
+	margin:0 auto;
+	}
+
+form.contact input.inverse::-webkit-input-placeholder { color:#AEA09E; }
+form.contact input.inverse::-moz-placeholder { color:#AEA09E; }
+form.contact input.inverse:-ms-input-placeholder { color:#AEA09E; }
+form.contact input.inverse:-moz-placeholder { color:#AEA09E; }
+form.contact textarea.inverse::-webkit-input-placeholder { color:#AEA09E; }
+form.contact textarea.inverse::-moz-placeholder { color:#AEA09E; }
+form.contact textarea.inverse:-ms-input-placeholder { color:#AEA09E; }
+form.contact textarea.inverse:-moz-placeholder { color:#AEA09E; }

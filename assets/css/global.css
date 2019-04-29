@@ -1,0 +1,1937 @@
+/***********
+
+	FONTS
+
+*/
+
+/*@font-face { font-family:'NexaLight'; src: url('//assets.ghostshield.com/fonts/308C1E_2_0.eot'); src: url('//assets.ghostshield.com/fonts/308C1E_2_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/308C1E_2_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/308C1E_2_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/308C1E_2_0.ttf') format('truetype'); }
+
+@font-face { font-family:'Nexa'; src: url('//assets.ghostshield.com/fonts/3098F4_1_0.eot'); src: url('//assets.ghostshield.com/fonts/3098F4_1_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/3098F4_1_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/3098F4_1_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/3098F4_1_0.ttf') format('truetype'); }
+
+@font-face { font-family:'NexaBold'; src: url('//assets.ghostshield.com/fonts/308C1E_0_0.eot'); src: url('//assets.ghostshield.com/fonts/308C1E_0_0.eot?#iefix') format('embedded-opentype'), url('//assets.ghostshield.com/fonts/308C1E_0_0.woff2') format('woff2'), url('//assets.ghostshield.com/fonts/308C1E_0_0.woff') format('woff'), url('//assets.ghostshield.com/fonts/308C1E_0_0.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'ProximaNovaMed';
+    src: url('//assets.ghostshield.com/fonts/proximanova_medium_macroman/proximanova-medium-webfont.woff2') format('woff2'),
+         url('//assets.ghostshield.com/fonts/proximanova_medium_macroman/proximanova-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaLight';
+    src: url('//assets.ghostshield.com/fonts/proximanova_light_macroman/proximanova-light-webfont.woff2') format('woff2'),
+         url('//assets.ghostshield.com/fonts/proximanova_light_macroman/proximanova-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/***********
+
+	FORMS
+
+*/
+
+footer ::-webkit-input-placeholder { color:rgba(255,255,255,0.6); }
+footer ::-moz-placeholder { color:rgba(255,255,255,0.6); }
+footer :-ms-input-placeholder { color:rgba(255,255,255,0.6); }
+footer :-moz-placeholder { color:rgba(255,255,255,0.6); }
+
+select {
+	font-size:18px;
+	letter-spacing:1px;
+	border:1px solid #ccc;
+	background:#eee;
+	width:200px;
+	height:34px;
+	line-height:28px;
+	text-align:center;
+	font-family:"proxima-nova-condensed", sans-serif;
+	padding:4px 2px 4px 8px;
+	display:inline-block;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	-webkit-appearance: button;
+	-webkit-user-select: none;
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), rgb(255,255,255);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+	background-size:22px 34px;
+	background-position:right center;
+	background-repeat:no-repeat, repeat-x;
+	}
+
+select:hover {
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), rgb(226,226,226);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(229,229,229,1) 50%, rgba(219,219,219,1) 51%, rgba(254,254,254,1) 100%);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(229,229,229,1) 50%, rgba(219,219,219,1) 51%, rgba(254,254,254,1) 100%);
+	background: url("//assets.ghostshield.com/img/icons/select-wedge.svg"), linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(229,229,229,1) 50%, rgba(219,219,219,1) 51%, rgba(254,254,254,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#fefefe',GradientType=0 );
+	background-size:22px 34px;
+	background-position:right center;
+	background-repeat:no-repeat, repeat-x;
+	}
+
+.article em {
+	font-family:inherit;
+	font-weight:normal;
+	}
+
+/* Smartphones ----------- */
+@media only screen and (max-width: 760px) {
+	#mobile-check { display: none; }
+}
+
+.valign { display:block; }
+.clear { clear:left; border:.1px solid transparent; }
+
+span.bold, em, strong, b { font-family:"proxima-nova-condensed", sans-serif; font-weight:700; opacity:.9; }
+span.super { /*font-size:50% !important; vertical-align:super;*/ }
+/*span.glossary_term {
+	border-bottom:1px dotted orange;
+	background:url("//assets.ghostshield.com/img/icons/qm.svg") right .1em  no-repeat;
+	background-size:.65em .65em;
+	padding-right:12px;
+	}*/
+.errors {
+	display:none;
+	z-index:1002;
+	background:#fff;
+	font-family:arial,sans-serif;
+	font-size:60%;
+	position:absolute;
+	}
+
+.clear { clear:left; border:.1px solid transparent; }
+
+.white_bg {
+	background:#fbfbfb;
+	clear:both;
+	}
+	
+.off_white_bg {
+	background:#f2f2f2;
+	clear:both;
+	}
+
+.gray_bg {
+	background:#f2f2f2;
+	clear:both;
+	}
+
+.dark_gray_bg,
+.half_gray_bg {
+	background:#f0efee;
+	clear:both;
+	position:relative;
+	}
+
+@media (min-width:768px) {
+
+	.light_gray_fake_bg,
+	.half_gray_bg > section:before {
+		content:"";
+		display:block;
+		background:#fdfcfb;
+		position:absolute;
+		left:0;
+		top:0;
+		bottom:0;
+		right:50%;
+		}
+
+}
+
+@media (max-width:767px) {
+	
+	.dark_gray_bg .column.left {
+		background:#fdfcfb !important;
+		}
+	
+}
+
+.light_gray_bg {
+	background:#fdfcfb;
+	clear:both;
+	}
+	
+.mauve_bg {
+	background:#3A2B2F;
+	clear:both;
+	}
+/*	
+.orange_bg {
+	background:#ff611d url("//assets.ghostshield.com/img/bg/polygon-lines.png") center center no-repeat;
+	background-size:cover;
+	clear:both;
+	color:#fff;
+	}
+
+.horizontal_scroll {
+	max-width:100%;
+	overflow:auto;
+	}
+*/
+
+a.anchor {
+	clear:both;
+	/*float:right;*/
+	display:inline-block;
+	margin-top:-3vw;
+	position:absolute;
+	}
+
+a.anchor.top {
+	margin-top:100px;
+	}
+
+body {
+	margin:0;
+	font-family:"proxima-nova-condensed", sans-serif;
+	font-variant-ligatures:none;
+	/*font-family:"ProximaNovaLight", sans-serif;*/
+	font-size:1.6vw;
+	color:#444343;
+	background:#fbfbfb;
+	}
+
+
+
+@media (min-width:1680px) {
+	
+	#container {
+		/*margin:0 auto;
+		max-width:1680px;*/
+		}
+
+}
+
+.page_content:after {
+	display:block;
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	height:0;
+	background:rgba(0,0,0,0);
+	-webkit-transition:background 500ms;
+	transition:background 500ms;
+	}
+
+.page_content.blackout:after {
+	display:block;
+	content:"";
+	bottom:0;
+	height:auto;
+	background:rgba(0,0,0,0.5);
+	z-index:1000;
+	-webkit-transition:background 500ms;
+	transition:background 500ms;
+	}
+
+/*******
+
+	HEADERS
+
+*/
+
+section h1,
+section h2,
+#overlay_document h1.title,
+#overlay_document h2.title {
+	display:block;
+	padding:4vw 0 2vw 0;
+	margin:0 auto 1vw auto;
+	font-size:4.1vw;
+	line-height:4.2vw;
+	text-transform:uppercase;
+	font-weight:100;
+	font-family:"bio-sans", sans-serif;
+	max-width:84vw;
+	position:relative;
+	font-weight:700;
+	letter-spacing:-1px;
+	color:#222;
+	}
+
+
+@media (min-width:1200px) {
+
+	body {
+		font-size:1.4vw !important;
+		font-weight:200 !important;
+		color:#111;
+		}
+
+}
+
+@media (max-width:900px) {
+
+	body {
+		font-size:12pt !important;
+		}
+
+	section h1,
+	section h2,
+	#overlay_document h1.title,
+	#overlay_document h2.title {
+		font-size:20pt !important;
+		line-height:22pt;
+		}
+
+}
+
+/*section h1 span.g,
+section h2 span.g,
+#overlay_document h1.title span.g,
+#overlay_document h2.title span.g {
+	position:relative;
+	z-index:1;
+	}
+
+section h1 span.g:before,
+section h2 span.g:before {
+	position:absolute;
+	content:"";
+	display:block;
+	left:0;
+	right:0;
+	top:74%;
+	bottom:4%;
+	background:rgba(255,222,31,0.2);
+	z-index:-1;
+	transform:skew(7deg,0.5deg);
+	}
+
+section h1 span.g:after,
+section h2 span.g:after {
+	position:absolute;
+	content:"";
+	display:block;
+	left:0;
+	right:0;
+	top:64%;
+	bottom:9%;
+	background:rgba(255,188,0,0.2);
+	z-index:-1;
+	transform:skew(-4deg,-0.2deg);
+	}
+
+section h1 span.g2:before,
+section h2 span.g2:before {
+	transform:skew(-5deg,0.2deg);
+	}
+
+section h1 span.g3:before,
+section h2 span.g3:before {
+	transform:skew(4deg,-0.5deg);
+	}
+
+section h1 span.g4:before,
+section h2 span.g4:before {
+	transform:skew(2deg,-0.6deg);
+	}
+
+section h1 span.g5:before,
+section h2 span.g5:before {
+	transform:skew(-2.3deg,0.4deg);
+	}*/
+
+span.g {
+	opacity:0.6;
+	}
+span.o {
+	color:#ff611d;
+	}
+
+
+#welcome h3 {
+	margin:0 auto;
+	padding:0 0 1.5em 0;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-weight:100;
+	font-family:"proxima-nova-condensed", sans-serif;
+	font-size:1.3rem;
+	max-width:84vw;
+	position:relative;
+	}
+
+section.black h1,
+section.mauve h1,
+.orange_bg h1,
+section.black h2,
+section.mauve h2,
+.orange_bg h2 {
+	color:#fff;
+	}
+
+section h1.always_centered,
+section h1.centered,
+section h2.always_centered,
+section h2.centered {
+	border-bottom:0;
+	text-align:center !important;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:4vw;
+	}
+
+section h1.always_centered:after,
+section h1.centered:after,
+section h2.always_centered:after,
+section h2.centered:after {
+	content:"";
+	position:absolute;
+/*	top:1.5em;*/
+	left:50%;
+	margin:3vw 0 0 -100px;
+	display:block;
+	height:2px;
+	border-radius:1px;
+	width:200px;
+	background:#ff611d;
+	}
+
+section.black h1.centered:after,
+section.orange h1.centered:after,
+section.black h2.centered:after,
+section.orange h2.centered:after {
+	background:#f5fdfb;
+	}
+	
+section .white_text h1.centered:after,
+section .white_text h2.centered:after {
+	background:#fff;
+	}
+
+.column .column_interior h2.sub {
+	padding-top:20px;
+	}
+
+
+/*
+
+
+*/
+	
+nav .product_name {
+	padding-right:20px;
+	display:inline-block;
+	height:13px;
+	}
+
+.selected {
+	background-repeat:no-repeat;
+	background-position:top left;
+	}
+
+.pc_name select {
+	width:95%;
+	cursor:pointer;
+	}
+
+.selected select {
+	opacity:0;
+	}
+
+nav .selected.countertop-sealer-770,
+nav .selected.countertop-sealer-660 { height:26px; }
+
+.selected.lithi-tek-ls-9500,
+.selected.lithi-tek-9500 { background-image:url("//assets.ghostshield.com/img/products7/lithi-tek-9500.svg"); }
+.selected.lithi-tek-4500 { background-image:url("//assets.ghostshield.com/img/products7/lithi-tek-4500.svg"); }
+.selected.siloxa-tek-8500 { background-image:url("//assets.ghostshield.com/img/products7/siloxa-tek-8500.svg"); }
+.selected.siloxa-tek-8505 { background-image:url("//assets.ghostshield.com/img/products7/siloxa-tek-8505.svg"); }
+.selected.siloxa-tek-8510 { background-image:url("//assets.ghostshield.com/img/products7/siloxa-tek-8510.svg"); }
+.selected.cryli-tek-5500 { background-image:url("//assets.ghostshield.com/img/products7/cryli-tek-5500.svg"); }
+.selected.cryli-tek-5505 { background-image:url("//assets.ghostshield.com/img/products7/cryli-tek-5505.svg"); }
+.selected.epoxy-325 { background-image:url("//assets.ghostshield.com/img/products7/epoxy-325.svg"); }
+.selected.iso-tek-8501 { background-image:url("//assets.ghostshield.com/img/products7/iso-tek-8501.svg"); }
+.selected.iso-cure-8525 { background-image:url("//assets.ghostshield.com/img/products7/iso-cure-8525.svg"); }
+.selected.iso-tek-8540 { background-image:url("//assets.ghostshield.com/img/products7/iso-tek-8540.svg"); }
+.selected.iso-tek-8100 { background-image:url("//assets.ghostshield.com/img/products7/iso-tek-8100.svg"); }
+.selected.gem-tek-5100 { background-image:url("//assets.ghostshield.com/img/products7/gem-tek-5100.svg"); }
+.selected.gem-tek-5105 { background-image:url("//assets.ghostshield.com/img/products7/gem-tek-5105.svg"); }
+.selected.eco-etch-1001 { background-image:url("//assets.ghostshield.com/img/products7/eco-etch-1001.svg"); }
+.selected.micro-degreaser-1100 { background-image:url("//assets.ghostshield.com/img/products7/micro-degreaser-1100.svg"); }
+.selected.wear-tek-4400 { background-image:url("//assets.ghostshield.com/img/products7/wear-tek-4400.svg"); }
+.selected.vapor-tek-440 { background-image:url("//assets.ghostshield.com/img/products7/vapor-tek-440.svg"); }
+.selected.hydro-etch-1000 { background-image:url("//assets.ghostshield.com/img/products7/hydro-etch-1000.svg"); }
+.selected.polyaspartic-745 { background-image:url("//assets.ghostshield.com/img/products7/polyaspartic-745.svg"); }
+.selected.sila-tek-3500 { background-image:url("//assets.ghostshield.com/img/products7/sila-tek-3500.svg"); }
+.selected.urethane-645 { background-image:url("//assets.ghostshield.com/img/products7/urethane-645.svg"); }
+.selected.countertop-sealer-770,
+.selected.countertop-770 { background-image:url("//assets.ghostshield.com/img/products7/countertop-770.svg"); }
+.selected.countertop-sealer-660,
+.selected.countertop-660 { background-image:url("//assets.ghostshield.com/img/products7/countertop-660.svg"); }
+.selected.countertop-sealer-880,
+.selected.countertop-880 { background-image:url("//assets.ghostshield.com/img/products7/countertop-880.svg"); }
+
+#comparison .product_2 .pc_name,
+#comparison .product_3 .pc_name {
+	background:url("//assets.ghostshield.com/img/chevron-black.svg") 90% center no-repeat;
+	background-size:16px 16px;
+	}
+
+section ol {
+	padding-left:26px;
+	}
+
+section p {
+	margin:0;
+	padding:0 0 10px 0;
+	}
+
+
+
+
+div#banner .video_wrapper {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:2px;
+	overflow:hidden;
+	}
+
+div#banner video { display:none; }
+
+.no-touch div#banner video,
+div#banner img {
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:auto;
+	height:auto;
+	min-width:100%;
+	min-height:100%;
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	}
+
+div#banner img {
+	max-width:100%;
+	}
+
+header {
+	position:relative;
+	margin:0 auto;
+	}
+
+header #logo {
+	position:absolute;
+	margin:0;
+	padding:0;
+	height:330px;
+	width:200px;
+	left:426px;
+	left:50%;
+	margin-left:-100px;
+	top:80px;
+	}
+
+header #logo a {
+	position:absolute;
+	display:block;
+	width:100%;
+	height:100%;
+	top:0;
+	left:50px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url("//assets.ghostshield.com/img/logo/ghostshield-g-logo.svg") top left no-repeat;
+	background-size:contain;
+	z-index:1000;
+	}
+
+@media (max-width:1520px) {
+
+	header #logo {
+		height:200px;
+		width:200px;
+		left:530px;
+		left:50%;
+		margin-left:-100px;
+		top:178px;
+		top:80px;
+		}
+
+}
+
+@media (max-width:1380px) {
+
+	header #logo {
+		height:160px;
+		width:200px;
+		left:530px;
+		left:50%;
+		margin-left:-100px;
+		top:188px;
+		top:80px;
+		}
+
+}
+
+@media (max-width:1220px) {
+
+	header #logo {
+		height:160px;
+		width:200px;
+		left:510px;
+		left:50%;
+		margin-left:-100px;
+		}
+
+}
+
+@media (max-width:1170px) {
+
+	header #logo {
+		left:450px;
+		left:50%;
+		margin-left:-100px;
+		}
+
+}
+
+
+@media (max-width:1099px) {
+
+	header #logo {
+		height:56px;
+		width:200px;
+		left:50%;
+		margin-left:-100px;
+		/*z-index:2000;*/
+		top:0px;
+		position:fixed;
+		}
+
+	header #logo a {
+		height:56px;
+		left:0;
+		top:0;
+		background:url("//assets.ghostshield.com/img/logo/ghostshield-orange.svg") center center no-repeat;
+		background-size:auto 36px;
+		background:none;
+		}
+
+}
+
+/********
+
+	WELCOME
+
+*/
+
+div#banner {
+	width:100%;
+	height:140px;
+	padding-top:50px;
+	overflow:hidden;
+	z-index:0;
+	padding-bottom:2px;
+	position:relative;
+	}
+
+div#banner:after {
+	content:"";
+	left:-2px;
+	right:-2px;
+	bottom:-1px;
+	top:0;
+	position:absolute;
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	background-image:url("//assets.ghostshield.com/img/angles/top-video-cover-final-white4.svg");
+	background-size:contain;
+	}
+
+body.commercial div#banner:after { display:none; }
+
+@media (min-width:1100px) {
+
+	div#banner {
+		height:360px;
+		padding-top:0;
+		overflow:hidden;
+		}
+	
+	.product_finder div#banner {
+		height:360px;
+		}
+
+}
+
+@media (max-width:600px) {
+	/* need to check exact width on this */
+
+	div#banner {
+		height:23vw;
+		}
+
+	a.hex-button.small.contact_submit.reposition {
+		margin: 10px 0;
+	}
+
+}
+
+
+
+/********
+
+	SECTIONS
+
+*/
+
+section {
+	color:#3a2b2f;
+	clear:left;
+	}
+
+.home section {
+	min-height:410px;
+	}
+
+section .section_text {
+	max-width:84vw;
+	margin:0 auto;
+	position:relative;
+	}
+
+section.black {
+	background:#211c1b;
+	color:#f5fdfb;
+	clear:both;
+	}
+
+.column_container {
+	position:relative;
+	clear:left;
+	}
+
+.tri_column {
+	margin:0;
+	padding:0;
+	display:block;
+	box-sizing:content-box;
+	width:30%;
+	float:left;
+	padding:0 0 0 5%;
+	}
+
+.tri_column.left {
+	padding-left:0;
+	}
+
+.tri_column.no_padding {
+	padding-left:0;
+	width:33.3333%
+	}
+
+.tri_column h3 {
+	text-transform:uppercase;
+	font-size:13pt;
+	color:#3a3a3a;
+	font-family:"proxima-nova-condensed", sans-serif;
+	font-weight:100;
+	margin:0;
+	padding:0;
+	line-height:20pt;
+	}
+
+.tri_column h4 {
+	text-transform:uppercase;
+	font-size:inherit;
+	font-family:"bio-sans", sans-serif;
+	margin:0;
+	padding:0 0 .3em 0;
+	line-height:20pt;
+	font-weight:700;
+	letter-spacing:-1px;
+	font-size:38px;
+	}
+
+
+.tri_column ul,
+.column ul {
+	list-style-type:none;
+	margin:0;
+	padding:1em 0 0 0;
+	}
+
+.tri_column ul > li,
+.column ul > li {
+	margin:0;
+	padding:0 0 .7em 17px;
+	background:url("//assets.ghostshield.com/img/icons/tiny-hexagon-black.svg") left .33em no-repeat;
+	background-size:10px;
+	}
+
+.tri_column ol li,
+.column ol li {
+	margin:0;
+	padding:0 0 .7em 2px;
+	}
+
+@media (max-width: 767px) {
+
+	section h1,
+	section h2 {
+		/*padding:.3em 0 .4em 0;
+		margin:0 auto .4em auto;
+		font-size:17pt;
+		font-size:1.4rem;*/
+		text-align:left !important;
+		}
+
+	.tri_column h3 {
+		font-size:13pt;
+		line-height:15pt;
+		font-family:"proxima-nova-condensed", sans-serif;
+		}
+	
+	.tri_column {
+		width:auto;
+		position:relative;
+		margin-bottom:32px;
+		padding:0;
+		float:none;
+		}
+
+	.tri_column.left {
+		padding-bottom:0 !important;
+		padding-top:10px !important;
+		}
+
+	.tri_column.right {
+		padding-top:0 !important;
+		}
+
+}
+
+.quad_column {
+	margin:0;
+	padding:0;
+	display:block;
+	box-sizing:content-box;
+	width:23%;
+	float:left;
+	padding:0 0 0 2%;
+	}
+
+.quad_column.c1 {
+	padding-left:0;
+	}
+
+.quad_column h3 {
+	text-transform:uppercase;
+	font-size:18pt;
+	font-family:"bio-sans", sans-serif;
+	font-weight:100;
+	margin:0;
+	padding:0;
+	line-height:20pt;
+	font-weight:700;
+	letter-spacing:-1px;
+	font-size:38px;
+	}
+
+.quad_column ul {
+	list-style-type:none;
+	margin:0;
+	padding:1em 0 0 0;
+	}
+
+.quad_column ul li,
+.quad_column ol li {
+	margin:0;
+	padding:0 0 .7em 0;
+	}
+
+.spacer { height:40px; clear:left; }
+
+@media (max-width:767px) {
+
+	.quad_column {
+		width:48%;
+		padding:0 0 0 4%;
+		}
+
+	.quad_column.c1,
+	.quad_column.c3 {
+		padding-left:0;
+		clear:left;
+		}
+
+	.quad_column h3 {
+		font-size:18pt;
+		line-height:20pt;
+		}
+
+}
+
+@media (max-width:640px) {
+
+	.quad_column {
+		width:auto;
+		padding:0;
+		float:none;
+		}
+
+	.quad_column h3 {
+		font-size:18pt;
+		line-height:20pt;
+		}
+
+}
+
+.videos h4 { padding-top:1em; }
+
+.top-left-header-angle {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+	}
+
+.top-left-header-angle:before {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:-1;
+	width:0;
+	height:0;
+	border-style:solid;
+	border-width:240px 1400px 20px 0;
+	border-color:rgba(0,0,56,0.38) transparent transparent transparent;
+	}
+
+.top-left-header-angle h2 {
+	/*position:absolute;
+	top:-220px;
+	left:80px;*/
+	}
+
+@media (max-width:1500px) {
+
+	.top-left-header-angle:before {
+		border-width:20vw 100vw 3vw 0;
+		}
+
+	.top-left-header-angle h2 {
+		/*top:-20vw;
+		left:30px;*/
+		}
+
+}
+
+@media (max-width:767px) {
+
+	.top-left-header-angle:before {
+		border-width:30vw 100vw 4vw 0;
+		}
+
+	.top-left-header-angle h2 {
+		/*top:calc(-30vw + 20px);*/
+		}
+
+}
+
+/********
+
+	PRODUCT - BUY
+
+*/
+
+#buy {
+	min-height:166px;
+	background-size:cover;
+	position:relative;
+	background:#211c1b;
+	padding:100px 0 30px 0;
+	margin-top:-10px;
+	overflow:hidden;
+	}
+
+@media (max-width:700px) {
+
+	#buy {
+		padding-top:40px;
+		}
+
+}
+
+#buy h2 {
+	padding-top:20px;
+	}
+
+#buy .column_interior,
+#buy .column.full .column_interior {
+	max-width:1600px;
+	padding-left:0;
+	padding-right:0;
+	}
+
+#buy ul {
+	display:block;
+	margin:0 40px;
+	padding:0;
+	position:relative;
+	overflow:visible;
+	white-space:nowrap;
+	font-size:0;
+	list-style-type:none;
+	text-align:center;
+	}
+
+#buy ul li {
+	display:inline-block;
+	padding:0;
+	margin:0;
+	background:none;
+	opacity:1;
+	height:70px;
+	width:16.6%;
+	margin:0 20px;
+	-webkit-transition:all 500ms ease;
+	transition:all 500ms ease;
+	}
+
+#buy ul:hover li,
+#buy ul li:hover ~ li {
+	opacity:.4 !important;
+	transform:scale(0.95);
+	}
+
+#buy ul li:hover {
+	margin:0 40px;
+	opacity:1 !important;
+	-webkit-transition:all 500ms ease 0s;
+	transition:all 500ms ease 0s;
+	}
+
+#buy ul li:first-child:hover {
+	margin:0 40px 0 20px;
+	}
+
+#buy ul li:last-child:hover {
+	margin:0 20px 0 40px;
+	}
+
+#buy ul li a {
+	/*position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-85px;*/
+	display:block;
+	/*text-indent:-9999px;
+	/*overflow:hidden;*/
+	/*width:140px;
+	min-width:140px;*/
+	width:100%;
+	height:70px;
+	/*outline:5px solid transparent;*/
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	/*background-color:#f6f6f6;
+	border:10px solid #f6f6f6;*/
+	/*border:10px solid transparent;*/
+	cursor:pointer;
+	text-align:center;
+	-webkit-transition:all 500ms ease;
+	transition:all 500ms ease;
+	text-decoration:none;
+	}
+
+#buy ul li:hover a {
+/*
+	height:80px;
+	width:150px;
+	top:-5px;
+	margin-left:-90px;
+	outline:0px solid transparent;*/
+	transform:scale(1.2);
+	-webkit-transition:all 500ms ease;
+	transition:all 500ms ease;
+	}
+
+#buy ul.width6 li {
+	width:12.6%;
+	/*min-width:100px;*/
+	}
+
+#buy ul li a.concretesealersolutions {
+	background-image:url("//assets.ghostshield.com/img/logo/concretesealersolutions.svg");
+	}
+
+#buy ul li a.thehomedepot,
+#buy ul li a.homedepot {
+	background-image:url("//assets.ghostshield.com/img/logo/thehomedepot.svg");
+	}
+
+#buy ul li a.lowes {
+	background-image:url("//assets.ghostshield.com/img/logo/lowes.svg");
+	}
+
+#buy ul li a.grainger {
+	background-image:url("//assets.ghostshield.com/img/logo/grainger.svg");
+	}
+
+#buy:before {
+	content:"";
+	position:absolute;
+	top:-1px;
+	left:-4px;
+	right:-4px;
+	width:calc(100% + 14px);
+	height:350px;
+	background:#211c1b url("//assets.ghostshield.com/img/angles/invert-triangle2.svg") top center no-repeat;
+	background-size:contain;
+	}
+
+@media (min-width:1328px) {
+
+	#buy.large {
+		min-height:244px;
+		}
+
+	#buy.large ul li {
+		/*min-width:200px;*/
+		min-height:100px;
+		/*width:18%;*/
+		}
+
+	#buy.large ul li a {
+		/*margin-left:-115px;*/
+		/*width:200px;*/
+		height:100px;
+		}
+
+	#buy.large ul li a:hover {
+		height:110px;
+		/*width:210px;
+		/*margin-left:-120px;*/
+		}
+
+	/*#buy ul.width6 li,
+	#buy.large ul.width6 li {
+		width:15%;
+		}*/
+	
+	#buy.large ul.width6 li a {
+		/*margin-left:-104px;*/
+		/*width:180px;*/
+		height:90px;
+		}
+
+	#buy.large ul.width6 li a:hover {
+		/*height:98px;
+		width:189px;
+		margin-left:-108px;*/
+		}
+
+}
+
+@media (max-width:1100px) {
+
+	#buy ul.width6 li,
+	#buy.large ul.width6 li {
+		width:24%;
+		margin-bottom:20px;
+		}
+	
+	#buy ul {
+		white-space:normal;
+		}
+	
+	
+	#buy ul li:nth-child(4):hover {
+		margin:0 40px 20px 20px;
+		}
+
+	#buy ul li:nth-child(3):hover {
+		margin:0 20px 20px 40px;
+		}
+
+}
+
+@media (max-width:690px) {
+
+	#buy ul.width6 li,
+	#buy.large ul.width6 li {
+		width:30%;
+		}
+	
+	#buy ul li:nth-child(odd):hover {
+		margin:0 40px 20px 20px;
+		}
+
+	#buy ul li:nth-child(even):hover {
+		margin:0 20px 20px 40px;
+		}
+
+
+}
+
+@media (max-width:501px) {
+
+	#buy.large ul.width6 li,
+	#buy ul.width6 li,
+	#buy ul li {
+		display:block;
+		width:auto;
+		}
+
+}
+
+#page_footer_before {
+	position:relative;
+	height:190px;
+	margin:0 0 -10px 0;
+	}
+
+#page_footer_before:before {
+	content:"";
+	position:absolute;
+	top: -20px;
+	left:-5px;
+	right:-5px;
+	bottom:-3px;
+	height:200px;
+	background:#211c1b url("//assets.ghostshield.com/img/angles/invert-triangle2.svg") top center no-repeat;
+	background-size:contain;
+	}
+
+
+/********
+
+	COLUMNS
+
+*/
+
+.multi_column {
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-rows:1fr;
+	grid-template-areas:". .";
+	grid-gap:3vw;
+	}
+
+@media all and (-ms-high-contrast:none) {
+
+	.multi_column {
+		display:-ms-grid;
+		-ms-grid-columns:1fr 1fr;
+		-ms-grid-rows:1fr;
+		}
+
+}
+
+@media (max-width:800px) {
+
+	.multi_column {
+		grid-template-columns:1fr;
+		grid-template-areas:".";
+		grid-row-gap:3vw;
+		}
+
+}
+
+.column {
+	margin:0;
+	padding:0;
+	position:relative;
+	display:block;
+	float:left;
+	box-sizing:content-box;
+	/*width:50%;*/
+	}
+
+.column.full {
+	width:100%;
+	float:none;
+	clear:left;
+	}
+
+.column .column_interior {
+	position:relative;
+	max-width:84vw;
+	margin:0 auto;
+	padding:0;
+	font-family:"proxima-nova-condensed", sans-serif;
+	}
+
+.column.full .column_interior {
+	max-width:84vw;
+	}
+
+.column.full .column_interior_full {
+	max-width:1600px;
+	}
+
+
+.column .video_large,
+.column .image_large {
+	display:block;
+	width:100%;
+	height:500px;
+	position:relative;
+	}
+	
+.column .image_large {
+	height:300px;
+	}
+
+.column .video_small,
+.column .image_small {
+	float:left;
+	width:50%;
+	background:#aea09e;
+	height:250px;
+	position:relative;
+	}
+	
+.column .image_small {
+	height:180px;
+	}
+
+.video_bg,
+.image_bg {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	}
+
+.image_bg {
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+
+.video_bg video,
+.image_bg img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:auto;
+	height:auto;
+	min-width:100%;
+	min-height:100%;
+	-webkit-transform:translate(-50%, -50%);
+	-moz-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	}
+
+@media (max-width:1300px) {
+	
+	.column.left .column_interior,
+	.product .column.left .column_interior {
+		padding-left:0;
+		margin-left:0;
+		max-width:calc(100% - 10px);
+		}
+	
+	.column.right .column_interior,
+	.product .column.right .column_interior {
+		margin-right:0;
+		padding-right:0;
+		max-width:calc(100% - 70px);
+		}
+
+}
+
+@media (max-width: 767px) {
+
+	.column {
+		float:none;
+		width:100%;
+		}
+	
+	.column .video_small,
+	.column .image_small {
+		display:none;
+		}
+
+
+	.column.left .column_interior,
+	.product .column.left .column_interior
+	.column.right .column_interior,
+	.product .column.right .column_interior {
+		max-width:100%;
+		}
+
+}
+
+
+/********
+
+	GENERIC PAGE TEMPLATE
+
+*/
+
+.ghostshield {
+	display:block;
+	padding:4px 10px;
+	margin-bottom:6px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background:url("//assets.ghostshield.com/img/logo/ghostshield-logo-white-nt.svg") center center no-repeat;
+	background-size:contain;
+	}
+
+#full_page_content {
+	padding-bottom:200px;
+	}
+
+/********
+
+	CONTACT
+
+*/
+
+#contact_footer {
+	display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-column-gap: 2%;
+    padding: 0 8vw;
+	}
+
+
+form.contact {
+	padding:0;
+	margin:0;
+	font-size:0;
+	/*width:800px;*/
+	}
+
+#contact_footer p.centered {
+	text-align:center;
+	padding-bottom:1em;
+	}
+
+.contact_left form {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 2fr;
+	grid-column-gap: 1%;
+	grid-row-gap: 1%;
+	}
+
+.contact_right {
+	justify-self: end;
+}
+
+.contact_right h4 {
+	font-family:'bio-sans',sans-serif;
+	color:#ff611d;
+	font-weight:700;
+	padding-top:0;
+	margin-top:-5px;
+	font-size:110%;
+	padding-bottom:1vw;
+	margin-bottom:0;
+	}
+
+.contact_right h4 span {
+	font-family:'proxima-nova-condensed',sans-serif;
+	font-weight:700;
+	display:block;
+	font-size:90%;
+	text-transform:none;
+	}
+
+.contact_right address {
+	font-style:normal;
+	padding:0 0 8px 0;
+	}
+
+.contact_right .phone {
+	padding-bottom:8px;
+	}
+	
+.contact_right a {
+	color:#f7b433;
+	text-decoration:none;
+	}
+
+/*.submenu form.contact {
+	margin-right:-120px;
+	}*/
+
+@media (max-width:1300px) {
+
+	.submenu form.contact {
+		margin-right:-20px;
+		}
+
+}
+
+form.contact label {
+	display:none;
+	}
+
+form.contact input[type="text"],
+form.contact textarea {
+	font-size:13px;
+	max-height: 70px;
+    min-height: 39px;
+	padding-left:15px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:0px;
+	background:transparent;
+	outline:0;
+	-webkit-appearance:none;
+	box-shadow:none;
+	transition:background-color .2s ease, color .2s ease, box-shadow .2s ease, border-color .2s ease;
+	/*width:100%;*/
+	vertical-align:top;
+	}
+
+form.contact {
+	display: grid;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
+@media(max-width:600px) {
+	form.contact{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+form.contact textarea {
+	width: auto;
+}
+
+form.contact input[type="text"].inverse,
+form.contact textarea.inverse {
+	color:#211c1b;
+	border:1px solid #211c1b;
+	}
+
+form.contact textarea {
+	clear:left;
+	width: calc(100% - 20px);
+	height:130px;
+	padding-top:10px;
+	padding-bottom:5px;
+	grid-column: 1 / 3;
+	}
+
+form.contact input[type="submit"] {
+	display:block;
+	background:#bbb;
+	color:#0c0b0e;
+	font-family:"bio-sans", sans-serif;
+	outline:0;
+	border:0;
+	-webkit-appearance:none;
+	font-size:13px;
+	height:39px;
+	line-height:39px;
+	width:180px;
+	text-transform:uppercase;
+	-webkit-transition:all 250ms;
+	transition:all 250ms;
+	cursor:pointer;
+	margin-top:2px;
+	font-weight:700;
+	letter-spacing:-1px;
+	font-size:38px;
+	}
+
+form.contact input[type="submit"]:hover {
+	background:#888;
+	color:#0c0b0e;
+	-webkit-transition:all 250ms;
+	transition:all 250ms;
+	}
+
+/********
+
+	FOOTER
+
+*/
+
+
+/**
+
+	COMMA-SEPARATED LISTS
+
+*/
+
+ul.column_list {
+	-webkit-column-count:2;
+	-moz-column-count:2;
+	column-count:2;
+	}
+
+
+ul.commas {
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+ul.commas li {
+	background:none;
+	padding:0;
+	margin:0;
+	display:inline;
+	}
+
+ul.commas li:after {
+	content:", ";
+	}
+
+ul.commas li:last-child:after {
+	content:"";
+	}
+
+ul.confined {
+	max-width:84vw;
+	margin:0 auto;
+	}
+
+ul.product_list,
+ul.file_list {
+	padding-bottom:40px;
+	vertical-align:top;
+	}
+
+ul.product_list li {
+    vertical-align:top;
+    display:inline-block;
+    margin:0 20px 10px 0;
+    width:calc(30% - 20px);
+    }
+
+ul.product_list a {
+	color:#ff611d;
+	text-decoration:none;
+	font-family:"proxima-nova-condensed", sans-serif;
+	}
+
+ul.file_list a {
+	text-decoration:none;
+	font-family:"proxima-nova-condensed", sans-serif;
+	}
+
+ul.product_list a:hover,
+ul.file_list a:hover {
+	color:#f7b430;
+	}
+
+h4 {
+	text-transform:uppercase;
+	font-weight:normal;
+	}
+
+.product2:after {
+	clear:left;
+	margin:0 40px 40px 40px;
+	border-bottom:1px solid #AEA09E;
+	content:"";
+	background:#FDFCFB;
+	height:40px;
+	display:block;
+	}
+
+@media (min-width:760px) {
+	
+	/*.animatable.fade-in {
+		opacity:0;
+		}
+
+	.animatable.fade-in.in-view {
+		opacity:1;
+		-webkit-transition:opacity 500ms linear;
+		transition:opacity 500ms linear;
+		}*/
+
+	.animatable.rise-in {
+		top:200px;
+		-webkit-transition:top 500ms linear;
+		transition:top 500ms linear;
+		}
+
+	.animatable.rise-in.in-view {
+		top:0;
+		-webkit-transition:top 500ms linear;
+		transition:top 500ms linear;
+		}
+
+	.animatable.delay-1.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 200ms;
+		transition:opacity 500ms linear 200ms;
+		}
+
+	.animatable.delay-2.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 400ms;
+		transition:opacity 500ms linear 400ms;
+		}
+
+	.animatable.delay-3.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 600ms;
+		transition:opacity 500ms linear 600ms;
+		}
+
+	.animatable.delay-4.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 800ms;
+		transition:opacity 500ms linear 800ms;
+		}
+
+	.animatable.delay-5.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 1000ms;
+		transition:opacity 500ms linear 1000ms;
+		}
+
+	.animatable.delay-6.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 1200ms;
+		transition:opacity 500ms linear 1200ms;
+		}
+
+	.animatable.delay-7.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 1400ms;
+		transition:opacity 500ms linear 1400ms;
+		}
+
+	.animatable.delay-8.fade-in.in-view {
+		-webkit-transition:opacity 500ms linear 1600ms;
+		transition:opacity 500ms linear 1600ms;
+		}
+
+}
+
+/*
+
+	HACK FIXES
+
+*/
+
+.anchor_fix {
+	margin-top:100px;
+	}
+
+#top_anchor {
+	position:absolute;
+	top:-100px;
+	}
+
+
+#gsmodal {
+	z-index:100000;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	}
+
+#gsmodal_inner {
+	width:60vw;
+	height:40vh;
+	min-height:300px;
+	max-width:84vw;
+	min-width:400px;
+	margin:auto auto;
+	background:#fff;
+	box-shadow:1px 1px 40px rgba(0,0,0,0.3);
+	}
+
+#analytics-iframe {
+	width:0;
+	height:0;
+	border:0;
+	position:absolute;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	}
+
+/*
+
+	DEFINITIONS
+
+*/
+
+dfn {
+	font-style:normal;
+	border-bottom:1px dotted #f1116d;
+	position:relative;
+	cursor:help;
+	}
+
+dfn .definition {
+	position:absolute;
+	text-align:left !important;
+	top:1.5em;
+	left:50%;
+	margin:0 0 0 -130px;
+	width:220px;
+	padding:4px 20px;
+	background:#fff;
+	box-shadow:1px 1px 8px rgba(0,0,0,0.3);
+	z-index:2001;
+	min-height:80px;
+	color:#3a2b2f !important;
+	opacity:0;
+	display:none;
+	font-family:"proxima-nova-condensed", sans-serif;
+	letter-spacing:0.5px;
+	-webkit-transition:opacity 500ms, height 250ms;
+	transition:opacity 500ms, height 250ms;
+	}
+
+dfn .definition h3 {
+	font-family:"proxima-nova-condensed", sans-serif !important;
+	font-weight:700;
+	font-size:12pt !important;
+	line-height:14pt !important;
+	text-transform:none !important;
+	text-align:left !important;
+	padding:14px 0 !important;
+	margin:0 !important;
+	color:#3a2b2f !important;
+	}
+
+dfn .definition p {
+	text-align:left !important;
+	padding:0.5em 0 !important;
+	font-size:10pt !important;
+	line-height:auto !important;
+	}
+
+dfn .definition .socket {
+	margin-top:-115px;
+	}
+
+dfn .definition .self_defined {
+	}
+
+dfn .definition .provider {
+	text-align:right;
+	font-size:9pt;
+	color:#999;
+	}
+
+dfn:hover .definition {
+	display:block;
+	}
+
+dfn .definition.active {
+	opacity:1;
+	-webkit-transition:opacity 500ms, height 250ms;
+	transition:opacity 500ms, height 250ms;
+	}
+
+dfn .definition:before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:50%;
+	margin-left:-8px;
+	top:-8px;
+	width:14px;
+	height:14px;
+	background:url("//assets.ghostshield.com/img/chevron/white-up.svg") bottom center no-repeat;
+	background-size:14px 14px;
+	}
+
+
+
+/*
+
+	ARROW LINKS
+
+*/
+
+a.arrow.link {
+	display:block;
+	font-family:"bio-sansd", sans-serif;
+	padding:1vw 0 1vw 1vw;
+	padding-left:0;
+	cursor:pointer;
+	color:#555;
+	font-weight:700;
+	text-transform:uppercase;
+	text-decoration:none;
+	/*font-size:1.4vw;
+	line-height:1.5vw;
+	/*
+	background:url("//assets.ghostshield.com/img/icons/nav-arrow.svg") 0 12px no-repeat;
+	background-size:10px 10px;
+	-webkit-transition:padding-left 150ms linear, background-position 150ms linear;
+	transition:padding-left 150ms linear, background-position 150ms linear;*/
+	}
+
+a.arrow.link svg {
+	width:.8vw;
+	height:.8vw;
+	fill:#F7B430;
+	-webkit-transition:fill 150ms linear;
+	transition:fill 150ms linear;
+	}
+
+a.arrow.link:hover svg {
+	fill:#ff611d;
+	-webkit-transition:fill 150ms linear;
+	transition:fill 150ms linear;
+	cursor:pointer;
+	}
+
+/*a.arrow.link:hover,
+a.arrow.link:active {
+	-webkit-transition:padding-left 150ms linear, background-position 150ms linear;
+	transition:padding-left 150ms linear, background-position 150ms linear;
+	}*/
+
+@media (max-width: 600px) {
+	#contact_footer {
+		grid-template-columns: 1fr;
+		grid-row-gap: 5%;
+		padding: 0 8vw;
+		display: flex;
+		flex-direction: column;
+	}
+	form.contact > input {
+		margin: 10px 0;
+	}
+
+	#contact_footer .contact_right {
+		justify-self: center;
+		text-align: center;
+		margin: 5% 0;
+	}
+
+	input[type="submit"].xxsmall, input[type="button"].xxsmall, .hex-button.xxsmall, button.xxsmall, input[type="submit"].small, input[type="button"].small, button.small, .hex-button.small {
+		line-height: 12pt;
+		font-size: 12pt;
+	}
+
+	#contact_footer .contact_right .info_sep {
+		display:none;
+	}
+
+	.contact_right h4 span {
+		display: inline;
+	}
+	
+}

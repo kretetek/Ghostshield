@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteBase /
+	
+	RewriteRule ^gallery/?$ commercial/gallery.php?%{QUERY_STRING}
+	RewriteRule ^gallery/([a-z]+)/?$ commercial/gallery.php?sort=$1&%{QUERY_STRING}
+
+</IfModule>
+

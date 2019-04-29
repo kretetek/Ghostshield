@@ -1,0 +1,621 @@
+/*********
+
+	ARTICLE
+
+*/
+
+#logo {
+	display:none;
+	}
+
+section h1 {
+	padding-top:10px;
+	}
+
+#article-search {
+	height:30vh;
+	height:230px;
+	min-height:200px;
+	overflow:hidden;
+	background-size:cover;
+	text-align:center;
+	margin-bottom:2em;
+	}
+
+#article-search form {
+	width:300px;
+	margin:9vh auto 0 auto;
+	margin:100px auto 0 auto;
+	color:#fff;
+	font-size:0;
+	}
+
+@media (max-width:1099px) {
+
+	#article-search form {
+		margin-top:80px;
+		}
+
+}
+
+#article-search h3 {
+	text-transform:uppercase;
+	}
+
+#article-search input[type="text"] {
+	display:inline-block;
+	vertical-align:top;
+	height:35px;
+	width:240px;
+	margin:0;
+	padding:0 6px;
+	color:#555;
+	box-sizing:border-box;
+	text-transform:uppercase;
+	border-radius:4px 0 0 4px;
+	}
+
+#article-search .search_small {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 0 -1px;
+	height:35px;
+	outline:0;
+	padding:2px 8px 0 11px;
+	color:#fff;
+	text-transform:uppercase;
+	background-color:#ff611d;
+	border:1px solid #c55328;
+	border-left:0;
+	border-top:0;
+	border-radius:0px 4px 4px 0;
+	-webkit-transform:150ms linear;
+	transform:150ms linear;
+	text-indent:-1000px;
+	cursor:pointer;
+	-webkit-appearance:none;
+	}
+
+.article table {
+	width:100%;
+	max-width:1200px;
+	margin:0 auto;
+	}
+
+.article table td {
+	letter-spacing:2px;
+	padding:3px 0;
+	}
+
+.article a,
+.article table td a {
+	color:#ff611d;
+	text-decoration:none;
+	}
+
+.article a:visited,
+.article a:active,
+.article table td a:visited,
+.article table td a:active  {
+	color:#ff611d !important;
+	}
+
+.article a:hover,
+.article table td a:hover {
+	color:#f7b433 !important;
+	text-decoration:underline;
+	}
+
+.article_image.landscape {
+	height:480px;
+	width:100%;
+	overflow:hidden;
+	margin-bottom:20px;
+	position:relative;
+	cursor:pointer;
+	}
+
+.article_image.landscape img {
+	width:100%;
+	vertical-align:center;
+	position:absolute;
+	}
+
+.article_image.landscape.active {
+	overflow:visible;
+	z-index:2;
+	}
+
+.article_image.landscape.active img {
+	box-shadow:1px 1px 10px rgba(0,0,0,0.4);
+	}
+
+.article_image.landscape:after {
+	content:"";
+	background:rgba(0,0,0,0.5) url("//assets.ghostshield.com/img/icons/search-white.svg") center center no-repeat;
+	background-size:28px 28px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:34px;
+	height:34px;
+	z-index:3;
+	}
+
+.article_image.landscape:hover:after {
+	background-color:#ff611d;
+	}
+
+.article_image.landscape.active:after {
+	background:rgba(0,0,0,0.5) url("//assets.ghostshield.com/img/icons/x-white.svg") center center no-repeat;
+	background-size:28px 28px;
+	}
+
+.article_image.landscape.active:hover:after {
+	background-color:#ff611d;
+	}
+
+.article_image.portrait {
+	float:right;
+	margin:0 0 20px 40px;
+	}
+
+.article_image.portrait img {
+	max-width:400px;
+	}
+
+.hidden_article_image {
+	display:none;
+	}
+
+a.synopsis {
+	display:block;
+	border-left:3px solid #ccc;
+	padding:0;
+	margin-bottom:18px;
+	background:#fefefe;
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	position:relative;
+	}
+
+a.synopsis .image_thumb {
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	width:140px;
+	overflow:hidden;
+	text-align:center;
+	}
+
+a.synopsis .image_thumb img {
+	height:100%;
+	}
+
+a.synopsis,
+a.synopsis * {
+	cursor:pointer;
+	}
+
+a.synopsis:hover {
+	text-decoration:none;
+	background:#fff;
+	border-color:#ff611d;
+	box-shadow:0px 0px 12px #eee;
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	}
+
+a.synopsis .synopsis_text {
+	padding:25px 30px 10px 170px;
+	min-height:110px;
+	}
+
+a.synopsis .synopsis_text.no_image {
+	padding-left:30px;
+	}
+
+a.synopsis h3 {
+	margin:0 0 6px 0;
+	color:#444;
+	text-transform:uppercase;
+	font-weight:normal;
+	-webkit-transition:color 280ms linear;
+	transition:color 280ms linear;
+	}
+
+a.synopsis:hover h3 {
+	color:#ff611d;
+	-webkit-transition:color 280ms linear;
+	transition:color 280ms linear;
+	}
+
+a.synopsis p {
+	color:#666;
+	}
+
+@media (max-width:800px) {
+
+	a.synopsis .synopsis_text {
+		padding:16px 23px 7px 160px;
+		font-size:95%;
+		}
+
+	a.synopsis .synopsis_text p {
+		font-size:88%;
+		}
+
+	.article_image.landscape {
+		height:240px;
+		}
+
+}
+
+@media (max-width:660px) {
+
+	a.synopsis .synopsis_text {
+		padding-left:120px;
+		min-height:80px;
+		}
+
+	a.synopsis .synopsis_text p {
+		display:none;
+		}
+
+	a.synopsis .image_thumb {
+		width:100px;
+		}
+
+}
+
+span.readmore {
+	text-decoration:underline;
+	color:#ff611d;
+	}
+
+.date,
+.tags,
+.topics {
+	text-transform:uppercase;
+	font-size:80%;
+	}
+
+.tags a {
+	white-space:nowrap;
+	}
+
+.date {
+	padding-bottom:16px;
+	}
+
+.date span {
+	letter-spacing:-2px;
+	color:#bbb;
+	padding-right:3px;
+	}
+
+.article_products {
+	margin:16px 0;
+	}
+
+.article_text .article_products {
+	float:right;
+	margin-left:16px;
+	}
+
+.article_text {
+	line-height:1.5em;
+	letter-spacing:1px;
+	}
+
+.summary {
+	letter-spacing:2px;
+	padding-bottom:1.5em;
+	}
+
+.quickTip {
+	padding:.7em .9em .2em 70px;
+	background:#eee url("//assets.ghostshield.com/img/light-bulb3.svg") 10px .7em no-repeat;
+	background-size:50px 50px;
+	min-height:50px;
+	margin-bottom:.5em;
+	}
+
+a.product {
+	position:relative;
+	display:inline-block;
+	max-width:31%;
+	min-width:320px;
+	padding:13px 16px;
+	margin-right:3%;
+	border-left:3px solid #ccc;
+	margin-bottom:12px;
+	background:#fefefe;
+	background-size:15px 15px;
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	}
+
+a.product:hover {
+	text-decoration:none;
+	background:#fff;
+	border-color:#ff611d;
+	box-shadow:0px 0px 12px #eee;
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	}
+
+a.product svg {
+	width:16px;
+	height:16px;
+	position:absolute;
+	right:20px;
+	top:50%;
+	margin-top:-8px;
+	}
+
+a.product svg polygon {
+	fill:#bbb;
+	-webkit-transition:fill 300ms linear;
+	transition:fill 300ms linear;
+	}
+
+a.product:hover svg polygon {
+	fill:#ff611d;
+	-webkit-transition:fill 300ms linear;
+	transition:fill 300ms linear;
+	}
+
+a.product img {
+	float:left;
+	width:60px;
+	height:60px;
+	margin-right:16px;
+	}
+
+a.product .product_name {
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:5px 0 5px 0;
+	}
+
+a.product:hover p,
+a.product p {
+	margin:0;
+	padding:0;
+	color:#333;
+	font-weight:normal;
+	text-decoration:none;
+	/*text-transform:uppercase;*/
+	}
+
+.article_footer {
+	padding-top:28px;
+	}
+
+.publisher {
+	padding-top:2em;
+	padding-bottom:3em;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	font-size: 80%;
+	}
+
+.publisher span.delimiter {
+	color:#aaa;
+	letter-spacing:-1px;
+	}
+
+/*********
+
+	INDEX
+
+*/
+
+.columns {
+	max-width:1200px;
+	margin:0 auto;
+	}
+
+.column.primary {
+	width:calc(75% - 40px);
+	padding-right:40px;
+	border-right:1px solid #ccc;
+	}
+
+.column.primary .column_interior {
+	max-width:none;
+	margin:0;
+	padding:0;
+	}
+
+.column.secondary {
+	width:calc(25% - 1px);
+	margin-left:-1px;
+	border-left:1px solid #ccc;
+	}
+
+.column.secondary .link_list h3,
+.column.secondary .link_list li a {
+	padding-left:20px;
+	}
+
+.column.secondary .link_list  ul li a:hover {
+	background-position:20px 9px;
+	padding-left:40px;
+	}
+
+.column.secondary .link_list  ul li a.active {
+	background-position:20px 7px;
+	padding-left:40px;
+	}
+
+.column.secondary form {
+	padding:0 0 30px 18px;
+	white-space-collapse:discard;
+	text-space-collapse:trim-inner;
+	font-size:0;
+	}
+
+.column.secondary form input[type="text"] {
+	display:inline-block;
+	vertical-align:top;
+	height:28px;
+	margin:0;
+	padding:0 6px;
+	line-height:28px;
+	font-size:11px;
+	box-sizing:border-box;
+	border-radius:4px 0 0 4px;
+	}
+
+.column.secondary .search_small {
+	display:inline-block;
+	vertical-align:top;
+	margin:0 0 0 -1px;
+	height:28px;
+	outline:0;
+	padding:2px 5px 0 8px;
+	color:#fff;
+	text-transform:uppercase;
+	background:#ff611d;
+	border:1px solid #c55328;
+	border-left:0;
+	border-top:0;
+	border-radius:0px 4px 4px 0;
+	-webkit-transform:150ms linear;
+	transform:150ms linear;
+	cursor:pointer;
+	-webkit-appearance:none;
+	}
+
+.search_small:hover {
+	background:#F7B430;
+	border-color:#E68C2B;
+	-webkit-transform:150ms linear;
+	transform:150ms linear;
+	}
+
+.search_small:active {
+	background:#c55328;
+	border-color:#c55328;
+	-webkit-transform:150ms linear;
+	transform:150ms linear;
+	}
+
+@media (max-width:1250px) {
+	.columns {
+		margin:0 20px;
+		}
+}
+
+@media (min-width:750px) and (max-width:900px) {
+	.columns h2 {
+		margin:0 0 20px 0;
+		}
+}
+
+@media (max-width:800px) {
+
+	.columns h2 {
+		padding-top:20px;
+		}
+
+	.column.primary {
+		width:auto;
+		padding-right:0;
+		padding-bottom:20px;
+		border-right:0;
+		border-bottom:1px solid #ccc;
+		}
+
+	.column.secondary {
+		width:auto;
+		margin-left:0;
+		border-left:0;
+		padding-top:20px;
+		text-align:center;
+		}
+
+	.link_list {
+		display:inline-block;
+		vertical-align:top;
+		width:300px;
+		text-align:left;
+		}
+
+}
+
+.pagination {
+	margin:5px 0 20px 0;
+	border-radius:2px;
+	display:inline-block;
+	overflow:hidden;
+	}
+
+.pagination .pagination_page {
+	display:inline-block;
+	padding:8px 11px 3px 11px;
+	border:1px solid #ccc;
+	line-height:20px;
+	}
+
+.pagination a.pagination_page {
+	background:#fff;
+	}
+
+.pagination a.pagination_page:hover {
+	text-decoration:none;
+	background:#ff611d;
+	border-color:#ff611d;
+	color:#fff;
+	}
+
+.pagination .pagination_delimiter {
+	/*display:none;*/
+	width:2px;
+	display:inline-block;
+	overflow:hidden;
+	}
+
+.pagination .pagination_disabled {
+	color:#ccc;
+	}
+
+del {
+	display:block;
+	text-decoration:none;
+	height:4.6em;
+	overflow:hidden;
+	cursor:pointer;
+	}
+
+del:before {
+	display:block;
+	content:"Show More...";
+	margin-bottom:-4.5em;
+	color:#ff611d;
+	text-decoration:underline;
+	z-index:2;
+	position:relative;
+	height:1.5em;
+	padding-top:3.1em;
+	background: -moz-linear-gradient(top, rgba(251,251,251,0) 0%, rgba(251,251,251,1) 70%);
+	background: -webkit-linear-gradient(top, rgba(251,251,251,0) 0%,rgba(251,251,251,1) 70%);
+	background: linear-gradient(to bottom, rgba(251,251,251,0) 0%,rgba(251,251,251,1) 70%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fbfbfb', endColorstr='#fbfbfb',GradientType=0 );
+	}
+
+del.active {
+	height:auto;
+	cursor:default;
+	}
+
+del.active:before {
+	display:none;
+	}
+
+#buy:before {
+	background-image:url("//assets.ghostshield.com/img/angles/invert-triangle-grey.svg") !important;
+	}

@@ -1,0 +1,1898 @@
+/********
+
+	HEADER
+
+*/
+
+#logo {
+	position:absolute;
+	top:8vh;
+	left:9vw;
+	width:50vw;
+	max-width:70vh;
+	height:11vh;
+	z-index:1000;
+	border:1px solid transparent;
+	}
+
+#logo svg {
+	max-width:100%;
+	max-height:100%;
+	text-align:left;
+	}
+
+#logo svg .st0 {
+	fill:#fff;
+	}
+
+
+
+
+div#banner {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	}
+
+div#banner:after {
+	display:none;
+	}
+
+
+/*#tagline span.part {
+	display:block;
+	}
+
+#tagline span.reg {
+	position:relative;
+	}
+
+#tagline span.reg:after {
+	position:absolute;
+	top:3px;
+	content:"\00ae";
+	font-size:40%;
+	margin-left:-9px;
+	}
+
+#tagline .blurb {
+	font-size:1rem;
+	color:#222;
+	padding-right:100px;
+	}*/
+
+section#splash {
+	background-image:url("//assets.ghostshield.com/img/bg/gs-smoke.jpg");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100vh;
+	position:relative;
+	}
+
+section#splash .splash_overlay {
+	bottom:5vh;
+	left:10vw;
+	width:80vw;
+	position:absolute;
+	margin:0;
+	/*position:relative;
+	display:block;
+	width:100%;
+	min-height:4em;
+	padding:14vh 0 0 7vw;*/
+	font-size:2rem;
+	font-family:"proxima-nova", sans-serif;
+	color:#fff;
+	z-index:999;
+	}
+
+section#splash .splash_overlay .upper_half {
+	height:calc(20vh - 4px);
+	position:relative;
+	border:1px solid transparent;
+	display:flex;
+	/*transform:tanslateY(-25%);*/
+	}
+
+section#splash .splash_overlay .upper_half > * {
+	align-self: flex-end;
+	max-width:200vh;
+	}
+
+section#splash .splash_overlay .lower_half {
+	height:50vh;
+	/*top:75vh;
+	position:absolue;*/
+	/*transform:tanslateY(25%);*/
+	border:1px solid transparent;
+	position:relative;
+	}
+
+
+section#splash .splash_overlay .upper_half > * {
+	/*top:50%;
+	transform:translateY(-50%);
+	display:block;
+	position:absolute;*/
+	}
+
+section#splash img {
+	max-height:90%;
+	max-width:110%;
+	position:absolute;
+	/*top:50%;*/
+	bottom:10%;
+	left:50%;
+	transform:/*translateY(-50%)*/translateX(-50%);
+	}
+
+section#splash h1 {
+	text-transform:none;
+	font-size:1.3vw;
+	line-height:1.6vw;
+	font-family:"proxima-nova",sans-serif;
+	font-weight:normal;
+	text-align:left;
+	letter-spacing:0;
+	color:#fafafa;
+	border:0;
+	padding:.5em 20vw .5em 0;
+	margin:0;
+	}
+	
+section#splash h1:after,
+section#splash h1:before {
+	display:none;
+	}
+
+section#splash h3 {
+	text-transform:uppercase;
+	font-size:4.4vw;
+	line-height:4.7vw;
+	margin:0;
+	font-family:"bio-sans",sans-serif;
+	font-weight:700;
+	letter-spacing:-1px;
+	vertical-align:top;
+	padding-bottom:.4em;
+	}
+
+section#splash h3 span.orange {
+	color:#ff611d;
+	font-size:3.6vw;
+	line-height:3.9vw;
+	display:inline-block;
+	}
+
+section#splash h3 span.gray {
+	color:#aaa;
+	font-size:90%;
+	}
+
+section#splash h3 span.nobreak {
+	white-space:nowrap;
+	}
+
+section#splash h3 span.trade {
+	font-size:40%;
+	line-height:56px;
+	vertical-align:top;
+	}
+
+section#splash p > em,
+section#splash p > strong,
+section#splash p > span {
+	font-style:normal;
+	font-weight:normal;
+	font-family:"proxima-nova",sans-serif;
+	letter-spacing:inherit;
+	line-height:inherit !important;
+	}
+
+@media (max-width:900px) {
+
+	section#splash h3 {
+		font-size:4.4vh;
+		line-height:4.7vh;
+		padding-bottom:.4em;
+		}
+	
+	section#splash h3 span.orange {
+		color:#ff611d;
+		font-size:3.6vh;
+		line-height:3.9vh;
+		}
+
+}
+
+
+section#splash .hex-button.tall {
+	/*height:3rem;
+	line-height:3rem;*/
+	padding-top:13px;
+	padding-bottom:15px;
+	}
+
+
+
+
+#calltoaction {
+	position:absolute;
+	top:0;
+	left:0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 em.plural:after,
+h1 em.plural:after { content:"s"; }
+
+@media (max-width:1200px) {
+
+	section#splash span.part {
+		display:inline;
+		}
+
+}
+
+@media (max-width:1099px) {
+
+	section#splash h3 {
+		width:auto;
+		}
+
+	section#splash h1 {
+		padding-top:20px;
+		padding-bottom:0px;
+		}
+
+}
+
+
+@media (max-width:770px) {
+
+	#calltoaction .hex-button.tall {
+		padding-left:22px;
+		padding-right:22px;
+		}
+
+}
+
+
+@media (max-width:500px) {
+
+	#calltoaction {
+		width:auto;
+		padding-right:0;
+		/*margin:22px 0 1em 0;*/
+		}
+
+	#calltoaction .hex-button.tall {
+		width:100%;
+		margin-right:0;
+		font-size:70%;
+		}
+
+	header .arrow.link {
+		clear:both;
+		}
+
+}
+
+@media (max-width:400px) {
+
+	#calltoaction .hex-button.tall {
+		font-size:60%;
+		}
+
+}
+
+@media (max-width:350px) {
+
+	#calltoaction .hex-button.tall {
+		font-size:45%;
+		}
+
+}
+
+
+
+
+#why {
+	min-height:34vh;
+	padding-top:8vh;
+	position:relative;
+	clear:both;
+	font-family:"proxima-nova", sans-serif;
+	color:#666;
+	}
+
+#why:before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	top:7vh;
+	border:0 solid transparent;
+	border-left-width:50vw;
+	border-right-width:50vw;
+	width:0;
+	height:0;
+	z-index:-1;
+	/*
+	height:10vh;
+	background:#111;
+	border-bottom:3px solid #ff611d;
+	*/
+	top:20vw;
+	border-top:10vh solid #111;
+	}
+
+#why:after {
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	z-index:-1;
+	height:7vh;
+	height:20vw;
+	background:#111;
+	}
+
+#why .wrapper1 {
+	padding:0vh 8vw 0 8vw;
+	}
+
+#why .wrapper2 {
+	background:#fff;
+	box-shadow:5px 5px 31px -17px rgba(0,0,0,.3);
+	padding:2vh 4vw 7vh 26vw;
+	}
+
+#why .wrapper2 > * {
+	max-width:50vw;
+	margin:0 auto;
+	}
+
+#why .video_wrapper {
+	position:absolute;
+	left:8vw;
+	top:8vh;
+	bottom:0;
+	width:24vw;
+	overflow:hidden;
+	}
+#why video {
+	height:100%;
+	width:auto;
+	}
+
+/********
+
+	HOW GHOSTSHIELD WATERPROOFS
+
+*/
+
+#how {
+	min-height:50vh;
+	background-size:cover;
+	position:relative;
+	clear:both;
+	font-family:"proxima-nova", sans-serif;
+	padding:12vh 8vw 8vh 8vw;
+	}
+
+#four_blocks {
+	display:grid;
+	min-height:40vh;
+	padding-top:3vh;
+	grid-template-columns:repeat(4, 1fr);
+	}
+
+#four_blocks > div {
+	display:grid;
+	align-content:bottom;
+	padding-top:22vw;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:top center;
+	}
+
+#four_blocks #block_1 {
+	background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_1.png");
+	}
+
+#four_blocks #block_2 {
+	background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_2.png");
+	}
+
+#four_blocks #block_3 {
+	background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_3.png");
+	}
+
+#four_blocks #block_4 {
+	background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_4.png");
+	}
+
+#four_blocks p, #four_blocks .step {
+	padding:0 15%;
+	}
+
+#four_blocks p {
+	height:8em;
+	color:#666;
+	}
+
+#four_blocks p a {
+	color:#ff611d;
+	}
+
+#four_blocks .step {
+	font-size:2.4vw;
+	line-height:2.4vw;
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	font-style:oblique;
+	color:#888;
+	vertical-align:bottom;
+	padding-bottom:1vw;
+	}
+
+#four_blocks .step:before {
+	content:"//";
+	color:#ff611d;
+	font-size:1.5vw;
+	line-height:1.5vw;
+	margin:.65vw .2vw 0 0;
+	vertical-align:top;
+	display:inline-block;
+	}
+
+@media only screen and (max-width: 900px) {
+
+	#four_blocks > div {
+		padding-top:22vw;
+		}
+
+	#four_blocks #block_1 {
+		background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_1.png");
+		}
+
+	#four_blocks #block_2 {
+		background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_2.png");
+		}
+
+	#four_blocks #block_3 {
+		background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_3.png");
+		}
+
+	#four_blocks #block_4 {
+		background-image:url("http://ghostshieldconcretesealers.com/wp-content/uploads/2019/01/Hex_Layer_4.png");
+		}
+
+	#four_blocks {
+		grid-template-columns:1fr;
+		}
+
+}
+
+
+
+#easy {
+	padding:8vh 8vw 0 8vw;
+	position:relative;
+	}
+
+#easy video {
+	width:100%;
+	}
+
+
+#easy:before {
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	z-index:-1;
+	/*
+	height:10vh;
+	background:#111;
+	border-bottom:3px solid #ff611d;
+	*/
+	width:0;
+	height:0;
+	border:0 solid transparent;
+	/*border-left-width:50vw;
+	border-right-width:50vw;
+	border-bottom:10vh solid #222;*/
+	border-top:10vh solid #fbfbfb;
+	border-left-width:50vw;
+	border-right-width:50vw;
+	bottom:7vh;
+	bottom:20vw;
+	}
+
+#easy:after {
+	content:"";
+	display:block;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-2;
+	height:7vh;
+	height:calc(20vw + 10vh);
+	background:#222;
+	}
+
+
+/********
+
+	GALLERY
+
+*/
+
+#gallery {
+	position:relative;
+	overflow:hidden;
+	height:73vw;
+	background:#222;
+	}
+
+#gallery h2 {
+	border-bottom:0;
+	margin:0;
+	margin-bottom:0;
+	padding:16vh 8vw 30px 8vw;
+	}
+
+#gallery_frame {
+	overflow:hidden;
+	position:relative;
+	height:50vw;
+	margin:-4vw 0;
+	transform:scale(0.84);
+	}
+
+.gallery_item {
+	max-height:800px;
+	height:50vw;
+	width:100%;
+	position:relative;
+	overflow:hidden;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	}
+
+.gallery_item.loading:before {
+	content:"LOADING...";
+	font-family:"bio-sans",sans-serif;
+	font-weight:700;
+	display:block;
+	width:100%;
+	height:50vw;
+	line-height:50vw;
+	color:#fff;
+	font-size:2vw;
+	text-align:center;
+	}
+
+.gallery_item.gallery_right {
+	/*left:100%;*/
+	transform:translateX(100%);
+	z-index:2;
+	position:absolute;
+	}
+
+.gallery_item.gallery_left {
+	/*left:-100%;*/
+	transform:translateX(-100%);
+	z-index:2;
+	}
+
+.gallery_item.gallery_shift {
+	position:absolute;
+	left:0;
+	top:0;
+	transform:translateX(0);
+	z-index:2;
+	transition:transform 350ms linear;
+	}
+
+#gallery_full {
+	font-size:0;
+	}
+
+#gallery_thumbs {
+	position:relative;
+	display:inline-block;
+	z-index:20;
+	width:44vw;
+	font-size:0;
+	text-align:center;
+	/*
+	transform:translateX(-50%);
+	transition:bottom 250ms ease-out;*/
+	}
+
+#gallery_thumbs * {
+	font-size:0;
+	}
+
+@media (min-width:600px) {
+
+	#gallery:hover #gallery_thumbs {
+		/*transition:bottom 250ms ease-in;*/
+		}
+
+}
+
+#gallery_thumbs .gallery_thumb {
+	display:inline-block;
+	vertical-align:top;
+	margin:3px 0 0 6px;
+	border:2px solid transparent;
+	font-size:0;
+	}
+
+#gallery_thumbs .gallery_thumb:hover {
+	border:2px solid #fff;
+	}
+
+#gallery_thumbs .gallery_thumb.active {
+	border:2px solid #ff611d;
+	}
+
+#gallery_thumbs .gallery_thumb img {
+	width:100%;
+	width:10vw;
+	width:calc(7vw - 10px);
+	}
+#gallery_thumbs.gallery6 .gallery_thumb img {
+	width:calc(7vw - 10px);
+	}
+
+#gallery_thumbs .gallery_caption {
+	display:none;
+	width:0;
+	height:0;
+	overflow:hidden;
+	}
+
+#gallery #gallery_caption {
+	display:inline-block;
+	vertical-align:top;
+	width:35vw;
+	margin:0;
+	padding:20px 5vw 20px 8vw;
+	opacity:0;
+	font-family:"proxima-nova", sans-serif;
+	font-size:1.3vw;
+	transition:opacity 250ms linear;
+	}
+
+@media (min-width:768px) {
+
+	#gallery h2 {
+		white-space:nowrap;
+		}
+
+}
+
+@media (max-width:767px) {
+
+	#gallery h2 {
+		}
+
+	#gallery #gallery_caption {
+		}
+
+}
+
+@media (max-width:620px) {
+
+	#gallery h2 {
+		text-align:center !important;
+		}
+
+	#gallery #gallery_caption {
+		}
+
+}
+
+
+#gallery #gallery_caption.visible {
+	opacity:1;
+	transition:opacity 250ms linear;
+	}
+
+.top-left-header-angle {
+	z-index:2;
+	}
+
+#gallery .hidden {
+	display:none;
+	}
+
+#gallery_controls {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:13;
+	}
+
+#gallery_controls #gc_left,
+#gallery_controls #gc_right {
+	width:5vw;
+	height:10vw;
+	border-radius:5vw;
+	background:rgba(0,0,0,0.5);
+	text-align:center;
+	position:absolute;
+	top:50%;
+	margin-top:-5vw;
+	transition:left 250ms ease-out, right 250ms ease-out;
+	}
+
+#gallery_controls #gc_left {
+	left:0px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+	}
+
+#gallery_controls #gc_right {
+	right:0;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+	}
+
+#gallery:hover #gallery_controls #gc_left {
+	left:0;
+	transition:left 250ms ease-in;
+	}
+
+#gallery:hover #gallery_controls #gc_right {
+	right:0;
+	transition:right 250ms ease-in;
+	}
+
+@media (max-width:600px) {
+
+	#gallery #gallery_controls #gc_left {
+		left:20px;
+		}
+
+	#gallery #gallery_controls #gc_right {
+		right:20px;
+		}
+
+}
+
+#gallery_controls #gc_left:after,
+#gallery_controls #gc_right:after {
+	content:"";
+	display:inline-block;
+	width:0;
+	height:0;
+	border-style:solid;
+	}
+
+#gallery_controls #gc_left:after {
+	margin:4.1vw 4px 0 0;
+	border-width:.9vw 1.2vw .9vw 0;
+	border-color:transparent rgba(255,250,245,0.8) transparent transparent;
+	}
+
+#gallery_controls #gc_right:after {
+	margin:4.1vw 0 0 4px;
+	border-width:.9vw 0 .9vw 1.2vw;
+	border-color:transparent transparent transparent rgba(255,250,245,0.8);
+	}
+
+#gallery_controls #gc_left:hover,
+#gallery_controls #gc_right:hover {
+	background:#ff611d;
+	}
+
+@media (max-width:700px) {
+
+	#gallery #gallery_caption {
+		width:auto;
+		position:relative;
+		top:auto;
+		left:auto;
+		color:#222 !important;
+		}
+
+	#gallery_controls {
+		bottom:20vw;
+		}
+
+	#gallery {
+		height:auto;
+		}
+
+	.gallery_item.gallery_left,
+	.gallery_item.gallery_right {
+		position:absolute;
+		}
+		
+	#gallery_thumbs {
+		background:none;
+		}
+
+}
+
+
+
+/********
+
+	HEXAGONS
+
+*/
+
+#hexagons {
+	height:70vw;
+	width:100%;
+	overflow:hidden;
+	}
+
+@media (max-width:1300px) {
+
+	#hexagons {
+		height:68vw;
+		}
+
+}
+
+#hexagons2 {
+	height:44vw;
+	min-height:500px;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	}
+
+#hexagons2 #hexagons-sustainable {
+	position:relative;
+	height:44vw;
+	width:50%;
+	float:left;
+	top:50%;
+	left:3%;
+	transform:translateY(-50%);
+	}
+
+#hexagons2 #sustainability {
+	width:40%;
+	margin:0 0 0 calc(50% + 40px);
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+	}
+
+#hexagons2 #sustainability p {
+	max-width:400px;
+	margin:0 auto;
+	}
+
+#hexagons #hex-blurb {
+	width:70%;
+	position:absolute;
+	top:46vw;
+	left:15%;
+	text-align:center;
+	}
+
+#hexagons #hex-blurb p {
+	padding:0;
+	margin:0;
+	color:#666;
+	}
+
+#hexagons #hex-blurb h2 {
+	margin-left:0 !important;
+	}
+
+#hexagon_scaler {
+	transition:all 150ms linear;
+	-webkit-transition:all 150ms linear;
+	}
+
+#hexagons .hexagon,
+#hexagons2 .hexagon {
+	display:inline-block;
+	position:relative;
+	perspective:1000;
+	position:absolute;
+	transition:all 150ms linear;
+	-webkit-transition:all 150ms linear;
+	}
+
+#hexagons .hexagon,
+#hexagons2 .hexagon {
+	width:calc(24vw - 10px);
+	height:calc(24vw - 10px);
+	/*max-width:392px;
+	max-height:392px;*/
+	}
+
+#hexagons2 .hexagon.small {
+	width:calc(18vw - 10px);
+	height:calc(18vw - 10px);
+	/*max-width:296px;
+	max-height:296px;*/
+	}
+
+#hexagons2 .hexagon.large {
+	width:calc(30vw - 10px);
+	height:calc(30vw - 10px);
+	/*max-width:486px;
+	max-height:486px;*/x
+	}
+
+#hexagons .hexagon .front,
+#hexagons .hexagon .back,
+#hexagons2 .hexagon .front,
+#hexagons2 .hexagon .back,
+#hexagons2 .hexagon .burns {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-image:url("//assets.ghostshield.com/img/clip/hexagon-grey.png");
+	backround-repeat:no-repeat;
+	transform-style:preserve-3d;
+	transition:all 300ms linear;
+	-webkit-transition:all 300ms linear;
+	/*.*/
+	mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+	-webkit-mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+	mask-mode:alpha;
+	-webkit-mask-mode:alpha;
+	mask-repeat:no-repeat;
+	-webkit-mask-repeat:no-repeat;
+	mask-position:center;
+	-webkit-mask-position:center;
+	clip-path:url(#hexagonClipPath);
+	}
+
+#hexagons .hexagon .flip {
+	}
+
+#hexagons .hexagon .front,
+#hexagons .hexagon .back {
+	backface-visibility:hidden;
+	-webkit-backface-visibility:hidden;
+	-moz-backface-visibility:hidden;
+	}
+
+#hexagons2 .hexagon .burns {
+	background-size:auto 100%;
+	background-position:center center;
+	-webkit-transform:rotateY(0.01deg);
+	transform:rotateY(0.01deg);
+	-webkit-transition:background-size 200ms ease-out;
+	transition:background-size 200ms ease-out;
+	}
+
+#hexagons2 .hexagon:hover .burns {
+	background-size:auto 110%;
+	-webkit-transition:background-size 3s ease-in;
+	transition:background-size 3s ease-in;
+	}
+
+#hexagons .hexagon .front,
+#hexagons2 .hexagon .front {
+	background-size:cover;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:center center;
+	-webkit-transform:rotateY(0);
+	-ms-transform:perspective(800px) rotateY(0);
+	transform:rotateY(0);
+	z-index:2;
+	-webkit-transition:transform 1s ease-out;
+	transition:transform 1s ease-out;
+	}
+
+#hexagons .hexagon .back,
+#hexagons2 .hexagon .back {
+	background:url("//assets.ghostshield.com/img/clip/hexagon-line2.svg") center center no-repeat;
+	background-size:105%;
+	transform:translateZ(-1px) rotateY(-180deg);
+	-ms-transform:perspective(800px) rotateY(-180deg);
+	-webkit-transform:rotateY(-180deg);
+	}
+
+#hexagons .hexagon .back a,
+#hexagons2 .hexagon .back a {
+	display:block;
+	position:relative;
+	padding:0 30px;
+	color:#000;
+	font-size:12pt;
+	text-align:center;
+	font-family:"Proxima Nova Condensed Bold", sans-serif;
+	top:50%;
+	transform:translateY(-50%);
+	text-decoration:none;
+	z-index:2;
+	}
+
+#hexagons .hexagon .back a.textonly,
+#hexagons2 .hexagon .back a.textonly {
+	height:auto;
+	}
+
+#hexagons .hexagon .back a img {
+	max-width:80%;
+	height:60%;
+	margin-top:18%;
+	margin-bottom:-6px;
+	}
+
+#hexagons .hexagon .back a span.product_name,
+#hexagons2 .hexagon .back a span.product_name {
+	display:block;
+	text-indent:-9999px;
+	line-height:20pt;
+	overflow:hidden;
+	background-position:center center;
+	}
+
+#hexagons .hexagon .back a span em {
+	font-style:normal;
+	}
+
+#hexagons .hexagon .back a span.line1,
+#hexagons2 .hexagon .back a span.line1 {
+	display:block;
+	font-family:"bio-sans", sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	padding:0 14% 10px 14%;
+	font-weight:700;
+	letter-spacing:-1px;
+	font-size:38px;
+	}
+
+#hexagons .hexagon .back a span.line2,
+#hexagons2 .hexagon .back a span.line2 {
+	text-transform:uppercase;
+	padding:.4em 0;
+	}
+
+#hexagons .hexagon .back a .line3,
+#hexagons2 .hexagon .back a .line3 {
+	padding:25px 0 0 0;
+	}
+
+#hexagons .hexagon .back a .line3 span,
+#hexagons2 .hexagon .back a .line3 span {
+	letter-spacing:1px;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	font-family:"proxima-nova", sans-serif;
+	}
+
+#hexagons .hexagon .flip,
+#hexagons2 .hexagon .flip {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	transform-style:preserve-3d;
+	backface-visibility:hidden;
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	-webkit-transform:rotateY(0);
+	-ms-transform:perspective(800px) rotateY(0);
+	transform:rotateY(0);
+	}
+
+#hexagons .hexagon:hover .flip,
+#hexagons2 .hexagon:hover .flip {
+	-webkit-transition:all 300ms linear;
+	transition:all 300ms linear;
+	-webkit-transform:rotateY(180deg);
+	-ms-transform:perspective(800px) rotateY(180deg);
+	transform:rotateY(180deg);
+	}
+
+#hexagons .hexagon:hover .flip .front,
+#hexagons .hexagon .flip .back {
+	z-index:1;
+	}
+
+#hexagons .hexagon .flip .front,
+#hexagons .hexagon:hover .flip .back {
+	z-index:2;
+	}
+
+#hexagons #hexagon1  { top:13vw;  left:10px;              }
+#hexagons #hexagon2  { top:2vw;   left:calc(19vw + 5px);  }
+#hexagons #hexagon3  { top:24vw;  left:calc(19vw + 5px);  }
+#hexagons #hexagon4  { top:13vw;  left:38vw;              }
+#hexagons #hexagon5  { top:2vw;   left:calc(57vw - 5px);  }
+#hexagons #hexagon6  { top:24vw;  left:calc(57vw - 5px);  }
+#hexagons #hexagon7  { top:13vw;  left:calc(76vw - 10px); }
+
+#hexagons #hexagon11 { top:-20vw; left:calc(57vw - 5px);  }
+#hexagons #hexagon12 { top:-20vw; left:calc(19vw + 5px);  }
+#hexagons #hexagon13 { top:-9vw;  left:10px;              }
+#hexagons #hexagon14 { top:-9vw;  left:38vw;              }
+#hexagons #hexagon15 { top:-9vw;  left:calc(76vw - 10px); }
+#hexagons #hexagon16 { top:2vw;   left:calc(15px - 19vw); }
+#hexagons #hexagon17 { top:2vw;   left:calc(95vw - 15px); }
+
+
+#hexagons2 #hexagon20 { top:2vw;    left:2vw;   }
+#hexagons2 #hexagon21 { top:24.2vw; left:6.5vw; }
+#hexagons2 #hexagon22 { top:10vw;   left:21vw;  }
+
+/*@media (min-width:1680px) {
+
+	#hexagons {
+		height:1020px;
+		}
+	
+	#hexagons #hex-blurb {
+		top:790px;
+		}
+
+	#hexagons #hexagon1  { top:218px;  left:10px;   }
+	#hexagons #hexagon2  { top:34px;   left:324px;  }
+	#hexagons #hexagon3  { top:403px;  left:324px;  }
+	#hexagons #hexagon4  { top:218px;  left:638px;  }
+	#hexagons #hexagon5  { top:34px;   left:952px;  }
+	#hexagons #hexagon6  { top:403px;  left:952px;  }
+	#hexagons #hexagon7  { top:218px;  left:1266px; }
+
+	#hexagons #hexagon11 { top:-336px; left:952px;  }
+	#hexagons #hexagon12 { top:-336px; left:324px;  }
+	#hexagons #hexagon13 { top:-151px; left:10px;   }
+	#hexagons #hexagon14 { top:-151px; left:638px;  }
+	#hexagons #hexagon15 { top:-151px; left:1266px; }
+	#hexagons #hexagon16 { top:34px;   left:-304px; }
+	#hexagons #hexagon17 { top:34px;   left:1581px; }
+
+}*/
+
+@media (min-width:961px) and (max-width:1200px) {
+
+	#hexagons .hexagon .back a span.line1,
+	#hexagons2 .hexagon .back a span.line1 {
+		padding-left:0;
+		padding-right:0;
+		font-size:95%;
+		}
+
+	#hexagons .hexagon .back a .line3,
+	#hexagons2 .hexagon .back a .line3 {
+		padding-top:12px;
+		}
+
+	#hexagons .hexagon .back a > *,
+	#hexagons2 .hexagon .back a > * {
+		transform:scale(0.8);
+		}
+
+}
+
+@media (min-width:761px) and (max-width:960px) {
+
+	#hexagons .hexagon .back a span.line1,
+	#hexagons2 .hexagon .back a span.line1 {
+		padding:0;
+		font-size:70%;
+		}
+
+	#hexagons .hexagon .back a span.line2,
+	#hexagons2 .hexagon .back a span.line2 {
+		padding:.4em 0;
+		}
+
+	#hexagons .hexagon .back a .line3,
+	#hexagons2 .hexagon .back a .line3 {
+		padding:0;
+		transform:scale(0.7);
+		}
+	
+	#hexagons .hexagon .back a .line3 span,
+	#hexagons2 .hexagon .back a .line3 span {
+		padding:12px 4px 8px 4px;
+		}
+
+	#hexagons .hexagon .back a > *,
+	#hexagons2 .hexagon .back a > * {
+		transform:scale(0.7);
+		}
+
+}
+
+@media (max-width:760px) {
+
+	#hexagons {
+		height:auto;
+		padding-bottom:200vw;
+		}
+
+	#hexagon_scaler {
+		transform:scale(1) translateY(0);
+		padding-top:0;
+		margin-left:0;
+		}
+
+	#hexagons .hexagon {
+		width:50vw;/*315px;*/
+		height:50vw;
+		}
+
+	#hexagons .hexagon .back a > *,
+	#hexagons2 .hexagon .back a > * {
+		transform:scale(0.7);
+		}
+	
+	#hexagons2 .hexagon .back a {
+		padding:0 5px;
+		/*transform:scale(0.7) translateY(-50%);*/
+		}
+	
+	#hexagons .hexagon .back a span.line1,
+	#hexagons2 .hexagon .back a span.line1 {
+		padding:0;
+		font-size:70%;
+		}
+
+	#hexagons .hexagon .back a span.line2,
+	#hexagons2 .hexagon .back a span.line2 {
+		padding:.4em 0;
+		}
+
+	#hexagons .hexagon .back a .line3,
+	#hexagons2 .hexagon .back a .line3 {
+		padding:0;
+		}
+
+	.hex-button.xxsmall {
+		padding-left:10px;
+		padding-right:10px;
+		font-size:70%;
+		}
+
+	#hexagons #hex-blurb {
+		width:auto;
+		padding:20px;
+		position:relative;
+		top:auto;
+		left:auto;
+		text-align:left;
+		}
+
+	#hexagons #hexagon1:after,
+	#hexagons #hexagon2:before,
+	#hexagons #hexagon2:after,
+	#hexagons #hexagon3:after,
+	#hexagons #hexagon4:after,
+	#hexagons #hexagon5:after,
+	#hexagons #hexagon6:after {
+		width:50vw;/*315px;*/
+		height:50vw;
+		content:"";
+		display:block;
+		top:-11vw;
+		left:calc(-19vw + 5px);
+		background:#ccc;
+		position:absolute;
+		mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+		-webkit-mask-image:url("//assets.ghostshield.com/img/clip/hexagon.svg");
+		mask-mode:alpha;
+		-webkit-mask-mode:alpha;
+		mask-repeat:no-repeat;
+		-webkit-mask-repeat:no-repeat;
+		mask-position:center;
+		-webkit-mask-position:center;
+		}
+
+	#hexagons #hexagon1        { top:0;     left:5vw;               }
+	#hexagons #hexagon1:after  { top:24vw;  left:-40vw;             }
+	#hexagons #hexagon2        { top:24vw;  left:auto; right:5vw;   }
+	#hexagons #hexagon2:before { top:-24vw; right:-40vw; left:auto; }
+	#hexagons #hexagon2:after  { top:24vw;  right:-40vw; left:auto; }
+	#hexagons #hexagon3        { top:48vw;  left:5vw;               }
+	#hexagons #hexagon3:after  { top:24vw;  left:-40vw;             }
+	#hexagons #hexagon5        { top:72vw;  left:auto; right:5vw;   }
+	#hexagons #hexagon5:after  { top:24vw;  right:-40vw; left:auto; }
+	#hexagons #hexagon6        { top:96vw;  left:5vw;               }
+	#hexagons #hexagon6:after  { top:24vw;  left:-40vw;             }
+	#hexagons #hexagon4        { top:120vw; left:auto; right:5vw;   }
+	#hexagons #hexagon4:after  { top:24vw;  right:-40vw; left:auto; }
+	#hexagons #hexagon7        { top:144vw; left:5vw;               }
+
+	#hexagons #hexagon11 { display:none; }
+	#hexagons #hexagon12 { display:none; }
+	#hexagons #hexagon13 { display:none; }
+	#hexagons #hexagon14 { display:none; }
+	#hexagons #hexagon15 { display:none; }
+	#hexagons #hexagon16 { display:none; }
+	#hexagons #hexagon17 { display:none; }
+
+	#hexagons2 {
+		height:auto;
+		padding-top:32px;
+		}
+
+	#hexagons2 #hexagons-sustainable {
+		width:50vw;
+		height:64vw;
+		margin:30vw auto -20vw auto;
+		float:none;
+		top:auto;
+		transform:scale(2);
+		}
+	
+	#hexagons2 .hexagon .back a,
+	#hexagons2 .hexagon .back a span.line1 {
+		font-size:20%;
+		}
+
+	#hexagons2 #sustainability {
+		width:auto;
+		height:auto;
+		margin:0 20px;
+		top:0;
+		transform:none;
+		padding-bottom:32px;
+		}
+
+}
+
+
+/*@media (min-width:760px) {*/
+
+	#hexagons .animatable.flip-in .hexagon .flip {
+		-webkit-transform:rotateY(-360deg);
+		-ms-transform:perspective(800px) rotateY(-360deg);
+		transform:rotateY(-360deg);
+		}
+
+	#hexagons .animatable.flip-in.in-view .hexagon .flip {
+		-webkit-transform:rotateY(0);
+		-ms-transform:perspective(800px) rotateY(0);
+		transform:rotateY(0);
+		}
+
+	#hexagons .animatable.delay-1.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 200ms;
+		transition:all 1600ms linear 200ms;
+		}
+
+	#hexagons .animatable.delay-2.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 400ms;
+		transition:all 1600ms linear 400ms;
+		}
+
+	#hexagons .animatable.delay-3.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 600ms;
+		transition:all 1600ms linear 600ms;
+		}
+
+	#hexagons .animatable.delay-4.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 800ms;
+		transition:all 1600ms linear 800ms;
+		}
+
+	#hexagons .animatable.delay-5.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 1000ms;
+		transition:all 1600ms linear 1000ms;
+		}
+
+	#hexagons .animatable.delay-6.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 1200ms;
+		transition:all 1600ms linear 1200ms;
+		}
+
+	#hexagons .animatable.delay-7.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 1400ms;
+		transition:all 1600ms linear 1400ms;
+		}
+
+	#hexagons .animatable.delay-8.flip-in.in-view .hexagon .flip {
+		-webkit-transition:all 1600ms linear 1600ms;
+		transition:all 1600ms linear 1600ms;
+		}
+
+/*}*/
+
+
+
+/********
+
+	ISO-TEK
+
+*/
+
+section#isotek {
+	position:relative;
+	/*background:url("//assets.ghostshield.com/img/432parkave8.jpg") center top no-repeat;
+	background-size:cover;*/
+	height:65vw;
+	overflow:hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth:always;
+	}
+
+section#isotek:before {
+	content:"";
+	position:absolute;
+	background:url("//assets.ghostshield.com/img/432parkave8.jpg") left top no-repeat;
+	/*background:url("//assets.ghostshield.com/img/bg/432-orange.jpg") center top no-repeat;*/
+	background-size:cover;
+	/*height:700px;*/
+	top:0;
+	left:-1px;
+	right:-1px;
+	bottom:-1px;
+	-webkit-transition:all 500ms linear;
+	transition:all 500ms linear;
+	}
+
+section#isotek #isotek_text {
+	margin:10vh 44vw 0 8vw;
+	position:relative;
+	}
+
+section#isotek.click_link:hover:before {
+	/*top:-30px;
+	left:-60px;
+	right:-60px;
+	bottom:-60px;*/
+	transform:scale(1.15);
+	-webkit-transition:all 10000ms linear;
+	transition:all 10000ms linear;
+	}
+
+section#isotek.click_link:hover .clf_main {
+	background:rgba(255,255,255,1);
+	-webkit-transition:background 200ms linear;
+	transition:background 200ms linear;
+	}
+
+section#isotek .content {
+	color:#fff;
+	background:#666;
+	padding:3vh 2vw;
+	margin-top:5vh;
+	}
+
+section#isotek .content img {
+	width:24px;
+	height:32px;
+	vertical-align:middle; 
+	}
+
+section#isotek .content p {
+	margin-bottom:10px;
+	font-size:1.3vw;
+	position:relative;
+	}
+
+section#isotek .content h5 {
+	display:inline-block;
+	width:21vw;
+	overflow:visible;
+	vertical-align:top;
+	margin:0;
+	padding:0 0 3vh 0;
+	}
+
+section#isotek .content del {
+	text-decoration:none;
+	overflow:visible;
+	font-size:60%;
+	font-weight:700;
+	font-family:"bio-sans",sans-serif;
+	text-transform:uppercase;
+	display:block;
+	display:none;
+	}
+
+section#isotek .content em {
+	text-decoration:none;
+	overflow:visible;
+	font-size:60%;
+	font-weight:700;
+	font-family:"bio-sans",sans-serif;
+	text-transform:uppercase;
+	float:top;
+	}
+
+section#isotek .content strong {
+	overflow:visible;
+	font-size:2.4vw;
+	line-height:2.4vw;
+	font-family:"bio-sans", sans-serif;
+	font-weight:700;
+	font-style:oblique;
+	color:#ddd;
+	vertical-align:bottom;
+	padding-bottom:1vw;
+	}
+
+section#isotek .content em {
+	overflow:visible;
+	color:#ff611d;
+	font-size:1.5vw;
+	line-height:1.5vw;
+	margin:.65vw .2vw 0 0;
+	vertical-align:top;
+	display:inline-block;
+	}
+
+/*section#isotek em {
+	font-weight:normal;
+	font-family:"proxima-nova", sans-serif;
+	font-style:normal;
+	white-space:no-wrap;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:14px;
+	}*/
+
+section#isotek .right .column_interior {
+	min-height:350px;
+	}
+
+
+
+@media (max-width:1300px) {
+
+	/*section#isotek em {
+		padding-top:12px;
+		display:block;
+		}*/
+
+	section#isotek .left {
+		background:rgba(255, 255, 255, 0.8);
+		height:700px;
+		width:46%;
+		margin-right:4%;
+		}
+	
+	section#isotek .left .h2,
+	section#isotek .left .content {
+		padding:20px 40px;
+		}
+	
+	section#isotek .left .standout {
+		display:none;
+		}
+		
+	section#isotek .left h2 {
+		margin:0;
+		padding-top:0;
+		}
+		
+	section#isotek .left .h2 {
+		margin:0;
+		padding-top:40px;
+		}
+		
+	section#isotek .left .content {
+		padding-top:10px;
+		}
+
+	section#isotek .left .content span {
+		display:block;
+		}
+
+}
+
+@media (max-width:900px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 20% top no-repeat;
+		background-size:cover;
+		}
+
+	section#isotek .left {
+		width:60%;
+		}
+
+	section#isotek .column_interior {
+		padding:0;
+		}
+
+	section#isotek .left .h2,
+	section#isotek .left .content {
+		padding:20px 20px;
+		}
+
+	section#isotek .right { display:none; }
+
+}
+/*
+@media (max-width:700px) {
+
+	section#isotek {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 39% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:600px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 41% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:500px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 43% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (max-width:400px) {
+
+	section#isotek:before {
+		background:url("//assets.ghostshield.com/img/432parkave7.jpg") 46% top no-repeat;
+		background-size:cover;
+		}
+
+}
+
+@media (min-width:1301px) {
+
+	section#isotek .column .column_interior h2.sub {
+		padding-top:60px;
+		}
+
+}
+*/
+.column.full .column_interior {
+	max-width:none;
+	}
+
+.index #contact_footer .column_interior {
+	max-width:1200px;
+	}
+
+
+
+
+
+
+
+.grid {
+    display: -ms-grid;
+    display: grid;
+}
+
+.grid-3 {
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+}
+
+  .left-headline {
+    padding-left:5%;
+}
+
+.untreated-image {
+    background-image: url("https://ghostshieldconcretesealers.com/wp-content/uploads/2019/03/untreated_v3_orange.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:40vh;
+}
+
+.treated-image {
+    background-image: url("https://ghostshieldconcretesealers.com/wp-content/uploads/2019/03/treated_v3_orange.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:40vh;
+}
+
+#nano-section {
+        min-height: 100vh;
+        max-width: 100vw;
+        overflow: hidden;
+        position: relative;
+        background-image: url("https://ghostshieldconcretesealers.com/wp-content/uploads/2019/03/Molecule_Web_Copy_no_rays_Half.jpg");
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 25vw;
+    }
+
+.nano-cta {
+      padding-left:5vw;
+  }
+  
+  .nano-cta p, .nano-cta a {
+      font-size:1.25vw;
+  }
+  
+  .nano-cta p {
+      margin-top:2.5rem;
+  }
+  
+  .nano-cta .left-headline {
+      padding-left:0;
+  }
+
+.micro-img-container {
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.micro-img-container p {
+    padding:5%;
+}
+
+@media only screen and (max-width: 992px) {
+.hide-ipad {
+        display:none;
+    }
+
+.grid-3 {
+        -ms-grid-columns: 1fr 15px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 15px;
+        padding: 0 15px;
+        margin-top: 15px;
+    }
+
+  .nano-cta p, .nano-cta a {
+            font-size: 16px;
+    }
+    
+    .micro-img-container p {
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+
+
+
+
+/********
+
+	RESPONSIBILITY / VIDEO / WTF
+
+*/
+
+
+
+#index_video {
+	background:#fbfbfb;
+	-webkit-transition:background 900ms linear;
+	transition:background 900ms linear;
+	-webkit-transition-delay:1100ms;
+	transition-delay:1100ms;
+	}
+
+#index_video.index_video_black {
+	background:#000;
+	-webkit-transition:background 900ms linear;
+	transition:background 900ms linear;
+	-webkit-transition-delay:1100ms;
+	transition-delay:1100ms;
+	}
+
+.video_fade_ready {
+	opacity:0;
+	-webkit-transition:opacity 1200ms linear;
+	transition:opacity 1200ms linear;
+	-webkit-transition-delay:2000ms;
+	transition-delay:2000ms;
+	}
+
+.video_fade_in {
+	opacity:1;
+	-webkit-transition:opacity 1200ms linear;
+	transition:opacity 1200ms linear;
+	-webkit-transition-delay:2000ms;
+	transition-delay:2000ms;
+	}
+
+.index_wait {
+	opacity:0 !important;
+	transition:none;
+	}
+
+.index_h1_fade {
+	opacity:1 !important;
+	-webkit-transition:opacity 600ms linear;
+	transition:opacity 600ms linear;
+	-webkit-transition-delay:300ms;
+	transition-delay:300ms;
+	}
+
+.index_tagline_fade {
+	opacity:1 !important;
+	-webkit-transition:opacity 600ms linear;
+	transition:opacity 600ms linear;
+	-webkit-transition-delay:600ms;
+	transition-delay:600ms;
+	}
+
+.index_fade {
+	opacity:1 !important;
+	-webkit-transition:opacity 600ms linear;
+	transition:opacity 600ms linear;
+	-webkit-transition-delay:900ms;
+	transition-delay:900ms;
+	}
+
+.column.full .column_interior {
+	max-width:none;
+	}
+
+#contact_footer .column_interior {
+	max-width: 1200px;
+	}
+
+div#banner .video_wrapper {
+	background:#000;
+	}
+
+.no-touch div#banner video,
+div#banner img {
+	opacity:.3;
+	}
+
+#buy:before {
+	background-image:url("//assets.ghostshield.com/img/angles/invert-triangle-grey.svg") !important;
+	}
+
+#product_finder h2.always_centered {
+	margin-top:-20px;
+	padding-top:0;
+	}
+
+@media (max-width:767px) {
+
+	#product_finder h2.always_centered {
+		padding-top:30px !important;
+		}
+
+}

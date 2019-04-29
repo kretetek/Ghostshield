@@ -1,0 +1,41 @@
+#logo .st0 {
+    fill: #fff;
+}
+
+#logo {
+    background-image: url(//assets.ghostshield.com/img/Product_Family_3.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: scroll;
+    height:300px;
+}
+
+#banner {
+    display:none;
+}
+
+#logo svg {
+    max-width: 250px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    fill: white;
+}
+
+@media only screen and (max-width: 900px) {
+    #logo {
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        background-image: url(//assets.ghostshield.com/img/header-bg-mobile.jpg) !important;
+        max-height:150px;
+    }
+
+    #logo svg {
+        width: 55vw;
+        fill: white;
+        margin-bottom: 10%;
+        position: relative;
+    }
+}
